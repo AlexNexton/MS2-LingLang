@@ -10,6 +10,46 @@
 <title>Game</title>
 </head>
 <body>
+ <section class="overflow">
+    <h1 class="title">Mix and Match</h1>
+    <div class="overlay-text vis  ">
+     Click to start
+    </div>
+    <div id="game-over-text" class="overlay-text">
+     GAME OVER
+     <span class="overlay-text-small">Click to restart</span>
+    </div>
+    <div id="victory-text" class="overlay-text">
+     VICTORY
+     <span class="overlay-text-small">Click to restart</span>
+    </div>
+    <div class="game-container">
+        <div class="game-info-container">
+            <div class="game-info">
+                Time <span id="time-remaining">100</span>
+            </div>
+            <div class="game-info">
+                flips <span id="flips">0</span>
+            </div>
+         </div>
+         <div class="card ">
+         <!--Classes for back of cards-->
+            <div class="card-back card-face">
+                <img class="paw paw-top-left" src="assets/img/paw.png" alt="a cobweb top left">
+                <img class="paw paw-top-right" src="assets/img/paw.png" alt="a cobweb top right">
+                <img class="paw paw-bottom-left" src="assets/img/paw.png" alt="a cobweb bottom left">
+                <img class="paw paw-bottom-right" src="assets/img/paw.png" alt="a cobweb bottom right">
+                <img class="bearpaw" src="assets/img/bear.png" alt="a bear paw">
+            </div>
+        <!--Classes for front of cards-->
+            <div class="card-front card-face">
+                <img class="paw paw-top-left" src="assets/img/paw.png" alt="a paw top left">
+                <img class="paw paw-top-right" src="assets/img/paw.png" alt="a paw top right">
+                <img class="paw paw-bottom-left" src="assets/img/paw.png" alt="a paw bottom left">
+                <img class="paw paw-bottom-right" src="assets/img/paw.png" alt="a paw bottom right">
+                <img class="card-value" src="assets/img/elephant.png" alt="a paw">
+            </div>
+         </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
