@@ -1,11 +1,11 @@
 ![Logo](/wireframes/logo-image.jpg)
 
-# LingLang Project Testing Details #
+# MS2-ABearProject Testing Details #
 
 
-[Main README.md file](https://github.com/AlexNexton/MS2-LingLang/blob/master/README.md)
+[Main README.md file](https://github.com/AlexNexton/MS2-ABear/blob/master/README.md)
 
-[View the live project here.](https://alexnexton.github.io/MS2-LingLang/)
+[View the live project here.](https://alexnexton.github.io/MS2-ABear/)
 
 ---
 
@@ -38,7 +38,7 @@ The following **validation services** and **linter** were used to check the vali
 ---
 
 ### User Acceptance Testing (UAT) ###
-[UAT document](testing/MS2-LingLang-uat-test-plan.pdf) containing:
+[UAT document](testing/MS2-ABear-uat-test-plan.pdf) containing:
 - UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
 - Identified risks, 
 - The test cases,
@@ -81,14 +81,14 @@ The following **validation services** and **linter** were used to check the vali
 ## Bugs discovered ##
 ---
 
-The issue log is managed on the [GitHub Project Issues section](https://github.com/AlexNexton/MS2-LingLang/issues) using the standard GitHub [bug\_report.md template](https://github.com/AlexNexton/MS2-LingLang/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+The issue log is managed on the [GitHub Project Issues section](https://github.com/AlexNexton/MS2-ABear/issues) using the standard GitHub [bug\_report.md template](https://github.com/AlexNexton/MS2-ABear/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
 
 
 #### Unsolved Bugs ####
 
-[Issue #20](https://github.com/AlexNexton/MS2-LingLang/issues/20)
+[Issue #20](https://github.com/AlexNexton/MS2-ABear/issues/20)
 - 
 
-[Issue #38](https://github.com/AlexNexton/MS2-LingLang/issues/38) 
+[Issue #38](https://github.com/AlexNexton/MS2-ABear/issues/38) 
 - 
 
