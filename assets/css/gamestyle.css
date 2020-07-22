@@ -50,6 +50,11 @@ body{
     cursor: pointer;
     height: 175px;
     width: 125px;
+
+    background-color: rgba(0,0,0,0);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: .25rem;
     
    
 }
