@@ -86,7 +86,7 @@ body{
 }
 .card.vis .card-front{
  transform: rotateY(0);
- box-shadow: 10px 10px; /*adds a shadow when card is flipped */
+ box-shadow: 5px 5px rgb(62, 21, 85);; /*adds a shadow when card is flipped */
 }
 
 .card.matched .card-value{
@@ -112,7 +112,7 @@ body{
 }
 
 .card-front{
-     background:linear-gradient(-90deg,#ec008c, #fc6767);
+     background:linear-gradient(-90deg,#362f33, #fc6767);
     border-color:#e85307 ;
     transform: rotateY(180deg);
     border-radius: 20%;
