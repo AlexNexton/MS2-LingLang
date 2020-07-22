@@ -1,0 +1,251 @@
+*{ /*style for boxing the cards */
+    box-sizing: border-box;
+    
+}
+
+html{/* added to help the colour gradient spread out throughout the page */
+    min-height: 100vh;
+    
+}
+
+body{ 
+    margin: 0;
+    background:linear-gradient(-90deg,#ec008c, #fc6767);
+    
+    }
+
+    .overflow{
+        overflow: hidden;
+    }
+
+.title{
+    text-align: center;
+    font-size: 6em;
+    color: #fafafa;
+    text-shadow: 2px 2px 5px red;
+    }
+ .game-info{
+     color: #fafafa;
+     font-size: 4em;
+     text-shadow: 2px 2px 5px red;
+}  
+
+.game-info-container{
+    grid-column: 1 / -1; /* spaces the cards out */
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-container{ /* repeats the grid after the forth colum to create 4 rows */
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px; 
+    justify-content: center;
+    perspective: 500px /* in order to make the card appear to flip*/
+}
+
+.card{ /* background-color: for cards in order to manipulate the css */
+    position: relative; /* makes sure card face will be inside of our card */
+    cursor: pointer;
+    height: 175px;
+    width: 125px;
+    
+   
+}
+
+.card-face{
+    position: absolute; /* to over lap on top of each other */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden; /*To fix the images breaking the borders of the cardface*/
+    backface-visibility: hidden;
+    border-radius: 12px ;
+    border-width: 1px ;
+    border-style: solid;
+    transition: transform 500ms ease-in-out; /* this is to slow down the flipping of the card once hovered over*/
+    
+}
+
+.card.vis .card-back{
+ transform: rotateY(-180deg);
+ 
+}
+.card.vis .card-front{
+ transform: rotateY(0);
+ box-shadow: 10px 10px; /*adds a shadow when card is flipped */
+}
+
+.card.matched .card-value{
+    animation: dance 1s linear infinite 500ms;
+}
+
+@keyframes dance{
+    0% ,100%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(-30deg);
+    }
+    75%{
+        transform: rotate(30deg);
+    }
+}
+
+.card-back{
+     background:linear-gradient(-90deg,#17004e, #571672); 
+    border-color: #e85307;
+    border-radius: 20%;
+}
+
+.card-front{
+     background:linear-gradient(-90deg,#ec008c, #fc6767);
+    border-color:#e85307 ;
+    transform: rotateY(180deg);
+    border-radius: 20%;
+}
+.card-value {
+  position: relative;
+  transition: transform 100ms ease-in-out;
+  transform: scale(.9);
+}
+.card-front:hover .card-value{
+    transition: transform 100ms ease-in-out;
+    transform: scale(.9,1);
+}
+
+.overlay-text{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    color: #e3d0e8;
+    text-shadow: 2px 2px 5px red;
+}
+
+.overlay-text-small{
+    font-size: .3em;
+}
+
+.overlay-text.vis{
+    display: flex;
+    flex-direction:column;
+    animation: overlay-grow 500ms forwards;
+}
+
+@keyframes overlay-grow{
+    from{
+        background-color: rgba(0,0,0,0);
+        font-size:0;
+    }
+    to{
+        background-color: rgba(0,0,0,0.8);
+        font-size: 10em;
+    }
+}
+
+.paw{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    transition: width 100ms ease-in-out, height 100ms ease-in-out;
+}
+
+.card-face:hover .paw{
+    width: 52px;
+    height: 52px;
+}
+
+.paw-top-left{
+    transform: rotate(270deg);
+    top: 0;
+    left: 0;
+}
+.paw-top-right{
+     
+    top: 0;
+    right: 0;
+}
+.paw-bottom-left{
+    transform: rotate(180deg);
+    bottom: 0;
+    left: 0;
+}
+.paw-bottom-right{
+    transform: rotate(90deg);
+    bottom:0 ;
+    right:0 ;
+    }
+
+    .bearpaw{
+        align-self: flex-start;
+        transform: translateY(-10px);
+        transition: transform 100ms ease-in-out;
+    }
+
+    .card-back:hover .bearpaw{
+        transform: translateY(0);
+    }
+
+    @media (max-width: 600px){
+        .game-container{
+            grid-template-columns: repeat(4,auto);
+        }
+        .game-info-container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .card{ 
+        position: relative; 
+        cursor: pointer;
+        height: 125px;
+        width: 75px;
+    }
+    
+    
+    .paw{
+            position: absolute;
+            width: 37px;
+            height: 37px;
+            transition: width 100ms ease-in-out, height 100ms ease-in-out;
+        }
+        .bearpaw{
+                align-self: flex-start;
+                height: 70%;
+                width: 70%;
+                transform: translateY(-10px);
+                transition: transform 100ms ease-in-out;
+            }
+    }
+
+     @media (max-width: 400px){
+        .game-container{
+            grid-template-columns: repeat(4,auto);
+        }
+        .game-info-container{
+            flex-direction: column;
+            align-items: center;
+        }
+        .card{ 
+            position: relative; 
+            cursor: pointer;
+            height: 100px;
+            width: 50px;
+        }
+        .paw{
+            position: absolute;
+            width: 27px;
+            height: 27px;
+            transition: width 100ms ease-in-out, height 100ms ease-in-out;
+        }
+        
+        
+    }
