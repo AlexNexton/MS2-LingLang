@@ -1,3 +1,43 @@
+//---------------------------Start of Audio controller class------------------------------------------------------
+
+class AudioController{ // adding the audio for the game and the card sounds
+    constructor(){
+            this.backgroundMusic = new Audio('assets/audio/Star Wars Cantina Band (Noize Tank Remix) - Gaming Background Music (HD).mp3');
+            this.flipSound =  new Audio('assets/audio/flip.wav');
+            this.matchSound =  new Audio('assets/audio/match.wav');
+            this.victorySound =  new Audio('assets/audio/victory.wav');
+            this.gameOverSound = new Audio('assets/audio/gameover.wav');
+            this.backgroundMusic.volume = 0.3;
+            this.backgroundMusic.loop = true;
+
+    } // functions to be called for the cards and background music
+    startMusic(){
+        this.backgroundMusic.play();
+    }
+    stopMusic(){
+        this.backgroundMusic.pause();
+        this.backgroundMusic.currentTime = 0;
+    }
+    flip(){
+        this.flipSound.play();
+    }
+    match(){
+        this.matchSound.play();
+    }
+    victory(){
+        this.stopMusic(); //stops background music once the game is complete
+        this.victorySound.play();
+    }
+    gameOver(){
+        this.stopMusic();
+        this.gameOverSound.play();
+    }
+
+}
+//---------------------------end of Audio controller class------------------------------------------------------
+
+
+
 //---------------------------Start of mix or Match class------------------------------------------------------
 
 class MixorMatch{
