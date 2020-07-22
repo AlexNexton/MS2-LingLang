@@ -4,7 +4,7 @@
 
 class AudioController{ // adding the audio for the game and the card sounds
     constructor(){
-            this.backgroundMusic = new Audio('assets/audio/Star Wars Cantina Band (Noize Tank Remix) - Gaming Background Music (HD).mp3');
+            this.backgroundMusic = new Audio('assets/audio/Marty Gots a Plan (Kevin McLeod) - Vanoss Gaming Background Music (HD).mp3');
             this.flipSound =  new Audio('assets/audio/flip.wav');
             this.matchSound =  new Audio('assets/audio/match.wav');
             this.victorySound =  new Audio('assets/audio/victory.wav');
