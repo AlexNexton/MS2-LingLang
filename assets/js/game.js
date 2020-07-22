@@ -1,3 +1,5 @@
+// Reference to tutorial that help me write this code https://www.youtube.com/watch?v=3uuQ3g92oPQ
+
 //---------------------------Start of Audio controller class------------------------------------------------------
 
 class AudioController{ // adding the audio for the game and the card sounds
