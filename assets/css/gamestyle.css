@@ -10,7 +10,7 @@ html{/* added to help the colour gradient spread out throughout the page */
 
 body{ 
     margin: 0;
-    background:linear-gradient(-90deg,#ec008c, #fc6767);
+    background:linear-gradient(to right,blue, #fafafa,red);
     
     }
 
@@ -101,7 +101,7 @@ body{
 }
 
 .card-back{
-     background:linear-gradient(-90deg,#17004e, #571672); 
+     background:linear-gradient(-90deg,#17004e, #2f07c0); 
     border-color: #e85307;
     border-radius: 20%;
 }
