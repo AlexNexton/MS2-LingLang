@@ -12,11 +12,13 @@ body{
     margin: 0;
     background:linear-gradient(to right,blue, #fafafa,red);
     
-    }
+}
 
-    .overflow{
-        overflow: hidden;
-    }
+.overflow{
+    overflow: hidden;
+}
+
+    /*---------------------------------- Game info and Title ----------*/
 
 .title{
     text-align: center;
@@ -44,6 +46,9 @@ body{
     justify-content: center;
     perspective: 500px /* in order to make the card appear to flip*/
 }
+
+  /*---------------------------------- Card face,back and general css ----------*/
+
 
 .card{ /* background-color: for cards in order to manipulate the css */
     position: relative; /* makes sure card face will be inside of our card */
@@ -122,6 +127,10 @@ body{
     transform: scale(.9,1);
 }
 
+
+  /*---------------------------------- OverLay text ----------*/
+
+
 .overlay-text{
     display: none;
     position: fixed;
@@ -190,15 +199,17 @@ body{
     right:0 ;
     }
 
-    .bearpaw{
-        align-self: flex-start;
-        transform: translateY(-10px);
-        transition: transform 100ms ease-in-out;
-    }
+.bearpaw{
+     align-self: flex-start;
+     transform: translateY(-10px);
+     transition: transform 100ms ease-in-out;
+}
 
-    .card-back:hover .bearpaw{
-        transform: translateY(0);
-    }
+.card-back:hover .bearpaw{
+    transform: translateY(0);
+}
+
+      /*---------------------------------- Media Queries----------*/
 
     @media (max-width: 600px){
         .game-container{
@@ -214,6 +225,12 @@ body{
         height: 125px;
         width: 75px;
     }
+    .card-value {
+        position: relative;
+        width: 100%;
+        transition: transform 100ms ease-in-out;
+        transform: scale(.9);
+        }
     
     
     .paw{
