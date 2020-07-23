@@ -1,4 +1,4 @@
-# ![Logo](/wireframes/abearresponsive.png) #
+# ![Logo](/wireframes/LingLangresponsive.png) #
 
 ***Ling Lang*** *description needed about project*
 
@@ -176,8 +176,8 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 ## Bugs ##
 
-For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/MS2-ABear/issues) report.
-Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/MS2-ABear/issues?q=is%3Aissue+is%3Aclosed).
+For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/MS2-LingLang/issues) report.
+Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/MS2-LingLang/issues?q=is%3Aissue+is%3Aclosed).
 
 ## Deployment ##
 
@@ -186,18 +186,18 @@ The website was developed using both *GitPod* and using *Git* pushed to *GitHub*
 - Opened up **GitHub** in the browser.
 - Signed in with my **username** and **password**.
 - Selected my **repositories**.
-- Navigated to **AlexNexton/MS2-ABear**.
+- Navigated to **AlexNexton/MS2-LingLang**.
 - In the top navigation clicked **settings**.
 - Scrolled down to the **GitHub Pages** area.
 - Selected **Master Branch** from the **Source** dropdown menu.
 - Clicked to **confirm** my **selection**.
-- [MS2-ABear](https://alexnexton.github.io/MS2-MS2-ABear/) is now **live** on **GitHub Pages**.
+- [MS2-LingLang](https://alexnexton.github.io/MS2-LingLang/) is now **live** on **GitHub Pages**.
 
-### Running MS2-ABear Locally ###
+### Running MS2-LingLang Locally ###
 
-Cloning MS2-ABear from GitHub:
+Cloning MS2-LingLang from GitHub:
 
-- Navigate to **AlexNexton/MS2-ABear**.
+- Navigate to **AlexNexton/MS2-LingLang**.
 - Click the green **Clone or Download** button.
 - **Copy** the url in the dropdown box.
 - Using your favourite **IDE** open up your preferred terminal.
@@ -205,7 +205,7 @@ Cloning MS2-ABear from GitHub:
 
 Copy the following code and input it into your terminal to clone BI-Team-5:
 
-```git clone https://github.com/AlexNexton.MS2-ABear```
+```git clone https://github.com/AlexNexton.MS2-LingLang``
 
 ---
 
