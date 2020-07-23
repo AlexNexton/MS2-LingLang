@@ -22,7 +22,7 @@ body{
 
 .title{
     text-align: center;
-    font-size: 6em;
+    font-size: 2.5em;
     color: #fafafa;
     text-shadow: 2px 2px 5px red;
     }
@@ -161,9 +161,13 @@ body{
         font-size:0;
     }
     to{
-        background-color: rgba(0,0,0,0.8);
-        font-size: 10em;
+        background-color: rgb(32, 7, 16);
+        font-size: 2.5em;
     }
+}
+
+.p-text > small{
+    font-size: 1.5rem;
 }
 
 .paw{
