@@ -122,7 +122,7 @@ class MixorMatch{
         }, 1000);
      }
      getCardType(card){
-        return card.getElementsByClassName('card-value')[0].src;
+        return card.dataset.framework; //------------------------------------------So that card words match with pictures-------------------------------------------
      }
     startCountDown(){
         return setInterval(() => {
@@ -152,7 +152,7 @@ class MixorMatch{
             }
         }
     canFlipCard(card){ // if all three of these statements are false then this will return true --to see the card flipping for now
-        return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
+     return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
     }
 }
 
@@ -165,13 +165,11 @@ function ready(){
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
     let game = new MixorMatch(100, cards); // instance for card game #1
-
     overlays.forEach(overlay => {
         overlay.addEventListener('click',() =>{
             overlay.classList.remove('vis');
              game.startGame(); //starts the game #1
-            /*let audioController = new AudioController();
-            audioController.startMusic(); */
+           
         });
     });
 
