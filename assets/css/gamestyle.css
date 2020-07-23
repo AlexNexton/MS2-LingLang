@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Libre+Baskerville&display=swap');
+
 *{ /*style for boxing the cards */
     box-sizing: border-box;
     
@@ -10,7 +12,10 @@ html{/* added to help the colour gradient spread out throughout the page */
 
 body{ 
     margin: 0;
-    background:linear-gradient(to right,blue, #fafafa,red);
+    background:linear-gradient(blue, #fafafa,red);
+    font-family: 'Libre Baskerville', serif;
+
+   
     
 }
 
@@ -21,12 +26,15 @@ body{
     /*---------------------------------- Game info and Title ----------*/
 
 .title{
+    font-family: 'Kalam', cursive;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 3em;
     color: #fafafa;
     text-shadow: 2px 2px 5px red;
+    
     }
  .game-info{
+     font-family: 'Kalam', cursive;
      color: #fafafa;
      font-size: 4em;
      text-shadow: 2px 2px 5px red;
