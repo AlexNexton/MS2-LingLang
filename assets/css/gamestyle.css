@@ -114,7 +114,7 @@ body{
 }
 
 .card-back{
-     background:linear-gradient(-90deg,#17004e, #2f07c0); 
+      background:  rgb(5, 155, 30);
     border-color: #e85307;
     border-radius: 20%;
 }
@@ -165,12 +165,14 @@ body{
 
 @keyframes overlay-grow{
     from{
+        font-family: 'Kalam', cursive;
         background-color: rgba(0,0,0,0);
         font-size:0;
     }
     to{
         background-color: rgb(32, 7, 16);
         font-size: 2.5em;
+        font-family: 'Kalam', cursive;
     }
 }
 
@@ -212,10 +214,13 @@ body{
     }
 
 .bearpaw{
+    margin-top: 20%;
+    width: 100%;
      align-self: flex-start;
      transform: translateY(-10px);
      transition: transform 100ms ease-in-out;
 }
+
 
 .card-back:hover .bearpaw{
     transform: translateY(0);
