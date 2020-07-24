@@ -116,14 +116,14 @@ body{
 .card-back{
     background: linear-gradient(rgb(225, 223, 253), rgb(32, 31, 36));
     border-color: #e85307;
-    border-radius: 20%;
+   
 }
 
 .card-front{
      background:linear-gradient(-90deg,#362f33, #fafafa);
     border-color:#e85307 ;
     transform: rotateY(180deg);
-    border-radius: 20%;
+   
 }
 .card-value {
   position: relative;
