@@ -12,7 +12,7 @@ html{/* added to help the colour gradient spread out throughout the page */
 
 body{ 
     margin: 0;
-    background:linear-gradient(blue, #fafafa,red);
+    background:linear-gradient(rgb(13, 92, 13), #fafafa);
     font-family: 'Libre Baskerville', serif;
 
    
@@ -94,7 +94,7 @@ body{
 }
 .card.vis .card-front{
  transform: rotateY(0);
- box-shadow: 5px 5px rgb(62, 21, 85);; /*adds a shadow when card is flipped */
+ box-shadow: 5px 5px rgb(32, 31, 36); /*adds a shadow when card is flipped */
 }
 
 .card.matched .card-value{
@@ -114,13 +114,13 @@ body{
 }
 
 .card-back{
-      background:  rgb(15, 5, 155);
+    background: linear-gradient(rgb(225, 223, 253), rgb(32, 31, 36));
     border-color: #e85307;
     border-radius: 20%;
 }
 
 .card-front{
-     background:linear-gradient(-90deg,#362f33, #fc6767);
+     background:linear-gradient(-90deg,#362f33, #fafafa);
     border-color:#e85307 ;
     transform: rotateY(180deg);
     border-radius: 20%;
@@ -182,14 +182,14 @@ body{
 
 .paw{
     position: absolute;
-    width: 47px;
-    height: 47px;
+    width: 37px;
+    height: 37px;
     transition: width 100ms ease-in-out, height 100ms ease-in-out;
 }
 
 .card-face:hover .paw{
-    width: 52px;
-    height: 52px;
+    width: 40px;
+    height: 40px;
 }
 
 .paw-top-left{
