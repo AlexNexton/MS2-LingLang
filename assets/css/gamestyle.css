@@ -146,7 +146,7 @@ body{
 }
 .card.vis .card-front{
  transform: rotateY(0);
- box-shadow: 5px 5px rgb(32, 31, 36); /*adds a shadow when card is flipped */
+ box-shadow: 5px 5px rgb(17, 20, 204); /*adds a shadow when card is flipped */
 }
 
 .card.matched .card-value{
@@ -167,13 +167,13 @@ body{
 
 .card-back{
      background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgb(50, 69, 175));
-    border-color: #ffffff;
+    border-color: #fafafa;
    
 }
 
 .card-front{
-     background:linear-gradient(-90deg,#362f33, #fafafa);
-    border-color:#e85307 ;
+     background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgb(50, 69, 175));
+    border-color:#fafafa ;
     transform: rotateY(180deg);
    
 }
