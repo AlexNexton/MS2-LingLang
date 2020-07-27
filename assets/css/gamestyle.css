@@ -16,6 +16,8 @@ body{
     font-family: 'Libre Baskerville', serif;    
 }
 
+
+
 /*-------------------------------------------NAVBAR-----------------------------*/
 .linglanglogo {
   height: 60px;
@@ -235,8 +237,8 @@ body{
 
 .paw{
     position: absolute;
-    width: 37px;
-    height: 37px;
+    width: 27px;
+    height: 27px;
     transition: width 100ms ease-in-out, height 100ms ease-in-out;
 }
 
@@ -269,7 +271,7 @@ body{
     }
 
 .bearpaw{
-    margin-top: 20%;
+    margin-top: 25%;
     width: 100%;
      align-self: flex-start;
      transform: translateY(-10px);
@@ -307,9 +309,13 @@ body{
     
     .paw{
             position: absolute;
-            width: 37px;
-            height: 37px;
+            width: 20px;
+            height: 20px;
             transition: width 100ms ease-in-out, height 100ms ease-in-out;
+        }
+    .card-face:hover .paw{
+            width: 25px;
+            height: 25px;
         }
         .bearpaw{
                 align-self: flex-start;
@@ -336,10 +342,14 @@ body{
         }
         .paw{
             position: absolute;
-            width: 27px;
-            height: 27px;
+            width: 17px;
+            height: 17px;
             transition: width 100ms ease-in-out, height 100ms ease-in-out;
         }
+        .card-face:hover .paw{
+            width: 21px;
+            height: 21px;
+}
         
         
     }
