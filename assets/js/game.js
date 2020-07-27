@@ -24,7 +24,11 @@ class AudioController{ // adding the audio for the game and the card sounds
         this.flipSound.play();
     }
     match(){
-        this.matchSound.play();
+        
+         setTimeout(() =>{
+            this.matchSound.play()
+        }, 600); // so the sound plays after the second card is flipped
+        
     }
     victory(){
         this.stopMusic(); //stops background music once the game is complete
