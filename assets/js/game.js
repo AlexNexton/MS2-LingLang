@@ -1,4 +1,4 @@
-// Reference to tutorial that help me write this code https://www.youtube.com/watch?v=3uuQ3g92oPQ
+// Reference to tutorial that helped me write this code https://www.youtube.com/watch?v=3uuQ3g92oPQ
 
 //---------------------------Start of Audio controller class------------------------------------------------------
 
