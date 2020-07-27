@@ -337,7 +337,7 @@ body{
         .card{ 
             position: relative; 
             cursor: pointer;
-            height: 100px;
+            height: 90px;
             width: 50px;
         }
         .paw{
