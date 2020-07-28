@@ -100,6 +100,7 @@ class MixorMatch{
             
         }
     }
+    
      checkForCardMatch(card){
         if(this.getCardType(card) === this.getCardType(this.cardToCheck))
            
@@ -177,7 +178,7 @@ class MixorMatch{
 function ready(){
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixorMatch(5, cards); // instance for card game #1
+    let game = new MixorMatch(99, cards); // instance for card game #1
     overlays.forEach(overlay => {
         overlay.addEventListener('click',() =>{
             overlay.classList.remove('vis');
