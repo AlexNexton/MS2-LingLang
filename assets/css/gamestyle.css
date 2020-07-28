@@ -59,7 +59,7 @@ body{
 }
 
 .book-button-nav {
-  background-image: linear-gradient(to right, rgb(58, 76, 175) , rgb(35, 32, 207));
+  background-image: linear-gradient(to right, rgb(50, 69, 175) , rgb(17, 20, 204));
   color: #fafafa;
   transition: all 0.3s;
   border-radius: 5%;
@@ -68,7 +68,7 @@ body{
 }
 
 .book-button-nav:hover {
-  background:rgb(7, 21, 212);
+  background-image: linear-gradient( rgb(50, 69, 175),rgba(246, 160, 14, 0.5));
   color: #fafafa;
   transform: scale(1.2);
 }
