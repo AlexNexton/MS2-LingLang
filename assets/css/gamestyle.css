@@ -104,7 +104,7 @@ body{
 .game-container{ /* repeats the grid after the forth colum to create 4 rows */
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(4,auto);
+    grid-template-columns: repeat(8,auto);
     grid-gap: 10px; 
     justify-content: center;
     perspective: 500px /* in order to make the card appear to flip*/
@@ -288,6 +288,17 @@ body{
 }
 
 /*---------------------------------- Media Queries----------*/
+
+@media (max-width:1025px){
+    .game-container{ /* repeats the grid after the forth colum to create 4 rows */
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px; 
+    justify-content: center;
+    perspective: 500px /* in order to make the card appear to flip*/
+}
+}
 
     @media (max-width: 600px){
         .game-container{
