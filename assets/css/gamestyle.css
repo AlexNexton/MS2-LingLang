@@ -290,6 +290,7 @@ body{
 /*---------------------------------- Media Queries----------*/
 
 @media (max-width:1025px){
+
     .game-container{ /* repeats the grid after the forth colum to create 4 rows */
     margin: 50px auto;
     display: grid;
@@ -297,18 +298,32 @@ body{
     grid-gap: 10px; 
     justify-content: center;
     perspective: 500px /* in order to make the card appear to flip*/
-}
+    }
 }
 
-    @media (max-width: 600px){
-        .game-container{
-            grid-template-columns: repeat(4,auto);
-        }
-        .game-info-container{
-            flex-direction: column;
-            align-items: center;
-        }
-        .card{ 
+ @media (max-width: 600px){
+    .title{
+        margin-top: 10px;
+        font-family: 'Kalam', cursive;
+        text-align: center;
+        font-size: 1.5em;
+        color: #fafafa;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    }
+    .game-info{
+        font-family: 'Kalam', cursive;
+        color: #fafafa;
+        font-size: 2em;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    }  
+    .game-container{
+        grid-template-columns: repeat(4,auto);
+    }
+    .game-info-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{ 
         position: relative; 
         cursor: pointer;
         height: 125px;
@@ -323,48 +338,48 @@ body{
     
     
     .paw{
-            position: absolute;
-            width: 20px;
-            height: 20px;
-            transition: width 100ms ease-in-out, height 100ms ease-in-out;
-        }
-    .card-face:hover .paw{
-            width: 25px;
-            height: 25px;
-        }
-        .bearpaw{
-                align-self: flex-start;
-                height: 70%;
-                width: 70%;
-                transform: translateY(-10px);
-                transition: transform 100ms ease-in-out;
-            }
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        transition: width 100ms ease-in-out, height 100ms ease-in-out;
     }
+    .card-face:hover .paw{
+        width: 25px;
+        height: 25px;
+    }
+    .bearpaw{
+        align-self: flex-start;
+        height: 70%;
+        width: 70%;
+        transform: translateY(-10px);
+        transition: transform 100ms ease-in-out;
+    }
+}
 
-     @media (max-width: 400px){
-        .game-container{
-            grid-template-columns: repeat(4,auto);
-        }
-        .game-info-container{
-            flex-direction: column;
-            align-items: center;
-        }
-        .card{ 
-            position: relative; 
-            cursor: pointer;
-            height: 90px;
-            width: 50px;
-        }
-        .paw{
-            position: absolute;
-            width: 17px;
-            height: 17px;
-            transition: width 100ms ease-in-out, height 100ms ease-in-out;
-        }
-        .card-face:hover .paw{
-            width: 21px;
-            height: 21px;
+@media (max-width: 400px){
+    .game-container{
+        grid-template-columns: repeat(4,auto);
+    }
+    .game-info-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{ 
+        position: relative; 
+        cursor: pointer;
+        height: 90px;
+        width: 50px;
+    }
+    .paw{
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        transition: width 100ms ease-in-out, height 100ms ease-in-out;
+    }
+    .card-face:hover .paw{
+        width: 21px;
+        height: 21px;
 }
         
         
-    }
+}
