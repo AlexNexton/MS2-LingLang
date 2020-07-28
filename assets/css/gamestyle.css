@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Libre+Baskerville&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kalam&family=Libre+Baskerville&display=swap');
 /*background-image: linear-gradient( rgb(17, 20, 204),rgba(255, 0, 0, 0.5)); forlater*/
 
 *{ /*style for boxing the cards */
@@ -38,7 +37,7 @@ body{
   padding: 5px;
 }
 .nav-link:hover{
-    background-image: linear-gradient( rgb(17, 20, 204),rgba(246, 160, 14, 0.5));
+    background: rgba(246, 160, 14,);
     color: #fafafa;
 }
 
@@ -82,7 +81,7 @@ body{
     
 }
 .dropdown-item {
-     background-image: linear-gradient( rgb(17, 20, 204),rgba(246, 160, 14, 0.5));
+     background: rgba(246, 160, 14, 0.5);
     color: #fafafa;
      text-shadow: 2px 2px 4px #000000;
     
@@ -104,16 +103,16 @@ body{
     font-family: 'Kalam', cursive;
     text-align: center;
     font-size: 3em;
-    color: #fafafa;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
     
     }
  .game-info{
      margin: 0 20px;
-     font-family: 'Kalam', cursive;
-     color: #fafafa;
+     font-family: 'Josefin Sans', sans-serif;
+     color: #fffb00;
      font-size: 4em;
-     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+     text-shadow: 2px 2px 5px rgb(225, 0, 0);
 }  
 
 .game-info-container{
@@ -129,6 +128,11 @@ body{
     grid-gap: 10px; 
     justify-content: center;
     perspective: 500px /* in order to make the card appear to flip*/
+}
+
+#herebtn {
+    color: #fffb00;
+    text-shadow: 2px 2px 5px rgb(225, 0, 0);
 }
 
 /*---------------------------------- Card face,back and general css ----------*/
@@ -191,13 +195,13 @@ body{
 
 .card-back{
      background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgb(50, 69, 175));
-    border-color: #fafafa;
+    border-color: #fffb00;
    
 }
 
 .card-front{
      background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgb(50, 69, 175));
-    border-color:#fafafa ;
+    border-color: #fffb00;
     transform: rotateY(180deg);
    
 }
@@ -228,8 +232,10 @@ body{
     color: #e3d0e8;
     text-shadow: 2px 2px 5px red;
     cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .victory-text{
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1.1em;
 }
 .mark, mark {
@@ -237,13 +243,16 @@ body{
     padding: .2em;
     background-color: rgba(17, 20, 204, 0.5);
     box-shadow: 5px 5px rgb(17, 20, 204);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .overlay-text-small{
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
 }
 
 .overlay-text.vis{
+    font-family: 'Josefin Sans', sans-serif;
     display: flex;
     flex-direction:column;
     animation: overlay-grow 500ms forwards;
@@ -261,8 +270,11 @@ body{
         font-family: 'Kalam', cursive;
     }
 }
-
+.p-text{
+    font-family: 'Josefin Sans', sans-serif;
+}
 .p-text > small{
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -335,7 +347,7 @@ body{
         text-align: center;
         font-size: 1.5em;
         color: #fafafa;
-        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        text-shadow: 2px 2px 5px rgb(225, 0, 0);
     }
     .game-info{
         font-family: 'Kalam', cursive;
