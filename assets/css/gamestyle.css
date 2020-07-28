@@ -36,13 +36,17 @@ body{
   width: 80px;
   padding: 5px;
 }
+.nav-link{
+    border-radius: 20%;
+}
 .nav-link:hover{
-    background: rgba(246, 160, 14,);
+    border-radius: 50%;
+    background: rgba(17, 29, 204);
     color: #fafafa;
 }
 
 .bg-color-navbar {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(50, 69, 175));
+  background: rgb(50, 69, 175);
 }
 
 .nav-text-color {
@@ -87,7 +91,8 @@ body{
     
 }
 .book-button-nav:hover {
-  background-image: linear-gradient( rgb(17, 20, 204),rgba(246, 160, 14, 0.5));
+  border-radius: 50%;
+    background: rgba(17, 29, 204);
   color: #fafafa;
   transform: scale(1.2);
 }
@@ -195,13 +200,14 @@ body{
 
 .card-back{
      background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgb(50, 69, 175));
-    border-color: #fffb00;
+    border: 2px solid #fffb00;
+    box-shadow: 2px 2px 2px red;
    
 }
 
 .card-front{
      background-image: linear-gradient(to right, rgba(255, 255, 255, 0),rgb(50, 69, 175));
-    border-color: #fffb00;
+    border: 2px solid #fffb00;
     transform: rotateY(180deg);
    
 }
@@ -295,6 +301,8 @@ body{
     top: 0;
     left: 0;
     background: rgb(35, 32, 207);
+    border: 0px solid #fffb00;
+    box-shadow: 2px 2px 2px red;
     color: #fafafa
 }
 .paw-top-right{
