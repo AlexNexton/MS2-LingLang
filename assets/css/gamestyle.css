@@ -77,7 +77,7 @@ body{
     overflow: hidden;
 }
 
-    /*---------------------------------- Game info and Title ----------*/
+/*---------------------------------- Game info and Title ----------*/
 
 .title{
     margin-top: 10px;
@@ -110,7 +110,7 @@ body{
     perspective: 500px /* in order to make the card appear to flip*/
 }
 
-  /*---------------------------------- Card face,back and general css ----------*/
+/*---------------------------------- Card face,back and general css ----------*/
 
 
 .card{ /* background-color: for cards in order to manipulate the css */
@@ -191,7 +191,7 @@ body{
 }
 
 
-  /*---------------------------------- OverLay text ----------*/
+/*---------------------------------- OverLay text ----------*/
 
 
 .overlay-text{
@@ -287,7 +287,7 @@ body{
     transform: translateY(0);
 }
 
-      /*---------------------------------- Media Queries----------*/
+/*---------------------------------- Media Queries----------*/
 
     @media (max-width: 600px){
         .game-container{
