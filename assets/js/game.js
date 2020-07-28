@@ -145,6 +145,8 @@ class MixorMatch{
         clearInterval(this.countDown);
         this.audioController.gameOver();
         document.getElementById('game-over-text').classList.add('vis');
+        
+
     }
     victory(){ //victory text pops up
         clearInterval(this.countDown);
@@ -175,7 +177,7 @@ class MixorMatch{
 function ready(){
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixorMatch(100, cards); // instance for card game #1
+    let game = new MixorMatch(5, cards); // instance for card game #1
     overlays.forEach(overlay => {
         overlay.addEventListener('click',() =>{
             overlay.classList.remove('vis');
