@@ -12,7 +12,7 @@ html{/* added to help the colour gradient spread out throughout the page */
 
 body{ 
     margin: 0;
-  background-image: linear-gradient( rgb(50, 69, 175),rgba(255, 255, 255, 0));
+  background-image: linear-gradient( rgb(50, 69, 175),rgba(246, 160, 14, 0.5));
     font-family: 'Libre Baskerville', serif;    
 }
 
@@ -229,7 +229,7 @@ body{
         font-size:0;
     }
     to{
-         background-image: linear-gradient(to left, rgb(255, 255, 255),rgb(50, 69, 175));
+         background-image: linear-gradient(to left, rgba(246, 160, 14, 0.5),rgb(50, 69, 175));
          font-size: 2.5em;
         font-family: 'Kalam', cursive;
     }
