@@ -89,6 +89,7 @@ body{
     
     }
  .game-info{
+     margin: 0 20px;
      font-family: 'Kalam', cursive;
      color: #fafafa;
      font-size: 4em;
