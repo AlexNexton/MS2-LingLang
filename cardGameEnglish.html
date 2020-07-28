@@ -19,7 +19,7 @@
 </head>
 <body>
 <!--======================================================================================NavBar Section here-->
-  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top overflow">
+  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top"> <!--removed overflow so dropdown menu would work more sweetly-->
     <a href="index.html" class="navbar-brand nav-text-color" id="logo-nav"><img src="assets/img/logos/LingLang.png"
         class="linglanglogo" alt="" />LingLang</a>
 
@@ -37,11 +37,18 @@
           <a href="#menu" class="nav-link nav-text-color book-button">What we offer</a>
         </li>
         <li class="nav-item mr-2">
-          <a href="" class="nav-link nav-text-color book-button">Play Game</a>
-        </li>
-        <li class="nav-item mr-2">
           <a href="#contact" class="nav-link nav-text-color book-button">Contact Us</a>
         </li>
+         <li class="nav-item mr-2 dropdown">
+        <a class="nav-link dropdown-toggle playbtn" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Play Game
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">In German </a>
+          <a class="dropdown-item" href="#">In French </a>
+          <a class="dropdown-item" href="#">In Spanish </a>
+        </div>
+      </li>
       </ul>
     </div>
     <div class="d-none d-md-block">
