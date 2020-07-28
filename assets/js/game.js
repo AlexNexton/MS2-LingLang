@@ -32,7 +32,11 @@ class AudioController{ // adding the audio for the game and the card sounds
     }
     victory(){
         this.stopMusic(); //stops background music once the game is complete
-        this.victorySound.play();
+         setTimeout(() =>{
+            this.victorySound.play();
+        }, 600); // victory is played after the final card is flipped but delayed slightly
+        
+        
     }
     gameOver(){
         this.stopMusic();
@@ -144,8 +148,11 @@ class MixorMatch{
     }
     victory(){ //victory text pops up
         clearInterval(this.countDown);
-        this.audioController.victory();
+         setTimeout(() =>{
+            this.audioController.victory();
          document.getElementById('victory-text').classList.add('vis');
+        }, 600); // victory is played after the final card is flipped but delayed slightly
+        
     }
      shuffleCards(){ //fisher and yates shuffle - taken from the internet https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
             for(let i = this.cardsArray.length - 1; i > 0; i--)
