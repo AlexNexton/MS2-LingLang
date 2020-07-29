@@ -109,11 +109,11 @@ body{
 
 .title{
     margin-top: 10px;
-    font-family: 'Kalam', cursive;
     text-align: center;
     font-size: 3em;
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
+    font-family: 'Kalam', cursive;
     
     }
  .game-info{
@@ -355,17 +355,18 @@ body{
  @media (max-width: 600px){
     .title{
         margin-top: 10px;
-        font-family: 'Kalam', cursive;
         text-align: center;
         font-size: 1.5em;
-        color: #fafafa;
+        color: #fffb00;
+        font-family: 'Josefin Sans', sans-serif;
         text-shadow: 2px 2px 5px rgb(225, 0, 0);
     }
     .game-info{
-        font-family: 'Kalam', cursive;
-        color: #fafafa;
+        color: #fffb00;
+        text-shadow: 2px 2px 5px red;
+        font-family: 'Josefin Sans', sans-serif;
         font-size: 2em;
-        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+        
     }  
     .game-container{
         grid-template-columns: repeat(4,auto);
