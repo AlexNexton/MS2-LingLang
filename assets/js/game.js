@@ -180,7 +180,7 @@ function ready(){
     let cards = Array.from(document.getElementsByClassName('card'));
     let game = new MixorMatch(99, cards); // instance for card game #1
     overlays.forEach(overlay => {
-        overlay.addEventListener('dblclick',() =>{ //double click added so the user doesn't skip past before reading everything
+        overlay.addEventListener('click',() =>{ 
             overlay.classList.remove('vis');
              game.startGame(); //starts the game #1
            
