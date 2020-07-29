@@ -146,6 +146,7 @@ class MixorMatch{
         clearInterval(this.countDown);
         this.audioController.gameOver();
         document.getElementById('game-over-text').classList.add('vis');
+        window.location.reload(); //reload page if time runs out
         
 
     }
@@ -190,6 +191,19 @@ function ready(){
      window.onload=function(){
         document.getElementById("startgame").addEventListener("click", startGameBtn, false); 
         function startGameBtn() {
+            let myButton= document.getElementById('startgame');
+             let hide_timeout = 0000; // 0 sec before hide button;
+             let show_timeout = 99001; // delay 99 sec before show button;
+
+            setTimeout (function(){
+                myButton.style.display ='none';
+            },hide_timeout);
+
+            setTimeout (function(){
+                myButton.style.display ='inline';   
+            },show_timeout);
+
+            
         game.startGame(); 
         }//starts the game #1
 
