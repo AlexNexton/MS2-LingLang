@@ -454,6 +454,14 @@ body{
         transform: translateY(-10px);
         transition: transform 100ms ease-in-out;
     }
+    .mark, mark {
+    
+    color: #fafafa;
+    padding: .2em;
+    background-color: rgba(17, 20, 204, 0.5);
+    box-shadow: 5px 5px rgb(17, 20, 204);
+    font-family: 'Josefin Sans', sans-serif;
+}
 }
 
 @media (max-width: 400px){
