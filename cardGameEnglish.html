@@ -19,7 +19,7 @@
 </head>
 <body>
 <!--======================================================================================NavBar Section here-->
-  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top"> <!--removed overflow so dropdown menu would work more sweetly-->
+  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top overflow"> <!--removed overflow so dropdown menu would work more sweetly-->
     <a href="index.html" class="navbar-brand nav-text-color hvr-glow" id="logo-nav"><img src="assets/img/logos/LingLang.png"
         class="linglanglogo" alt="" />LingLang</a>
 
@@ -61,23 +61,24 @@
     <div class="overlay-text vis"> <!--put vis back-->
         <mark> <p class="text-center p-text ml-2 mr-2"><small>There are 16 cards.<br>Click the cards and match the animals with their words.
      <br>  Make sure to finish before the time runs out! </small> <br>
-      Double Click <u id="herebtn">here</u> to Start :)</p></mark>
+      Click <u id="herebtn">here</u> to Start :)</p></mark>
     </div>
     <div id="game-over-text" class="overlay-text">
     <mark> GAME OVER <br>
      <span class="overlay-text-small"><small> Would you like to play again? <br></small></span>
-     Double Click anywhere on the screen to play again!</mark>
+     Click anywhere on the screen to play again!</mark>
     </div>
     <div id="victory-text" class="overlay-text">
     <mark> Well Done!
      <p><small>You just leanred some animal vocabulary in English.</small></p>
-     <span class="overlay-text-small">Double Click here to play again.</span></mark>
+     <span class="overlay-text-small">Click here to play again.</span></mark>
     </div>
     <div class="game-container">
         <div class="game-info-container">
             <div class="game-info">
                 Time: 0:<span id="time-remaining">99</span>
             </div>
+            <button type="button" id="startgame" class="btn btn-info">Start Game</button>
             <div class="game-info">
                 Flips: <span id="flips">0</span>
             </div>

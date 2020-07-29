@@ -180,12 +180,16 @@ function ready(){
     let cards = Array.from(document.getElementsByClassName('card'));
     let game = new MixorMatch(99, cards); // instance for card game #1
     overlays.forEach(overlay => {
-        overlay.addEventListener('click',() =>{ 
+        overlay.addEventListener('click',() =>{
             overlay.classList.remove('vis');
-             game.startGame(); //starts the game #1
+
            
-        });
+             document.getElementById("startgame").addEventListener("click", startGameBtn); //added btn after overlay screen to start the game
+            function startGameBtn() {
+                     game.startGame(); }//starts the game #1
+                 });
     });
+    
 
     cards.forEach(card => {
         card.addEventListener('click', () =>{
