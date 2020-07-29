@@ -14,10 +14,58 @@ html{/* added to help the colour gradient spread out throughout the page */
 body{ 
     margin: 0;
     background: rgb(168, 3, 3);
-    font-family: 'Libre Baskerville', serif;    
+    font-family: 'Libre Baskerville', serif; 
+       
 }
 
+/*-------------------------------------------BUTTONS-----------------------------*/
+#startgame{
+    margin: 0.5rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 0.8;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid transparent;
+    background: blue;
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Josefin Sans', sans-serif;
+   
 
+}
+#startgame:hover{
+    transform: scale(1.2);
+}
+#resetbtn{
+    margin: 0.5rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 0.8;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid transparent;
+    background: blue;
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+#resetbtn:hover{
+     transform: scale(1.2);
+}
+.playbtn {
+    color: #00ff0d;
+    overflow:visible;
+}
 
 /*-------------------------------------------NAVBAR-----------------------------*/
 .linglanglogo {
@@ -52,9 +100,7 @@ body{
 .nav-text-color {
   color: #00ff0d;
 }
-.playbtn {
-    color: #00ff0d;
-}
+
 .linglanglogo{
      background: #00ff0d;
      border-radius: 10%;
@@ -84,12 +130,13 @@ body{
 }
 
 .dropdown-menu{
-    
+    overflow: visible;
     background-color: rgba(0,0,0,0);
     border: none;
     
 }
 .dropdown-item {
+    overflow: visible;
      background: rgba(246, 160, 14, 0.5);
     color: #fafafa;
      text-shadow: 2px 2px 4px #000000;
