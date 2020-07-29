@@ -182,20 +182,23 @@ function ready(){
     overlays.forEach(overlay => {
         overlay.addEventListener('click',() =>{
             overlay.classList.remove('vis');
+                
+        });
+     });
 
-           
-             document.getElementById("startgame").addEventListener("click", startGameBtn); //added btn after overlay screen to start the game
-            function startGameBtn() {
-                     game.startGame(); }//starts the game #1
-                 });
-    });
-    
-
-    cards.forEach(card => {
+     //added btn after overlay screen to start the game
+     window.onload=function(){
+        document.getElementById("startgame").addEventListener("click", startGameBtn); 
+        function startGameBtn() {
+        game.startGame(); }//starts the game #1
+        cards.forEach(card => {
         card.addEventListener('click', () =>{
             game.flipCard(card); //flips a card #1
         });
     });
+}
+            
+    
 } 
 
 
