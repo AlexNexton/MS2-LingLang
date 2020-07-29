@@ -188,9 +188,11 @@ function ready(){
 
      //added btn after overlay screen to start the game
      window.onload=function(){
-        document.getElementById("startgame").addEventListener("click", startGameBtn); 
+        document.getElementById("startgame").addEventListener("click", startGameBtn, false); 
         function startGameBtn() {
-        game.startGame(); }//starts the game #1
+        game.startGame(); 
+        }//starts the game #1
+
         cards.forEach(card => {
         card.addEventListener('click', () =>{
             game.flipCard(card); //flips a card #1
