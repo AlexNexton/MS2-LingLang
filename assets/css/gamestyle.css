@@ -31,7 +31,7 @@ body{
     text-align: center;
     vertical-align: middle;
     border: 0px solid transparent;
-    background: blue;
+    background: rgb(50, 69, 175);
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
     font-family: 'Josefin Sans', sans-serif;
@@ -53,7 +53,7 @@ body{
     text-align: center;
     vertical-align: middle;
     border: 0px solid transparent;
-    background: blue;
+    background: rgb(50, 69, 175);
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
     font-family: 'Josefin Sans', sans-serif;
