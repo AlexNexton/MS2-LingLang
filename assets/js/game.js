@@ -175,17 +175,20 @@ class MixorMatch{
 
 
 
-//---------------------------Start of Ready Function class------------------------------------------------------
+//---------------------------Start of Ready Function ------------------------------------------------------
 function ready(){
-    let overlays = Array.from(document.getElementsByClassName('overlay-text'));
+    let intro = document.getElementById('intro');
+    let stg = document.getElementById('startgame');
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MixorMatch(5, cards); // instance for card game #1
-    overlays.forEach(overlay => {
-        overlay.addEventListener('click',() =>{
-            overlay.classList.remove('vis');
+    let game = new MixorMatch(99, cards); // instance for card game #1
+    
+
+        stg.addEventListener('click',() =>{
+
+            intro.classList.remove('vis');
                 
         });
-     });
+    
 
      //added btn after overlay screen to start the game
      window.onload=function(){
