@@ -35,7 +35,7 @@ body{
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
     font-family: 'Josefin Sans', sans-serif;
-     box-shadow: 2px 2px 5px white;
+    box-shadow: 2px 2px 20px white;
    
 
 }
@@ -54,17 +54,18 @@ body{
     font-weight: 400;
     text-align: center;
     vertical-align: middle;
-    border: 0px solid transparent;
+    border: 1px solid whitesmoke;
     background: rgb(15, 41, 187);
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
     font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 2px 2px 20px white;
    
 }
 #resetbtn:hover{
      transform: scale(1.2);
 }
-#resetbtnV{/*Rest button that shows up with the victory screen*/
+#resetbtnV{/*Reset button that shows up with the victory screen*/
     margin: 0.5rem;
     border-radius: 50%;
     width: 3.5rem;
@@ -75,19 +76,20 @@ body{
     font-weight: 400;
     text-align: center;
     vertical-align: middle;
-    border: 0px solid transparent;
+    border: 1px solid whitesmoke;
     background:rgb(15, 41, 187);
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
     font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 2px 2px 20px white;
    
 }
 #resetbtnV:hover{
      transform: scale(1.2);
 }
-#resetbtnS{/*Rest button on the screen*/
+#resetbtnS{/*Reset button on the screen*/
     margin: 0.5rem;
-    margin-right: 0.5rem;
+    margin-right: 6rem;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
@@ -97,7 +99,7 @@ body{
     font-weight: 400;
     text-align: center;
     vertical-align: middle;
-    border: 0px solid transparent;
+    border: 1px solid whitesmoke;
     background: rgb(15, 41, 187);
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
@@ -339,9 +341,10 @@ body{
     cursor: pointer;
     font-family: 'Josefin Sans', sans-serif;
 }
-.victory-text{
+#victory-text{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.1em;
+    text-align: center;
 }
 .mark, mark {
     color: #fafafa;
@@ -445,6 +448,10 @@ body{
     justify-content: center;
     perspective: 500px /* in order to make the card appear to flip*/
     }
+    #resetbtnS{/*Reset button on the screen*/
+    margin: 0.5rem;
+    
+}
 }
 
  @media (max-width: 600px){
@@ -508,6 +515,10 @@ body{
     background-color: rgba(17, 20, 204, 0.5);
     box-shadow: 5px 5px rgb(17, 20, 204);
     font-family: 'Josefin Sans', sans-serif;
+}
+#resetbtnS{/*Reset button on the screen*/
+    margin: 0.5rem;
+    margin-right: 1rem;
 }
 }
 
