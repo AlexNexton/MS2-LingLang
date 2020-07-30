@@ -236,5 +236,6 @@ We have identified the colour palette on [W3](https://www.w3schools.com/).
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
 - [Blog usersnap.com ](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial help in with writing the game and understanting JavaScript a whole lot more.
+- [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the flipping of the cards
 
 ---
