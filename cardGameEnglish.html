@@ -58,28 +58,30 @@
 
  <section class="overflow game-size">
     <h1 class="title">Animal Word Match</h1>
-    <div class="overlay-text vis"> <!--put vis back-->
-        <mark> <p class="text-center p-text ml-2 mr-2 mt-3"><small>There are 16 cards.<br>Click the cards and match the animals with their words.
+    <div class="overlay-text vis " id="intro"> <!--put vis back-->
+        <mark> <p class="text-center p-text ml-2 mr-2 mt-3"><u> Instructions </u> <br><small>There are 16 cards.<br>Click the cards and match the animals with their words. <br>
+        Click <button type="button"  id="startgame" class="btn btn-info">Start Game</button> <!--onclick="style.display = 'none'" -->
      </small> <br>
-      Click <u id="herebtn">here</u> :)</p></mark>
+    </p></mark>
     </div>
     <div id="game-over-text" class="overlay-text">
     <mark> GAME OVER <br>
      <span class="overlay-text-small"><small> Would you like to play again? <br></small></span>
-     Click anywhere on the screen to play again!</mark>
+     Click <button type="button" onclick="window.location.reload();" id="resetbtn"  class="btn btn-info">Play Again</button></mark>
     </div>
     <div id="victory-text" class="overlay-text">
     <mark> Well Done!
-     <p><small>You just leanred some animal vocabulary in English.</small></p>
-     <span class="overlay-text-small">Click here to play again.</span></mark>
+     <p><small>You just learned some animal vocabulary in English.</small></p>
+     <span class="overlay-text-small">Click <button type="button" onclick="window.location.reload();" id="resetbtnV"  class="btn btn-info">here</button> to play again.</span></mark>
     </div>
     <div class="game-container">
         <div class="game-info-container">
             <div class="game-info">
                 Time: 0:<span id="time-remaining">99</span>
             </div>
-            <button type="button"  id="startgame" class="btn btn-info">Start Game</button> <!--onclick="style.display = 'none'" -->
-             <button type="button" onclick="window.location.reload();" id="resetbtn"  class="btn btn-info">Rest</button>
+            <!-- <button type="button"  id="startgame" class="btn btn-info">Start Game</button >--> 
+            <!--onclick="style.display = 'none'" -->
+             <button type="button" onclick="window.location.reload();" id="resetbtnS"  class="btn btn-info">Rest</button>
             <div class="game-info">
                 Flips: <span id="flips">0</span>
             </div>
