@@ -258,7 +258,7 @@ body{
 }
 
 .card-front{
-     background: #009b1a;
+     background: rgb(228, 223, 223);
     border: 2px solid #fffb00;
     transform: rotateY(180deg);
    
