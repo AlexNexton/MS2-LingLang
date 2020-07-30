@@ -46,7 +46,7 @@ body{
 }
 #resetbtn{/*Play again rest button on GameOver Screen*/
     margin: 0.5rem;
-    margin-left: 6em;
+    margin-left: 8.1em;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
@@ -62,6 +62,7 @@ body{
     text-shadow: 2px 2px 5px red;
     font-family: 'Josefin Sans', sans-serif;
     box-shadow: 2px 2px 20px white;
+    font-size: 0.3em;
    
 }
 #resetbtn:hover{
