@@ -31,17 +31,18 @@ body{
     text-align: center;
     vertical-align: middle;
     border: 0px solid transparent;
-    background: rgb(50, 69, 175);
+    background: rgb(15, 41, 187);
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
     font-family: 'Josefin Sans', sans-serif;
+     box-shadow: 2px 2px 5px white;
    
 
 }
 #startgame:hover{
     transform: scale(1.2);
 }
-#resetbtn{
+#resetbtn{/*Play again rest button on GameOver Screen*/
     margin: 0.5rem;
     border-radius: 50%;
     width: 3.5rem;
@@ -53,13 +54,56 @@ body{
     text-align: center;
     vertical-align: middle;
     border: 0px solid transparent;
-    background: rgb(50, 69, 175);
+    background: rgb(15, 41, 187);
     color: #fffb00;
     text-shadow: 2px 2px 5px red;
     font-family: 'Josefin Sans', sans-serif;
    
 }
 #resetbtn:hover{
+     transform: scale(1.2);
+}
+#resetbtnV{/*Rest button that shows up with the victory screen*/
+    margin: 0.5rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 0.8;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid transparent;
+    background:rgb(15, 41, 187);
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+#resetbtnV:hover{
+     transform: scale(1.2);
+}
+#resetbtnS{/*Rest button on the screen*/
+    margin: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 0.8;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid transparent;
+    background: rgb(15, 41, 187);
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+#resetbtnS:hover{
      transform: scale(1.2);
 }
 .playbtn {
@@ -231,6 +275,7 @@ body{
 }
 .card.vis .card-front{
  transform: rotateY(0);
+ border: 1px solid yellow;
  box-shadow: 5px 5px rgb(17, 20, 204); /*adds a shadow when card is flipped */
 }
 
