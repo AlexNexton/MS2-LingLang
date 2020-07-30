@@ -44,6 +44,7 @@ body{
 }
 #resetbtn{/*Play again rest button on GameOver Screen*/
     margin: 0.5rem;
+    margin-left: 6em;
     border-radius: 50%;
     width: 3.5rem;
     height: 3.5rem;
@@ -139,6 +140,7 @@ body{
 
 .bg-color-navbar {
   background: rgb(50, 69, 175);
+  box-shadow: 2px 2px white;
 }
 
 .nav-text-color {
