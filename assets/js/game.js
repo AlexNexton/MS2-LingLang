@@ -5,7 +5,7 @@
 class AudioController{ // adding the audio for the game and the card sounds
     constructor(){
             this.backgroundMusic = new Audio('assets/audio/Marty Gots a Plan (Kevin McLeod) - Vanoss Gaming Background Music (HD).mp3');
-            this.flipSound =  new Audio('assets/audio/card-flip.wav');
+            this.flipSound =  new Audio('assets/audio/zapsplat_multimedia_button_click_007_53868.mp3');
             this.matchSound =  new Audio('assets/audio/match.wav');
             this.victorySound =  new Audio('assets/audio/victory.wav');
             this.gameOverSound = new Audio('assets/audio/gameover.wav');
