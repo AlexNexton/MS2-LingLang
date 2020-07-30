@@ -1,4 +1,4 @@
-// Reference to tutorial that helped me write this code in README.md
+// Reference to tutorial added to Acknowlegments Section that helped me write this code in README.md
 
 //---------------------------Start of Audio controller class------------------------------------------------------
 
