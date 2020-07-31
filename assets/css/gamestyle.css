@@ -15,8 +15,10 @@ body{
     margin: 0;
     background: rgb(168, 3, 3);
     font-family: 'Libre Baskerville', serif; 
+    overflow: hidden;
        
 }
+
 
 /*-------------------------------------------BUTTONS-----------------------------*/
 
@@ -355,8 +357,8 @@ body{
 .mark, mark {
     color: #fafafa;
     padding: .2em;
-    background-color: rgba(17, 20, 204, 0.5);
-    box-shadow: 5px 5px rgb(17, 20, 204);
+    background-color: rgba(17, 20, 204, 1);
+    box-shadow: 5px 5px 5px rgb(11, 12, 82);
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -379,8 +381,8 @@ body{
         font-size:0;
     }
     to{
-         background-image: linear-gradient(to left, rgba(246, 160, 14, 0.5),rgba(50, 69, 175,0.5));
-         font-size: 2.5em;
+        background-image: linear-gradient(to left, rgba(7, 0, 0, 0.5),rgba(2, 7, 2, 0.5));
+        font-size: 2.5em;
         font-family: 'Kalam', cursive;
     }
 }
@@ -547,8 +549,8 @@ footer{
     
     color: #fafafa;
     padding: .2em;
-    background-color: rgba(17, 20, 204, 0.5);
-    box-shadow: 5px 5px rgb(17, 20, 204);
+    background-color: rgba(17, 20, 204, 1);
+    box-shadow: 5px 5px 5px rgb(11, 12, 82);
     font-family: 'Josefin Sans', sans-serif;
 }
 #resetbtnS{/*Reset button on the screen*/
