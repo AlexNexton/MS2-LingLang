@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kalam&family=Libre+Baskerville&display=swap');
+/*background-image: linear-gradient( rgb(17, 20, 204),rgba(255, 0, 0, 0.5)); forlater*/
+
+*{ /*style for boxing the cards */
+    box-sizing: border-box;
+    
+}
+
+html{/* added to help the colour gradient spread out throughout the page */
+    min-height: 100vh;
+    
+}
+
+body{ 
+    margin: 0;
+    background: rgb(168, 3, 3);
+    font-family: 'Libre Baskerville', serif; 
+       
+}
+
+/*-------------------------------------------BUTTONS-----------------------------*/
+
+#startgame{
+    margin: 0.5rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 0.8;
+    padding: 0.5rem;
+    padding-left: 6px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 0px solid transparent;
+    background: rgb(15, 41, 187);
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 2px 2px 20px white;
+   
+
+}
+#startgame:hover{
+    transform: scale(1.2);
+}
+#resetbtn{/*Play again rest button on GameOver Screen*/
+    margin: 0.5rem;
+    margin-left: 8.1em;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 0.8;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid whitesmoke;
+    background: rgb(15, 41, 187);
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 2px 2px 20px white;
+    font-size: 0.3em;
+   
+}
+#resetbtn:hover{
+     transform: scale(1.2);
+}
+#resetbtnV{/*Reset button that shows up with the victory screen*/
+    margin: 0.5rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 0.8;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid whitesmoke;
+    background:rgb(15, 41, 187);
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 2px 2px 20px white;
+   
+}
+#resetbtnV:hover{
+     transform: scale(1.2);
+}
+#resetbtnS{/*Reset button on the screen*/
+    margin: 0.5rem;
+    margin-right: 6rem;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 0.8;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid whitesmoke;
+    background: rgb(15, 41, 187);
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+#resetbtnS:hover{
+     transform: scale(1.2);
+}
+.playbtn {
+    color: #00ff0d;
+    overflow:visible;
+}
+
+/*-------------------------------------------NAVBAR-----------------------------*/
+.linglanglogo {
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+}
+
+.linglang:hover {
+  color: #fafafa;
+  transform: scale(1.2);
+}
+
+.linglang-hero {
+  height: 80px;
+  width: 80px;
+  padding: 5px;
+}
+.nav-link{
+    border-radius: 20%;
+}
+.nav-link:hover{
+    border-radius: 50%;
+    background: rgba(17, 29, 204);
+    color: #fafafa;
+}
+
+.bg-color-navbar {
+  background: rgb(6 ,21, 104);
+  box-shadow: 2px 2px white;
+}
+
+.nav-text-color {
+  color: #00ff0d;
+}
+
+.linglanglogo{
+     background: #00ff0d;
+     border-radius: 10%;
+}
+
+.navbar-toggler {
+  color: #000;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 20px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-brand:hover {
+  color: #fafafa;
+}
+
+.book-button-nav {
+  background-image: linear-gradient(to right, rgb(50, 69, 175) , rgb(17, 20, 204));
+  color: #00ff0d;;
+  transition: all 0.3s;
+  border-radius: 5%;
+  margin-right: 20px;
+ padding: .5rem .5rem;
+}
+
+.dropdown-menu{
+    overflow: visible;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    
+}
+.dropdown-item {
+    overflow: visible;
+    background-image: linear-gradient(to right, rgb(50, 69, 175) , rgb(17, 20, 204));
+    color: #fafafa;
+     text-shadow: 2px 2px 4px #000000;
+    
+}
+.dropdown-item:hover{
+    color:#00ff0d;
+}
+.book-button-nav:hover {
+  border-radius: 50%;
+    background: rgba(17, 29, 204);
+  color: #fafafa;
+  transform: scale(1.2);
+}
+
+.overflow{
+    overflow: hidden;
+}
+
+/*---------------------------------- Game info and Title ----------*/
+
+.title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 3em;
+    color: #fffb00;
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Kalam', cursive;
+    
+    }
+ .game-info{
+     margin: 0 20px;
+     font-family: 'Josefin Sans', sans-serif;
+     color: #fffb00;
+     font-size: 4em;
+     text-shadow: 2px 2px 5px rgb(225, 0, 0);
+}  
+
+.game-info-container{
+    grid-column: 1 / -1; /* spaces the cards out */
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-container{ /* repeats the grid after the forth colum to create 4 rows */
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-gap: 10px; 
+    justify-content: center;
+    perspective: 500px /* in order to make the card appear to flip*/
+}
+
+#herebtn {
+    color: #fffb00;
+    text-shadow: 2px 2px 5px rgb(225, 0, 0);
+}
+
+/*---------------------------------- Card face,back and general css ----------*/
+
+
+.card{ /* background-color: for cards in order to manipulate the css */
+    position: relative; /* makes sure card face will be inside of our card */
+    cursor: pointer;
+    height: 175px;
+    width: 125px;
+
+    background-color: rgba(0,0,0,0);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: .25rem;
+    
+   
+}
+
+.card-face{
+    position: absolute; /* to over lap on top of each other */
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden; /*To fix the images breaking the borders of the cardface*/
+    backface-visibility: hidden;
+    border-radius: 12px ;
+    border-width: 1px ;
+    border-style: solid;
+    transition: transform 500ms ease-in-out; /* this is to slow down the flipping of the card once hovered over*/
+    
+}
+
+.card.vis .card-back{
+ transform: rotateY(-180deg);
+ 
+}
+.card.vis .card-front{
+ transform: rotateY(0);
+ border: 1px solid yellow;
+ box-shadow: 5px 5px rgb(17, 20, 204); /*adds a shadow when card is flipped */
+}
+
+.card.matched .card-value{
+    animation: dance 1.5s linear infinite 500ms;
+}
+
+@keyframes dance{
+    0% ,100%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(-30deg);
+    }
+    75%{
+        transform: rotate(30deg);
+    }
+}
+
+.card-back{
+     background: #f0f40da6;
+    border: 2px solid #28a745;
+    box-shadow: 2px 2px 2px red;
+}
+
+.card-front{
+     background: rgb(228, 223, 223);
+    border: 2px solid #fffb00;
+    transform: rotateY(180deg);
+   
+}
+.card-value {
+  position: relative;
+  transition: transform 100ms ease-in-out;
+  transform: scale(.9);
+}
+.card-front:hover .card-value{
+    transition: transform 100ms ease-in-out;
+    transform: scale(.9,1);
+}
+
+
+/*---------------------------------- OverLay text ----------*/
+
+
+.overlay-text{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    color: #e3d0e8;
+    text-shadow: 2px 2px 5px red;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#victory-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+}
+.mark, mark {
+    color: #fafafa;
+    padding: .2em;
+    background-color: rgba(17, 20, 204, 0.5);
+    box-shadow: 5px 5px rgb(17, 20, 204);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.overlay-text-small{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+}
+
+.overlay-text.vis{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction:column;
+    animation: overlay-grow 500ms forwards;
+}
+
+@keyframes overlay-grow{
+    from{
+        font-family: 'Kalam', cursive;
+        background-color: rgba(0,0,0,0);
+        font-size:0;
+    }
+    to{
+         background-image: linear-gradient(to left, rgba(246, 160, 14, 0.5),rgba(50, 69, 175,0.5));
+         font-size: 2.5em;
+        font-family: 'Kalam', cursive;
+    }
+}
+.p-text{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.p-text > small{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.paw{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    transition: width 100ms ease-in-out, height 100ms ease-in-out;
+}
+
+.card-face:hover .paw{
+    width: 40px;
+    height: 40px;
+}
+
+.paw-top-left{
+    transform: rotate(270deg);
+    top: 0;
+    left: 0;
+    background: rgb(35, 32, 207);
+    border: 0px solid #fffb00;
+    box-shadow: 2px 2px 2px red;
+    color: #fafafa
+}
+.paw-top-right{
+     
+    top: 0;
+    right: 0;
+}
+.paw-bottom-left{
+    transform: rotate(180deg);
+    bottom: 0;
+    left: 0;
+}
+.paw-bottom-right{
+    transform: rotate(90deg);
+    bottom:0 ;
+    right:0 ;
+    }
+
+.bearpaw{
+    margin-top: 25%;
+    width: 100%;
+     align-self: flex-start;
+     transform: translateY(-10px);
+     transition: transform 100ms ease-in-out;
+}
+
+
+.card-back:hover .bearpaw{
+    transform: translateY(0);
+}
+
+/*---------------------------------- Media Queries----------*/
+
+@media (max-width:1025px){
+
+    .game-container{ /* repeats the grid after the forth colum to create 4 rows */
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px; 
+    justify-content: center;
+    perspective: 500px /* in order to make the card appear to flip*/
+    }
+    #resetbtnS{/*Reset button on the screen*/
+    margin: 0.5rem;
+    
+}
+}
+
+ @media (max-width: 600px){
+    .title{
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+        color: #fffb00;
+        font-family: 'Josefin Sans', sans-serif;
+        text-shadow: 2px 2px 5px rgb(225, 0, 0);
+    }
+    .game-info{
+        color: #fffb00;
+        text-shadow: 2px 2px 5px red;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 2em;
+        
+    }  
+    .game-container{
+        grid-template-columns: repeat(4,auto);
+    }
+    .game-info-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{ 
+        position: relative; 
+        cursor: pointer;
+        height: 125px;
+        width: 75px;
+    }
+    .card-value {
+        position: relative;
+        width: 100%;
+        transition: transform 100ms ease-in-out;
+        transform: scale(.9);
+        }
+    
+    
+    .paw{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        transition: width 100ms ease-in-out, height 100ms ease-in-out;
+    }
+    .card-face:hover .paw{
+        width: 25px;
+        height: 25px;
+    }
+    .bearpaw{
+        align-self: flex-start;
+        height: 70%;
+        width: 70%;
+        transform: translateY(-10px);
+        transition: transform 100ms ease-in-out;
+    }
+    .mark, mark {
+    
+    color: #fafafa;
+    padding: .2em;
+    background-color: rgba(17, 20, 204, 0.5);
+    box-shadow: 5px 5px rgb(17, 20, 204);
+    font-family: 'Josefin Sans', sans-serif;
+}
+#resetbtnS{/*Reset button on the screen*/
+    margin: 0.5rem;
+    margin-right: 1rem;
+}
+}
+
+@media (max-width: 400px){
+    .game-container{
+        grid-template-columns: repeat(4,auto);
+    }
+    .game-info-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{ 
+        position: relative; 
+        cursor: pointer;
+        height: 90px;
+        width: 50px;
+    }
+    .paw{
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        transition: width 100ms ease-in-out, height 100ms ease-in-out;
+    }
+    .card-face:hover .paw{
+        width: 21px;
+        height: 21px;
+}
+        
+        
+}
