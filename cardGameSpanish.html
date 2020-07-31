@@ -11,7 +11,7 @@
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
  <!--game Style Sheet-->
-<link rel="stylesheet" href="assets/css/gamestyle.css">
+<link rel="stylesheet" href="assets/css/spanish.css">
    
  <script src="assets/js/game.js" async></script> <!--async is there to load javascript at the same time-->
 
@@ -19,7 +19,7 @@
 </head>
 <body>
 <!--======================================================================================NavBar Section here-->
-  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top"> <!--removed overflow so dropdown menu would work more sweetly-->
+  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top "> <!--removed overflow so dropdown menu would work more sweetly-->
     <a href="index.html" class="navbar-brand nav-text-color hvr-glow" id="logo-nav"><img src="assets/img/logos/LingLang.png"
         class="linglanglogo" alt="" />LingLang</a>
 
@@ -45,8 +45,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item hvr-glow" href="#">In German </a>
-          <a class="dropdown-item hvr-glow" href="cardGameFrench.html">In French </a>
-          <a class="dropdown-item hvr-glow" href="cardGameSpanish.html">In Spanish </a>
+          <a class="dropdown-item" href="cardGameEnglish.html">In English</a>
+          <a class="dropdown-item hvr-glow" href="cardGameFrench.html">In French</a>
         </div>
       </li>
       </ul>
@@ -59,7 +59,7 @@
  <section class="overflow game-size">
     <h1 class="title">Animal Word Match</h1>
     <div class="overlay-text vis " id="intro"> <!--put vis back-->
-        <mark> <p class="text-center p-text ml-2 mr-2 mt-3">How to play <br><small>There are 16 cards.<br>Match the cards and beat the clock! <br>
+        <mark> <p class="text-center p-text ml-2 mr-2 mt-3"> How to play <br><small>There are 16 cards.<br>Match the cards and beat the clock! <br>
         Click <button type="button"  id="startgame" class="btn btn-info"><i class="fas fa-play-circle fa-2x"></i></button> <!--onclick="style.display = 'none'" -->
      </small> <br>
     </p></mark>
@@ -71,7 +71,7 @@
     </div>
     <div id="victory-text" class="overlay-text ">
     <mark>&#129321; Well Done! &#129321;
-     <p><small>You just learned some new words in English.</small></p>
+     <p><small>You just learned some new words in French.</small></p>
      <span class="overlay-text-small"> <button type="button" onclick="window.location.reload();" id="resetbtnV"  class="btn btn-info">Click</button> to play again.</span></mark>
     </div>
     <div class="game-container">
@@ -120,7 +120,7 @@
                 <img class="paw paw-top-right" src="assets/img/animalimages/paw.png" alt="a paw top right">
                 <img class="paw paw-bottom-left" src="assets/img/animalimages/paw.png" alt="a paw bottom left">
                 <img class="paw paw-bottom-right" src="assets/img/animalimages/paw.png" alt="a paw bottom right">
-                <img class="card-value" src="assets/img/animalimages/elephantwrd.png" alt="an elephant">
+                <img class="card-value" src="assets/img/spanishwords/elephantsp.png" alt="an elephant">
             </div>
          </div><div class="card" data-framework="2">
          <!--Classes for back of cards-->
@@ -154,7 +154,7 @@
                 <img class="paw paw-top-right" src="assets/img/animalimages/paw.png" alt="a paw top right">
                 <img class="paw paw-bottom-left" src="assets/img/animalimages/paw.png" alt="a paw bottom left">
                 <img class="paw paw-bottom-right" src="assets/img/animalimages/paw.png" alt="a paw bottom right">
-                <img class="card-value" src="assets/img/animalimages/foxwrd.png" alt="a fox">
+                <img class="card-value" src="assets/img/spanishwords/foxsp.png" alt="a fox">
             </div>
          </div><div class="card" data-framework="3">
          <!--Classes for back of cards-->
@@ -188,7 +188,7 @@
                 <img class="paw paw-top-right" src="assets/img/animalimages/paw.png" alt="a paw top right">
                 <img class="paw paw-bottom-left" src="assets/img/animalimages/paw.png" alt="a paw bottom left">
                 <img class="paw paw-bottom-right" src="assets/img/animalimages/paw.png" alt="a paw bottom right">
-                <img class="card-value" src="assets/img/animalimages/frogwrd.png" alt="a frog">
+                <img class="card-value" src="assets/img/spanishwords/frogsp.png" alt="a frog">
             </div>
          </div><div class="card" data-framework="4">
          <!--Classes for back of cards-->
@@ -222,7 +222,7 @@
                 <img class="paw paw-top-right" src="assets/img/animalimages/paw.png" alt="a paw top right">
                 <img class="paw paw-bottom-left" src="assets/img/animalimages/paw.png" alt="a paw bottom left">
                 <img class="paw paw-bottom-right" src="assets/img/animalimages/paw.png" alt="a paw bottom right">
-                <img class="card-value" src="assets/img/animalimages/giraffewrd.png" alt="a giraffe">
+                <img class="card-value" src="assets/img/spanishwords/giraffesp.png" alt="a giraffe">
             </div>
          </div><div class="card" data-framework="5">
          <!--Classes for back of cards-->
@@ -256,7 +256,7 @@
                 <img class="paw paw-top-right" src="assets/img/animalimages/paw.png" alt="a paw top right">
                 <img class="paw paw-bottom-left" src="assets/img/animalimages/paw.png" alt="a paw bottom left">
                 <img class="paw paw-bottom-right" src="assets/img/animalimages/paw.png" alt="a paw bottom right">
-                <img class="card-value" src="assets/img/animalimages/hippowrd.png" alt="a hippo">
+                <img class="card-value" src="assets/img/spanishwords/hipposp.png" alt="a hippo">
             </div>
          </div><div class="card" data-framework="6">
          <!--Classes for back of cards-->
@@ -290,7 +290,7 @@
                 <img class="paw paw-top-right" src="assets/img/animalimages/paw.png" alt="a paw top right">
                 <img class="paw paw-bottom-left" src="assets/img/animalimages/paw.png" alt="a paw bottom left">
                 <img class="paw paw-bottom-right" src="assets/img/animalimages/paw.png" alt="a paw bottom right">
-                <img class="card-value" src="assets/img/animalimages/lionwrd.png" alt="a lion">
+                <img class="card-value" src="assets/img/spanishwords/lionsp.png" alt="a lion">
             </div>
          </div><div class="card" data-framework="7">
          <!--Classes for back of cards-->
@@ -324,7 +324,7 @@
                 <img class="paw paw-top-right" src="assets/img/animalimages/paw.png" alt="a paw top right">
                 <img class="paw paw-bottom-left" src="assets/img/animalimages/paw.png" alt="a paw bottom left">
                 <img class="paw paw-bottom-right" src="assets/img/animalimages/paw.png" alt="a paw bottom right">
-                <img class="card-value" src="assets/img/animalimages/tigerwrd.png" alt="a tiger">
+                <img class="card-value" src="assets/img/spanishwords/tigersp.png" alt="a tiger">
             </div>
          </div><div class="card" data-framework="8">
          <!--Classes for back of cards-->
@@ -358,13 +358,13 @@
                 <img class="paw paw-top-right" src="assets/img/animalimages/paw.png" alt="a paw top right">
                 <img class="paw paw-bottom-left" src="assets/img/animalimages/paw.png" alt="a paw bottom left">
                 <img class="paw paw-bottom-right" src="assets/img/animalimages/paw.png" alt="a paw bottom right">
-                <img class="card-value" src="assets/img/animalimages/zebrawrd.png" alt="a zebra">
+                <img class="card-value" src="assets/img/spanishwords/zebrasp.png" alt="a zebra">
             </div>
          </div>
         
     </div>
     </section>
-     <!--=======================================================================================Footer Section here-->
+      <!--=======================================================================================Footer Section here-->
   <footer class="container-fluid text-center">
   <div class="row">
     <div class="col-sm-4  d-none d-sm-block side-item">
@@ -400,7 +400,6 @@
     </div>
          
   </footer>
-
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>

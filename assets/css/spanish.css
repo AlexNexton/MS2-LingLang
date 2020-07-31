@@ -306,10 +306,9 @@ body{
 }
 
 .card-back{
-     background: #009b1a;
-    border: 2px solid #fffb00;
+     background: #f0f40da6;
+    border: 2px solid #28a745;
     box-shadow: 2px 2px 2px red;
-   
 }
 
 .card-front{
@@ -469,7 +468,6 @@ footer{
     margin: 10px auto;
     
 }
-
 
 /*---------------------------------- Media Queries----------*/
 
