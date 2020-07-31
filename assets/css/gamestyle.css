@@ -447,14 +447,30 @@ footer{
      background: rgb(6 ,21, 104);
   box-shadow: 2px 2px white;
   overflow: hidden;
+  color: #00ff0d;
+  padding: 15px;
 }
-.container-fluid {
-    padding: 15px;
-    
-}
+
 .social-links {
     margin-top: 20px;
 }
+.social-links li a i {
+    height: 50px;
+    width: 50px;
+    color: #00ff0d;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-links li a i:hover {
+  background-color: #fafafa;
+}
+.side-item{
+    margin: 10px auto;
+    
+}
+
+
 /*---------------------------------- Media Queries----------*/
 
 @media (max-width:1025px){
