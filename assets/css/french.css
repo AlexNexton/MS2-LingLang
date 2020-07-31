@@ -441,6 +441,20 @@ body{
 .card-back:hover .bearpaw{
     transform: translateY(0);
 }
+/*----------------------------------------------FOOTER------------------*/
+
+footer{
+     background: rgb(6 ,21, 104);
+  box-shadow: 2px 2px white;
+  overflow: hidden;
+}
+.container-fluid {
+    padding: 15px;
+    
+}
+.social-links {
+    margin-top: 20px;
+}
 
 /*---------------------------------- Media Queries----------*/
 
