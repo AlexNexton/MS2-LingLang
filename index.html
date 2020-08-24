@@ -683,7 +683,12 @@
           <!-- Order to go form: End-->
         </div>
       </div>
-
+		<div class="row">
+			<div class="col-12">
+				<!--this is the id for the google maps api-->
+				<div id="map"></div>
+			</div>
+		</div>
     <div class="row justify-content-center">
       <div class="col-12 col-md-5 col-lg-5 mt-3 email-phone ml-2">
         <p><i class=" fas fa-phone-square-alt"></i> +351 135 71113 <br><i class="fas fa-envelope mt-3"></i>
@@ -733,7 +738,17 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <!--My Script-->
+
+<!--Google maps API script-->
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<!--Code for API in this folder-->
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVppYxDXr0xHzHR4izAjGepcP_PJaDH_g&callback=initMap"></script>
+
+<script src="assets/js/maps.js"></script>
 
 </body>
 </html>
