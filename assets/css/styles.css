@@ -146,8 +146,10 @@ body{
 
 #map {
   min-height: 360px;
-  margin-left: 32%;
-  width: 500px;
+  margin: 5% 10% 5% 20%;
+  width: 820px;
+  border: 1px solid #f0ede5;
+  border-radius: 5%;
 }
 
 
@@ -160,6 +162,7 @@ body{
   
   margin: 5% 10% 5% 20% ;
   width: 600px;
+  border-radius: 5%;
 }
 }
 @media (max-width:768px){
@@ -169,6 +172,7 @@ body{
   
   margin: 5% 10% 5% 20% ;
   width: 450px;
+  border-radius: 5%;
 }
 }
 
@@ -179,6 +183,7 @@ body{
   
   margin: 10% 10% 10% 7% ;
   width: 300px;
+  border-radius: 5%;
 }
 }
 @media (max-width:450px){
@@ -188,6 +193,17 @@ body{
   
   margin: 5% 10% 5% 17% ;
   width: 280px;
+  border-radius: 5%;
+}
+}
+@media (max-width:414px){
+   
+ #map {
+  min-height: 280px;
+  
+  margin: 5% 10% 5% 14% ;
+  width: 280px;
+  border-radius: 5%;
 }
 }
 
@@ -198,6 +214,7 @@ body{
   
   margin: 5% 10% 5% 14% ;
   width: 280px;
+  border-radius: 5%;
 }
 }
 
@@ -208,6 +225,7 @@ body{
   
   margin: 5% 10% 5% 15% ;
   width: 240px;
+  border-radius: 5%;
 }
 }
 @media (max-width:320px){
@@ -217,6 +235,7 @@ body{
   
   margin: 5% 10% 5% 9% ;
   width: 240px;
+  border-radius: 5%;
 }
 }
 
@@ -227,5 +246,6 @@ body{
   
   margin: 5% 10% 5% 2% ;
   width: 240px;
+  border-radius: 5%;
 }
 }
