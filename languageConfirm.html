@@ -11,6 +11,7 @@
   <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
+
 </head>
 <body>
 <div class="container-fluid ">
@@ -19,19 +20,25 @@
     <div class="col-12 confirmation-page " data-toggle="modal" data-target="#chooseLanguage">
     <img src="assets/img/logos/LingLang.png" class=""
               alt="LingLang Logo">
-     Thank you for joining our team!
-     All of us here at LingLang would like to take this opportunity to wish you a warm welcome.<br>
+     Thank you <span id="name1Confirm"></span>  for joining our team! <br>
+     All of us here at LingLang would like to take this opportunity to wish you a warm welcome.<br> <br>
+    <h2>Class details</h2>
     Number of Children: <span id="childConfirm"></span><br>
     Date and time of lesson: <span id="dateConfirm"></span> @ <span id="timeConfirm"></span><br>
-    A confirmation email has been sent to the email address provided. <br> <br>
+    A confirmation email has been sent to <span id="email1Confirm"></span> <br> <br>
+    
 	<a href="index.html" class="btn book-button2  badge-pill">Back to Main Page</a></div>
     </div>
+    
     <script src="assets/js/languageconfirm.js"></script>
     
     
 
 
 </div>
+
+<!--Script for sendEmail.js-->
+<script src="assets/js/sendEmail.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
