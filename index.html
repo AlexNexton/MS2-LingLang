@@ -395,6 +395,7 @@
   </section>
   <hr>
   <!--=========================================================================================================Choose Language- sign up-->
+  
   <section class="signup-section container-fluid  over-flow text-center" id="signup">
     <div class="row justify-content-center">
       <div class="col-12">
@@ -425,7 +426,7 @@
                   </div>
                 </div>
                 <!-- 1.2 Joining a class: Main body -->
-                <form onsubmit="return sendMail(this);"  class="container pt-3" id="tableBookingForm" action="languageConfirm.html" >
+                <form class="container pt-3" id="tableBookingForm" action="languageConfirm.html" >
                   <div class="row justify-content-center">
                     <div class="col-12 col-sm-6">
                       <!-- 1.1.1 name input-->
@@ -583,7 +584,7 @@
 
                 </div>
                 <!-- 1.2 Order to Go form: Main body -->
-                <form class="container pt-3" id="contactAdminForm" action="confirmation.html">
+                <form  class="container pt-3" id="contactAdminForm" action="confirmation.html">
                   <div class="row justify-content-center">
                     <div class="col-12 col-sm-6">
                       <!-- 1.1.1 name input-->
@@ -617,6 +618,22 @@
                             
                           </select>
 
+                        </div>
+                      </div>
+                       <!-- 1.1.4 Choose date-->
+                      <div class="form-group mb-0">
+                        <div class="px-0">
+                          <label for="date"></label>
+                          <select name="date" class="form-control" id="date1" required>
+                            <option value="">Day of the week</option>
+                            <option value="Monday">Monday</option>
+                            <option value="Tuesday">Tuesday</option>
+                            <option value="Wednesday">Wednesday</option>
+                            <option value="Thursday">Thursday</option>
+                            <option value="Friday">Friday</option>
+                            <option value="Saturday">Saturday</option>
+                            <option value="Sunday">Sunday</option>
+                          </select>
                         </div>
                       </div>
                       <!-- 1.1.5 Choose callback time -->
