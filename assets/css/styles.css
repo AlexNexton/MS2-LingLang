@@ -146,6 +146,21 @@ body{
   margin: 0 auto;
   padding: 0 auto;
 }
+/*----------------------------Choose Language & Confirmation Section */
+.linglang-confirm-logo{
+     height: 180px;
+  width: 180px;
+  padding: 5px;
+  background: #00ff0d;
+  border-radius: 10%;
+  margin: 20px auto;
+}
+
+.confirm-form{
+    text-align: center;
+}
+
+
 /*----------------------------Sub-inquiry Section */
 .linglang-subhero {
   height: 280px;
@@ -164,15 +179,17 @@ body{
 }
 
 .book-button2{
-    background-color: blue;
+    background-color: rgb(6 ,21, 104);
     color: #fafafa;
-    font-size: 20px;
+    font-size: 30px;
+    margin: 10px;
 }
 
 .book-button2:hover{
     background-color: white;
-    color: blue;
-    font-size: 20px;
+    color: rgb(6 ,21, 104);
+    font-size: 30px;
+    margin: 10px;
 }
 
 /**-----------Location section--------------*/
@@ -184,6 +201,35 @@ body{
   border: 1px solid #f0ede5;
   border-radius: 5%;
 }
+/**-----------Footer section--------------*/
+
+footer{
+ 
+  overflow: hidden;
+  color: #00ff0d;
+  padding: 15px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+.social-links li a i {
+    background-color:rgb(6 ,21, 104); 
+    height: 50px;
+    width: 50px;
+    color: #00ff0d;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-links li a i:hover {
+  background-color: #fafafa;
+}
+.side-item{
+    margin: 10px auto;
+    
+}
+
 
 
 /**-----------Media Query section--------------*/
