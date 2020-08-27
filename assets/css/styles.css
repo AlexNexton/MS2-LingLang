@@ -21,6 +21,7 @@ body{
   height: 60px;
   width: 60px;
   padding: 5px;
+  margin: 5px;
 }
 
 .linglang:hover {
@@ -147,6 +148,20 @@ body{
   padding: 0 auto;
 }
 /*----------------------------Choose Language & Confirmation Section */
+
+.book-button3 {
+  background-color:rgb(6 ,21, 104);
+  color: #fafafa;
+  transition: all 0.3s;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.book-button3:hover {
+  color: #fafafa;
+  transform: scale(1.2);
+  font-size: 30px;
+}
 .linglang-confirm-logo{
      height: 180px;
   width: 180px;
