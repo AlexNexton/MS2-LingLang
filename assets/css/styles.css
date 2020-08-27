@@ -109,9 +109,13 @@ body{
 
 /*----------------------------------The Welcome section----------*/
 .welcome-section {
-  background: url(../img/indeximgs/crayons.jpg) no-repeat center fixed;
+  background: url(../img/indeximgs/bluehands.jpg) no-repeat center fixed;
   background-size: cover;
   height: 100vh;
+}
+
+.welcome-quote{
+    color: #fafafa;
 }
 
 /*----------------------------------The Form----------*/
