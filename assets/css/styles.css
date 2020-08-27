@@ -5,6 +5,7 @@ body{
    font-family: 'Libre Baskerville', serif; 
    background-image: linear-gradient(#f0ede5, #42ad03);
    color: navy;
+   min-height: 100vh;
         
 }
 .over-flow{
@@ -144,6 +145,34 @@ body{
   font-size: 1.5rem;
   margin: 0 auto;
   padding: 0 auto;
+}
+/*----------------------------Sub-inquiry Section */
+.linglang-subhero {
+  height: 280px;
+  width: 280px;
+  padding: 5px;
+  background: #00ff0d;
+  border-radius: 10%;
+  margin: 20px auto;
+  
+}
+
+.sub-paragraph{
+     text-align: center;
+     margin: 10px;
+     font-size: 20px;
+}
+
+.book-button2{
+    background-color: blue;
+    color: #fafafa;
+    font-size: 20px;
+}
+
+.book-button2:hover{
+    background-color: white;
+    color: blue;
+    font-size: 20px;
 }
 
 /**-----------Location section--------------*/
