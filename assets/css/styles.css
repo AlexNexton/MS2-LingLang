@@ -6,14 +6,13 @@ body{
    background-image: linear-gradient(#f0ede5, #42ad03);
    color: navy;
    min-height: 100vh;
-        
 }
 .over-flow{
     overflow: hidden;
 }
 
 .container-fluid{/*might add padding later*/
-    
+    overflow: hidden;
 
 }
 /*----------------------------------Navbar---------*/
@@ -138,7 +137,7 @@ body{
   border: none;
 }
 
-#booking-font {
+.booking-font {
  font-family: 'Libre Baskerville', serif; 
   color: navy;
   font-size: 1.5rem;
@@ -158,18 +157,35 @@ body{
 }
 /*----------------------------Choose Language & Confirmation Section */
 
+.signup-section{
+  background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.contact-section {
+ background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+.map-section {
+ background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
 .book-button3 {
   background-color:rgb(6 ,21, 104);
   color: #fafafa;
   transition: all 0.3s;
-  font-size: 30px;
+  font-size: 40px;
   margin: 10px;
 }
 
 .book-button3:hover {
   color: #fafafa;
   transform: scale(1.2);
-  font-size: 30px;
+  font-size: 40px;
 }
 .linglang-confirm-logo{
      height: 180px;
@@ -232,6 +248,10 @@ footer{
   overflow: hidden;
   color: #00ff0d;
   padding: 15px;
+}
+#footerbg{
+    margin-top: 5px;
+    background-color: rgb(6 ,21, 104);
 }
 
 .social-links {
