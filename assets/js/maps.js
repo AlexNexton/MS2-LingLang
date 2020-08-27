@@ -4,12 +4,12 @@ function initMap() { // Google maps function and theme
 
     let map = new google.maps.Map(document.getElementById("map"), {
 
-        zoom: 12,
+        zoom: 13,
 
         center: LingLang,
 
         styles: [
-            { elementType: 'geometry', stylers: [{ color: '#615550' }] },
+            { elementType: 'geometry', stylers: [{ color: '#42ad03' }] },
             { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
             {
