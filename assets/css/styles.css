@@ -214,9 +214,25 @@ body{
 
 .sub-paragraph{
      text-align: center;
-     margin: 10px;
      font-size: 20px;
+     color: #fafafa;
+
+      background: url(../img/indeximgs/littlegirl.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     align-items: center;
+     justify-content: center;
+
+     position: relative;
 }
+.bg-square {
+    background-color: rgba(6, 21, 104, 0.5);
+    padding: 30px;
+    font-size: 14px;
+}
+
 
 .book-button2{
     background-color: rgb(6 ,21, 104);
