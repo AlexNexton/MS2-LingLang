@@ -22,6 +22,10 @@ body{
 .carousel-indicators{ /*Added so that the btn is clickable on all of it's surface*/
     position: relative;
 }
+.carousel-control-prev,
+.carousel-control-next {
+    bottom: auto;
+}
 /*----------------------------------Navbar---------*/
 .linglanglogo {
   height: 60px;
