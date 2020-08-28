@@ -15,6 +15,13 @@ body{
     overflow: hidden;
 
 }
+.carousel-indicators li{ /*Added to remove white carosel markers below each image */
+    width: 0px;
+    height: 0px;
+}
+.carousel-indicators{ /*Added so that the btn is clickable on all of it's surface*/
+    position: relative;
+}
 /*----------------------------------Navbar---------*/
 .linglanglogo {
   height: 60px;
