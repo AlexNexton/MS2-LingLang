@@ -129,6 +129,8 @@ h2{
 
 .welcome-quote{
     color: #fafafa;
+    margin-top: 4rem;
+    font-size: 1.2rem;
 }
 /*----------------------------------Try Our Game section----------*/
 .btn-primary{
@@ -347,14 +349,18 @@ footer{
   width: 600px;
   border-radius: 5%;
 }
+.linglanglogo-hero{
+    width: 40%;
+    height: 40%;
+}
+
+
 .justify-content-center {
     margin: 180px 0 0 0;
     }
     p{
         padding: 15px;
-    }
-
-
+     }
 }
 @media (max-width:768px){
    
