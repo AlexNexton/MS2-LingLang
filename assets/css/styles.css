@@ -130,6 +130,17 @@ h2{
 .welcome-quote{
     color: #fafafa;
 }
+/*----------------------------------Try Our Game section----------*/
+.btn-primary{
+   background-color: rgb(6 ,21, 104);
+       border-color: rgb(6 ,21, 104);
+    color: #fafafa;
+    transition: all 0.3s;
+}
+.btn-primary:hover {
+  color: #fafafa;
+  transform: scale(1.2);
+}
 
 /*----------------------------------The Form----------*/
 .form-legal-info {
@@ -153,12 +164,15 @@ h2{
 
 .booking-font {
  font-family: 'Libre Baskerville', serif; 
-  color: navy;
-  font-size: 1.5rem;
+  color: #fafafa;
+  font-size: 1rem;
   line-height: 2em;
+  background-color: rgba(6, 21, 104, 0.5);
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
   
-  
-}
+  }
 
 /*----------------------------Contact Section */
 .email-phone {
@@ -202,7 +216,7 @@ h2{
   color: #fafafa;
   transition: all 0.3s;
   font-size: 40px;
-  margin: 10px;
+  margin: 10px 20px 0 10px;
 }
 
 .book-button3:hover {
@@ -325,6 +339,8 @@ footer{
   width: 600px;
   border-radius: 5%;
 }
+
+
 }
 @media (max-width:768px){
    
@@ -387,6 +403,19 @@ footer{
   margin: 5% 10% 5% 15% ;
   width: 240px;
   border-radius: 5%;
+}
+.book-button3{
+    margin: 15%;
+    
+}
+.btn-primary{
+   background-color: rgb(6 ,21, 104);
+    color: #fafafa;
+    transition: all 0.3s;
+    
+}
+h2{
+    font-size: 40px;
 }
 }
 @media (max-width:320px){
