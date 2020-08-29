@@ -191,7 +191,8 @@ h2{
 .signup-section{
   background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
   background-size: cover;
-  height: 100vh;
+  padding: 10%;
+ 
 }
 #contact{
     padding-top: 100px;
@@ -203,7 +204,7 @@ h2{
 .contact-section {
  background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
   background-size: cover;
-  height: 100vh;
+  
 }
  
 .book-button3 {
@@ -293,6 +294,13 @@ h2{
   background-size: cover;
   height: 100vh;
 }
+
+.email-phone{
+    margin-top: 2rem;
+    font-size: 100%;
+    background-color: rgb(6 ,21, 104);
+    color: #fafafa;
+}
 /**-----------Footer section--------------*/
 
 footer{
@@ -339,6 +347,12 @@ footer{
   width: 600px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 180px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
 
 
 }
@@ -351,6 +365,9 @@ footer{
   width: 450px;
   border-radius: 5%;
 }
+
+
+
 }
 
 @media (max-width:500px){
@@ -372,6 +389,13 @@ footer{
   width: 280px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 8px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
+
 }
 @media (max-width:414px){
    
@@ -382,6 +406,13 @@ footer{
   width: 280px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 57px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
+
 }
 
 @media (max-width:411px){
@@ -393,6 +424,13 @@ footer{
   width: 280px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 57px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
+
 }
 
 @media (max-width:375px){
@@ -418,6 +456,12 @@ h2{
     font-size: 40px;
     margin-bottom: 10px;
 }
+.justify-content-center {
+    margin: 58px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
 }
 @media (max-width:320px){
    
@@ -428,6 +472,12 @@ h2{
   width: 240px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 34px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
 }
 
 @media (max-width:280px){
@@ -439,4 +489,10 @@ h2{
   width: 240px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 52px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
 }
