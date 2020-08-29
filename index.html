@@ -27,9 +27,9 @@
 
 
 <!--======================================================================================NavBar Section here-->
-  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid  sticky-top">
+  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top">
     <a href="index.html" class="navbar-brand nav-text-color" id="logo-nav"><img src="assets/img/logos/LingLang.png"
-        class="linglanglogo" alt="" />LingLang</a>
+        class="linglanglogo" alt="linglanglogo" /></a>
 
     <button class="navbar-toggler nav-text-color ml-auto navbar-dark" type="button" data-toggle="collapse"
       data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -39,51 +39,48 @@
     <div class="collapse navbar-collapse nav-text-color" id="navbarNavDropdown">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item mr-2">
-          <a href="#" class="nav-link nav-text-color book-button">Home</a>
+          <a href="#" class="nav-link nav-text-color book-button hvr-grow-shadow">Home</a>
         </li>
         <li class="nav-item mr-2">
-          <a href="#menu" class="nav-link nav-text-color book-button">What we offer</a>
+          <a href="#menu" class="nav-link nav-text-color book-button hvr-grow-shadow">Play Game</a>
         </li>
         <li class="nav-item mr-2">
-          <a href="#contact" class="nav-link nav-text-color book-button">Contact Us</a>
-          <li class="nav-item mr-2 dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Play Game
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="cardGameEnglish.html">In English</a>
-          <a class="dropdown-item" href="cardGameFrench.html">In French </a>
-          <a class="dropdown-item" href="cardGameSpanish.html">In Spanish </a>
-        </div>
-      </li>
+          <a href="#contact" class="nav-link nav-text-color book-button hvr-grow-shadow">Contact Us</a>
+        </li>
+        <li class="nav-item mr-2">
+          <a href="#location" class="nav-link nav-text-color book-button hvr-grow-shadow">Map</a>
+        </li>
+        <li class="nav-item mr-2">
+          <a href="#footer" class="nav-link nav-text-color book-button hvr-grow-shadow">Social</a>
         </li>
       </ul>
     </div>
     <div class="d-none d-md-block">
-      <a href="#signup" class="book-button-nav nav-link badge-pill">Sign up!</a> <!--maybe game button?-->
+      <a href="#signup" class="book-button-nav nav-link badge-pill hvr-grow-shadow">Sign up!</a> <!--maybe game button?-->
     </div>
   </nav>
 
   <!--=================================================================================================Welcome Section here-->
-  <section class="welcome-section container-fluid over-flow">
+  <section class="welcome-section container-fluid">
     <div class="row mt-5 text-center">
       <div class="col-12">
-        <div class="welcome-message welcome-quote">
+        <div class="welcome-quote ">
 
-          <h1>Welcome to</h1>
-          <h2 class="mt-5" id="logo"> <img src="assets/img/logos/LingLang.png" class="linglanglogo-hero"
-              alt="LingLang Logo"></h2>
-          <p class="mt-3 ">“Start where you are. Use what you have. Do what you can.”</p>
+          <h1 id="welcome">Welcome to</h1>
+          <h2 class="mt-5 " id="logo"> 
+            <img src="assets/img/logos/LingLang.png" class="linglanglogo-hero" alt="LingLang Logo">
+          </h2>
+          <p class=" welcome-quote" id="welcome-q">“Start where you are. Use what you have. Do what you can.”</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!--===============================================================================================Menu Section here-->
-  <section class="menu-section container-fluid over-flow text-center" id="menu">
+  <!--===============================================================================================Try Our Game Section here-->
+  <section id="menu" class="menu-section container-fluid text-center">
     <div class="row text-uppercase">
       <div class="col-12 my-5">
-        <h2>Courses</h2>
+        <h2>Try Our Game</h2>
       </div>
     </div>
     <!-- Carousel on small and medium devices display sizes -->
@@ -98,130 +95,62 @@
             </ol>
             <div class="carousel-inner">
               <!-- Mobile view of languages Selection-->
+               <!-- English Selection-->
               <div class="carousel-item active">
                 <h3 class=" title-menu text-capitalize my-2 ">English</h3>
-                <img src="" class="d-block w-100" alt="">
+                <img src="assets/img/indeximgs/smallchild.jpg" class="d-block w-100" alt="table with apple">
                 <br>
-                <table class="table table-sm table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col"><i class="fas fa-"></i></th>
-                      <th scope="col"><i class="fas fa-"></i></th>
-                      <th scope="col"><i class="fas fa-"></i></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td> </td>
-                      <td></td>
-                      <td>-</td>
-                      <td>-</td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                    </tr>
-                  </tbody>
-                </table>
+                  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEnglishM" aria-expanded="false" aria-controls="collapseEnglishM">
+	                     Instructions
+	            </button>
+				<div class="collapse" id="collapseEnglishM">
+					<div class="card card-body">
+						<p> 
+                        You must match the animals with their spelling. <br> For example: <br>
+                        <br>
+                        Elephant = &#128024; <br>
+                        Tiger = &#128005; 
+                        <br>
+                        <br>Try out our game in English, click below!</p>
+						<a href="cardGameEnglish.html"><button class="btn btn-danger">Play</button></a>
+					</div>
+				</div>
               </div>
               <!-- French Selection-->
               <div class="carousel-item">
                 <h3 class=" title-menu text-capitalize my-2 ">French</h3>
-                <img src="" class="d-block w-100" alt="">
+                <img src="assets/img/indeximgs/apple.jpg" class="d-block w-100" alt="">
                 <br>
-                <table class="table table-sm table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col"><i class="fas fa- sm"></i></th>
-                      <th scope="col"><i class="fas fa- md"></i></th>
-                      <th scope="col"><i class="fas fa- lg"></i></th>
-                    </tr>
-                  </thead>
-				<tbody>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-					</tr>
-				</tbody>
-                </table>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseFrenchM" aria-expanded="false" aria-controls="collapseFrenchM">Instructions</button>
+				<div class="collapse" id="collapseFrenchM">
+					<div class="card card-body">
+						<p> You must match the animals with their spelling. <br> For example: <br>
+                        <br>
+                         l'éléphant = &#128024; <br>
+                        Tigre = &#128005; <br>
+                        <br>Try out our game in French, click below!</p>
+						<a href="cardGameFrench.html"><button class="btn btn-danger">Play</button></a>
+					</div>
+				</div>
               </div>
               <!-- Spanish Selection-->
               <div class="carousel-item">
                 <h3 class=" title-menu text-capitalize my-2 ">Spanish</h3>
-                <img src="" class="d-block w-100" alt="">
+                <img src="assets/img/indeximgs/kidwater.jpg" class="d-block w-100" alt="">
                 <br>
-                <table class="table table-sm table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col"><i class="fas fa- sm"></i></th>
-                      <th scope="col"><i class="fas fa- md"></i></th>
-                      <th scope="col"><i class="fas fa- lg"></i></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-                </table>
+                 <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSpanishM" aria-expanded="false" aria-controls="collapseSpanishM">
+	                     Instructions
+	            </button>
+				<div class="collapse" id="collapseSpanishM">
+					<div class="card card-body">
+						<p> You must match the animals with their spelling. <br> For example: <br>
+                        <br>
+                         Elefante = &#128024; <br>
+                         Tigre = &#128005; <br>
+                        <br>Try out our game in Spanish, click below!</p>
+						<a href="cardGameSpanish.html"><button class="btn btn-danger">Play</button></a>
+					</div>
+				</div>
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -237,137 +166,70 @@
       </div>
     </div>
     <!-- Menu display in 3 columns at large display and above only-->
-    <div class="row">
-      <!-- English Selection-->
-      <div class="d-none d-lg-block col-lg-4">
-        <div class="menu">
-          <h3 class="title-menu text-capitalize my-2">English</h3>
-          <img src="" class="d-block w-100" alt="">
-          <br>
-          <table class="table table-sm table-borderless">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col"><i class="fas fa- sm"></i></th>
-                <th scope="col"><i class="fas fa- md"></i></th>
-                <th scope="col"><i class="fas fa- lg"></i></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
+	<div class="row">
+		<!-- English Selection-->
+		<div class="d-none d-lg-block col-lg-4">
+			<div class="menu">
+				<h3 class="title-menu text-capitalize my-2">English</h3>
+				<img src="assets/img/indeximgs/smallchild.jpg" class="d-block w-100" alt="">
+				<br>
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEnglish" aria-expanded="false" aria-controls="collapseEnglish">
+	                     Instructions
+	            </button>
+				<div class="collapse" id="collapseEnglish">
+					<div class="card card-body">
+						<p>
+                        You must match the animals with their spelling. <br> For example: <br>
+                        <br>
+                        Elephant = &#128024; <br>
+                        Tiger = &#128005; <br>
+                        <br>Try out our game in English, click below!</p>
+						<a href="cardGameEnglish.html"><button class="btn btn-danger">Play</button></a>
+					</div>
+				</div>
+	
+			</div>
+		</div>
       <!-- French Selection-->
       <div class="d-none d-lg-block col-lg-4">
         <div class="idiomas">
           <h3 class="title-menu text-capitalize my-2">French</h3>
-          <img src="" class="d-block w-100" alt="">
+          <img src="assets/img/indeximgs/apple.jpg" class="d-block w-100" alt="">
           <br>
-          <table class="table table-sm table-borderless">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col"><i class="fas  sm"></i></th>
-                <th scope="col"><i class="fas md"></i></th>
-                <th scope="col"><i class="fas  lg"></i></th>
-              </tr>
-            </thead>
-             <tbody>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
+         <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseFrench" aria-expanded="false" aria-controls="collapseFrench">
+	                     Instructions
+	            </button>
+				<div class="collapse" id="collapseFrench">
+					<div class="card card-body">
+						<p> You must match the animals with their spelling. <br> For example: <br>
+                        <br>
+                         l'éléphant = &#128024; <br>
+                         Tigre = &#128005; <br>
+                        <br>Try out our game in French, click below!</p>
+						<a href="cardGameFrench.html"><button class="btn btn-danger">Play</button></a>
+					</div>
+				</div>
         </div>
       </div>
       <!-- Spanish Selection-->
       <div class="d-none d-lg-block col-lg-4">
         <div class="idiomas">
           <h3 class=" title-menu text-capitalize my-2 ">Spanish</h3>
-          <img src="" class="d-block w-100" alt="">
+          <img src="assets/img/indeximgs/kidwater.jpg" class="d-block w-100" alt="">
           <br>
-          <table class="table table-sm table-borderless">
-            <thead>
-              <tr>
-                <th scope="col"></th>
-                <th scope="col"><i class="fas fa- sm"></i></th>
-                <th scope="col"><i class="fas fa- md"></i></th>
-                <th scope="col"><i class="fas fa- lg"></i></th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSpanish" aria-expanded="false" aria-controls="collapseSpanish">
+	                     Instructions
+	            </button>
+				<div class="collapse" id="collapseSpanish">
+					<div class="card card-body">
+						<p> You must match the animals with their spelling. <br> For example:<br>
+                        <br>
+                         Elefante = &#128024; <br>
+                         Tigre = &#128005; <br>
+                        <br>Try out our game in Spanish, click below!</p>
+						<a href="cardGameSpanish.html"><button class="btn btn-danger">Play</button></a>
+					</div>
+				</div>
         </div>
       </div>
     </div>
@@ -381,7 +243,8 @@
     </a>
     <div class="row">
       <div class="col-12 menu-tag-line">
-        <p>insert language quote here<br></p>
+        <p><!--possible tagline to be put at a later time-->
+        </p>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -394,24 +257,48 @@
     </div>
   </section>
   <hr>
-  <!--=========================================================================================================Choose Language- sign up-->
+  <!--========================================================================================================= Sign up section-->
   
-  <section class="signup-section container-fluid  over-flow text-center" id="signup">
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <h2 class="text-uppercase my-5">Sign up</h2>
-        <p id="booking-font">
-          Choose the language you would like your child to learn below. <br>
-          Fun and games are the best way to learn a language.
-        </p>
+<section id="signup" class="signup-section container-fluid  text-center">
+ <div class="row justify-content-center">
+  <div class="col-12">
+     <h2 class="text-uppercase signup my-3">Sign up</h2>
+     <!-- Button trigger modal -->
+     <button type="button" class="btn btn-primary d-md-none d-lg-none" data-toggle="modal" data-target="#staticBackdrop">Read Me</button>
+<!-- Modal for Sign up section in mobile view -->
+<div class="modal fade  d-lg-none" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Sign up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         <p>
+          Firstly, we hope you enjoyed our free game and that you learned some new words. <br>
+          Signing up is easy, all you need to do is fill out the form below by clicking the button. <br>
+           <br> We will contact you.
+         </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+   </div>
+</div>
+    <p class="booking-font d-none d-sm-block ">
+	 Firstly, we hope you enjoyed our free game and that you learned some new words. <br>
+	 Signing up is easy, all you need to do is fill out the form below by clicking the button. <br>
+	  <br> We will contact you. <br>
+	</p>
       </div>
       <div class="col-12 col-sm-3 text-center mt-3">
         <div class="join-class">
-          <div class="btn book-button" data-toggle="modal" data-target="#chooseLanguage">
-            <a><i class="fas fa-child button" aria-hidden="true" title="join a class"></i><span
-                class="sr-only">Cup</span></a>
-            Choose a language :)
-          </div>
+          <div class="btn book-button3" data-toggle="modal" data-target="#chooseLanguage">
+            <a><i class="fas fa-child button" aria-hidden="true" title="join a class"></i><span class="sr-only">little child</span></a>
+        </div>
           <!-- 1. Joining a class form: Modal box-->
           <div class="modal fade" id="chooseLanguage" tabindex="-1" role="dialog" aria-labelledby="chooseLanguageFormHeader"
             aria-hidden="true">
@@ -553,21 +440,22 @@
       
     </div>
   </section>
-  <hr>
+  
   <!--==========================================================================================Contact Section here-->
-  <section class="contact-section container-fluid over-flow text-center" id="contact">
+  <section id="contact" class="contact-section container-fluid over-flow text-center">
     <div class="row">
       <div class="col-12">
         <h2 class="text-uppercase text-center">Contact us</h2>
+        <p class="booking-font">If you have any questions, <br> please click the button below to get in touch with us!</p>
 
       </div>
     </div>
   <div class="col-12 text-center my-3">
         <div class="contactAdmin">
-          <div class="btn book-button" data-toggle="modal" data-target="#contactAdmin">
+          <div class="btn book-button3" data-toggle="modal" data-target="#contactAdmin">
             <a><i class="fas fa-paper-plane button" aria-hidden="true" title="contactAdmin"></i><span
                 class="sr-only">Paper Plane</span></a>
-            Contact Administration 
+            
           </div>
           <!-- 1. Contact Administration form: Modal box-->
           <div class="modal fade" id="contactAdmin" tabindex="-1" role="dialog" aria-labelledby="conatactAdminHeader"
@@ -708,7 +596,9 @@
           </div>
           <!-- Order to go form: End-->
         </div>
-      </div>
+      </div></section>
+      <!--========================================================================Location Section-->
+      <section class="map-section container-fluid" id="location">
 		<div class="row">
 			<div class="col-12">
 				<!--this is the id for the google maps api-->
@@ -721,16 +611,17 @@
           LingLang@gmail.com</p>
         <br />
       </div>
-      <div class="col-12 col-md-5 col-lg-5 mt-3 email-phone ml-2">
+      <div class="col-12 col-md-5 col-lg-5 mt-3 email-phone ml-2 ">
         <p><i class="fas fa-map-marker-alt"></i> LingLang, DonnyBrook, <br>Douglas, <br> Cork, Ireland </p>
         <br />
       </div>
     </div>
-  </section>
+    </section>
+  
 
   <!--=======================================================================================Footer Section here-->
-  <footer class="container-fluid over-flow text-center">
-    <div class="row">
+  <footer class="container-fluid over-flow text-center" id="footerbg">
+    <div class="row" id="footer">
       <div class="col-sm-12">
         <ul class="list-inline social-links">
           <li class="list-inline-item">

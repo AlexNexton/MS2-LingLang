@@ -6,21 +6,35 @@ body{
    background-image: linear-gradient(#f0ede5, #42ad03);
    color: navy;
    min-height: 100vh;
-        
+}
+h2{
+    font-weight: 500;
 }
 .over-flow{
     overflow: hidden;
 }
 
 .container-fluid{/*might add padding later*/
-    
+    overflow: hidden;
 
+}
+.carousel-indicators li{ /*Added to remove white carosel markers below each image */
+    width: 0px;
+    height: 0px;
+}
+.carousel-indicators{ /*Added so that the btn is clickable on all of it's surface*/
+    position: relative;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    bottom: auto;
 }
 /*----------------------------------Navbar---------*/
 .linglanglogo {
   height: 60px;
   width: 60px;
   padding: 5px;
+  margin: 5px;
 }
 
 .linglang:hover {
@@ -106,7 +120,29 @@ body{
   transform: scale(1.2);
 }
 
+/*----------------------------------The Welcome section----------*/
+.welcome-section {
+  background: url(../img/indeximgs/bluehands.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
 
+.welcome-quote{
+    color: #fafafa;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+/*----------------------------------Try Our Game section----------*/
+.btn-primary{
+   background-color: rgb(6 ,21, 104);
+       border-color: rgb(6 ,21, 104);
+    color: #fafafa;
+    transition: all 0.3s;
+}
+.btn-primary:hover {
+  color: #fafafa;
+  transform: scale(1.2);
+}
 
 /*----------------------------------The Form----------*/
 .form-legal-info {
@@ -128,11 +164,17 @@ body{
   border: none;
 }
 
-#booking-font {
+.booking-font {
  font-family: 'Libre Baskerville', serif; 
-  color: navy;
-  font-size: 1.5rem;
-}
+  color: #fafafa;
+  font-size: 1rem;
+  line-height: 2em;
+  background-color: rgba(6, 21, 104, 0.5);
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  
+  }
 
 /*----------------------------Contact Section */
 .email-phone {
@@ -146,6 +188,54 @@ body{
   margin: 0 auto;
   padding: 0 auto;
 }
+/*----------------------------Sign up & Confirmation Section */
+
+.signup-section{
+  background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
+  background-size: cover;
+  padding: 10%;
+ 
+}
+#contact{
+    padding-top: 100px;
+}
+#signup{
+    padding-top: 50px;
+}
+
+.contact-section {
+ background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
+  background-size: cover;
+  
+}
+ 
+.book-button3 {
+  background-color:rgb(6 ,21, 104);
+  color: #fafafa;
+  transition: all 0.3s;
+  font-size: 40px;
+  margin: 10px 20px 0 10px;
+}
+
+.book-button3:hover {
+  color: #fafafa;
+  transform: scale(1.2);
+  font-size: 40px;
+}
+.linglang-confirm-logo{
+     height: 180px;
+  width: 180px;
+  padding: 5px;
+  background: #00ff0d;
+  border-radius: 10%;
+  margin: 20px auto;
+}
+
+.confirm-form{
+    text-align: center;
+}
+
+
 /*----------------------------Sub-inquiry Section */
 .linglang-subhero {
   height: 280px;
@@ -159,31 +249,93 @@ body{
 
 .sub-paragraph{
      text-align: center;
-     margin: 10px;
      font-size: 20px;
+     color: #fafafa;
+
+      background: url(../img/indeximgs/littlegirl.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     align-items: center;
+     justify-content: center;
+
+     position: relative;
+}
+.bg-square {
+    background-color: rgba(6, 21, 104, 0.5);
+    padding: 30px;
+    font-size: 14px;
 }
 
+
 .book-button2{
-    background-color: blue;
+    background-color: rgb(6 ,21, 104);
     color: #fafafa;
-    font-size: 20px;
+    font-size: 30px;
+    margin: 10px;
 }
 
 .book-button2:hover{
     background-color: white;
-    color: blue;
-    font-size: 20px;
+    color: rgb(6 ,21, 104);
+    font-size: 30px;
+    margin: 10px;
 }
 
 /**-----------Location section--------------*/
 
 #map {
-  min-height: 360px;
+  min-height: 410px;
   margin: 5% 10% 5% 20%;
   width: 820px;
-  border: 1px solid #f0ede5;
-  border-radius: 5%;
+  border-radius: 2%;
 }
+.map-section {
+ background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.email-phone{
+    margin-top: 2rem;
+    font-size: 100%;
+    background-color: rgb(6 ,21, 104);
+    color: #fafafa;
+}
+/**-----------Footer section--------------*/
+
+footer{
+ 
+  overflow: hidden;
+  color: #00ff0d;
+  padding: 15px;
+}
+#footerbg{
+    margin-top: 5px;
+    background-color: rgb(6 ,21, 104);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+.social-links li a i {
+    background-color:rgb(6 ,21, 104); 
+    height: 50px;
+    width: 50px;
+    color: #00ff0d;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-links li a i:hover {
+  background-color: #fafafa;
+}
+.side-item{
+    margin: 10px auto;
+    
+}
+
 
 
 /**-----------Media Query section--------------*/
@@ -197,6 +349,18 @@ body{
   width: 600px;
   border-radius: 5%;
 }
+.linglanglogo-hero{
+    width: 40%;
+    height: 40%;
+}
+
+
+.justify-content-center {
+    margin: 180px 0 0 0;
+    }
+    p{
+        padding: 15px;
+     }
 }
 @media (max-width:768px){
    
@@ -207,6 +371,9 @@ body{
   width: 450px;
   border-radius: 5%;
 }
+
+
+
 }
 
 @media (max-width:500px){
@@ -228,6 +395,13 @@ body{
   width: 280px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 8px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
+
 }
 @media (max-width:414px){
    
@@ -238,6 +412,13 @@ body{
   width: 280px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 57px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
+
 }
 
 @media (max-width:411px){
@@ -249,6 +430,13 @@ body{
   width: 280px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 57px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
+
 }
 
 @media (max-width:375px){
@@ -260,6 +448,26 @@ body{
   width: 240px;
   border-radius: 5%;
 }
+.book-button3{
+    margin: 15%;
+    
+}
+.btn-primary{
+   background-color: rgb(6 ,21, 104);
+    color: #fafafa;
+    transition: all 0.3s;
+    
+}
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.justify-content-center {
+    margin: 58px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
 }
 @media (max-width:320px){
    
@@ -270,6 +478,12 @@ body{
   width: 240px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 34px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
 }
 
 @media (max-width:280px){
@@ -281,4 +495,10 @@ body{
   width: 240px;
   border-radius: 5%;
 }
+.justify-content-center {
+    margin: 52px 0 0 0;
+    }
+    p{
+        padding: 15px;
+    }
 }
