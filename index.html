@@ -18,39 +18,37 @@
 <body>
 
 
-<!--======================================================================================NavBar Section here-->
+<!--NavBar Section here-->
   <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top">
     <a href="index.html" class="navbar-brand nav-text-color" id="logo-nav"><img src="assets/img/logos/LingLang.png"
         class="linglanglogo" alt="linglanglogo" /></a>
 
-    <button class="navbar-toggler nav-text-color ml-auto navbar-dark" type="button" data-toggle="collapse"
-      data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-      aria-label="Toggle navigation">
+ <button class="navbar-toggler nav-text-color ml-auto navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"  aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse nav-text-color" id="navbarNavDropdown">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item mr-2">
-          <a href="#" class="nav-link nav-text-color book-button hvr-grow-shadow">Home</a>
+     <ul class="navbar-nav mr-auto" >
+        <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show">
+          <a href="#"  class="nav-link nav-text-color book-button hvr-grow-shadow">Home</a>
         </li>
-        <li class="nav-item mr-2">
-          <a href="#menu" class="nav-link nav-text-color book-button hvr-grow-shadow">Play Game</a>
+        <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show" >
+          <a href="#playgame"  class="nav-link nav-text-color book-button hvr-grow-shadow"  >Play Game</a>
         </li>
-        <li class="nav-item mr-2">
+        <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show">
           <a href="#contact" class="nav-link nav-text-color book-button hvr-grow-shadow">Contact Us</a>
         </li>
-        <li class="nav-item mr-2">
+        <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show">
           <a href="#location" class="nav-link nav-text-color book-button hvr-grow-shadow">Map</a>
         </li>
-        
-      </ul>
+     </ul>
+     
     </div>
     <div class="d-none d-md-block">
       <a href="#signup" class="book-button-nav nav-link badge-pill hvr-grow-shadow">Sign up!</a> <!--maybe game button?-->
     </div>
   </nav>
 
-  <!--=================================================================================================Welcome Section here-->
+  <!--Welcome Section here-->
   <section class="welcome-section container-fluid">
     <div class="row mt-5 text-center">
       <div class="col-12">
@@ -66,8 +64,8 @@
     </div>
   </section>
 
-  <!--===============================================================================================Try Our Game Section here-->
-  <section id="menu" class="menu-section container-fluid text-center">
+  <!--Try Our Game Section -->
+  <section id="playgame" class="menu-section container-fluid text-center">
     <div class="row text-uppercase">
       <div class="col-12 my-5">
         <h2>Try Our Game</h2>
@@ -84,8 +82,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-              <!-- Mobile view of languages Selection-->
-               <!-- English Selection-->
+               <!-- English Selection Mobile View-->
               <div class="carousel-item active">
                 <h3 class=" title-menu text-capitalize my-2 ">English</h3>
                 <img src="assets/img/indeximgs/smallchild.jpg" class="d-block w-100" alt="table with apple">
@@ -106,7 +103,7 @@
 					</div>
 				</div>
               </div>
-              <!-- French Selection-->
+              <!-- French Selection Mobile View-->
               <div class="carousel-item">
                 <h3 class=" title-menu text-capitalize my-2 ">French</h3>
                 <img src="assets/img/indeximgs/apple.jpg" class="d-block w-100" alt="table with an apple">
@@ -123,7 +120,7 @@
 					</div>
 				</div>
               </div>
-              <!-- Spanish Selection-->
+              <!-- Spanish Selection Mobile View-->
               <div class="carousel-item">
                 <h3 class=" title-menu text-capitalize my-2 ">Spanish</h3>
                 <img src="assets/img/indeximgs/kidwater.jpg" class="d-block w-100" alt="kidwater">
@@ -247,29 +244,28 @@
     </div>
   </section>
   <hr>
-  <!--========================================================================================================= Sign up section-->
-  
-<section id="signup" class="signup-section container-fluid  text-center">
- <div class="row justify-content-center">
-  <div class="col-12">
-     <h2 class="text-uppercase signup my-3">Sign up</h2>
-     <!-- Button trigger modal -->
-     <button type="button" class="btn btn-primary d-md-none d-lg-none" data-toggle="modal" data-target="#staticBackdrop">Read Me</button>
-<!-- Modal for Sign up section in mobile view -->
-<div class="modal fade  d-lg-none" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Sign up</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
+  <!--Sign up section-->
+  <section id="signup" class="signup-section container-fluid  text-center">
+    <div class="row justify-content-center">
+	    <div class="col-12">
+		    <h2 class="text-uppercase signup my-3">Sign up</h2>
+		    <!-- Button trigger modal -->
+		    <button type="button" class="btn btn-primary d-md-none d-lg-none" data-toggle="modal" data-target="#staticBackdrop">Read Me</button>
+		    <!-- Modal for Sign up section in mobile view -->
+		    <div class="modal fade  d-lg-none" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="staticBackdropLabel">Sign up</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+					</div>
       <div class="modal-body">
          <p>
-          Firstly, we hope you enjoyed our free game and that you learned some new words. <br>
-          Signing up is easy, all you need to do is fill out the form below by clicking the button. <br>
-           <br> We will contact you.
+            Firstly, we hope you enjoyed our free game and that you learned some new words.<br>
+            Signing up is easy, all you need to do is fill out the form below by clicking the button.<br><br> 
+            We will contact you.
          </p>
       </div>
       <div class="modal-footer">
