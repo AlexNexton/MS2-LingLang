@@ -322,6 +322,7 @@ max-width: 80%;
     padding: 0 32px;
     transition: 400ms;
     box-shadow: 0 -2px 16px rgb(229 231 239);
+    font-family: 'Libre Baskerville', serif; 
 }
 
 .cookie-container.active{
@@ -329,6 +330,7 @@ max-width: 80%;
 }
 
 .cookie-btn{
+    font-family: 'Libre Baskerville', serif; 
     background: #d20a0a;
     border: 0;
     color: #f5f6fa;

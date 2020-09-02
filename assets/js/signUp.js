@@ -1,4 +1,4 @@
-/*code for action confirmation booking window */
+/*code for action sign up page */
 
 let url_string = window.location.href;
 let url = new URL(url_string);
