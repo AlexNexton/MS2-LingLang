@@ -89,7 +89,7 @@ h2{
 }
 
 .book-button-nav {
-  background-image: linear-gradient(to right, rgb(50, 69, 175) , rgb(17, 20, 204));
+  background-color:  rgb(14, 17, 139);
   color: #00ff0d;;
   transition: all 0.3s;
   border-radius: 5%;
@@ -138,10 +138,14 @@ h2{
        border-color: rgb(6 ,21, 104);
     color: #fafafa;
     transition: all 0.3s;
+    margin-top: 10px;
 }
 .btn-primary:hover {
   color: #fafafa;
   transform: scale(1.2);
+}
+.img-fluid{
+max-width: 80%;
 }
 
 /*----------------------------------The Form----------*/
