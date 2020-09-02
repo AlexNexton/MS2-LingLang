@@ -18,41 +18,36 @@
 <body>
 
 
-<!--======================================================================================NavBar Section here-->
-  <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top">
+<!--NavBar Section here-->
+ <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top">
     <a href="index.html" class="navbar-brand nav-text-color" id="logo-nav"><img src="assets/img/logos/LingLang.png"
         class="linglanglogo" alt="linglanglogo" /></a>
 
-    <button class="navbar-toggler nav-text-color ml-auto navbar-dark" type="button" data-toggle="collapse"
-      data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-      aria-label="Toggle navigation">
+    <button class="navbar-toggler nav-text-color ml-auto navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"  aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse nav-text-color" id="navbarNavDropdown">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item mr-2">
-          <a href="#" class="nav-link nav-text-color book-button hvr-grow-shadow">Home</a>
+     <ul class="navbar-nav mr-auto" >
+        <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a href="#"  class="nav-link nav-text-color book-button hvr-grow-shadow"><i class="fas fa-home fa-lg"></i> Home</a>
         </li>
-        <li class="nav-item mr-2">
-          <a href="#menu" class="nav-link nav-text-color book-button hvr-grow-shadow">Play Game</a>
+        <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show" >
+        <a href="#playgame"  class="nav-link nav-text-color book-button hvr-grow-shadow"  ><i class="fas fa-play fa-lg"></i>Play Game</a>
         </li>
-        <li class="nav-item mr-2">
-          <a href="#contact" class="nav-link nav-text-color book-button hvr-grow-shadow">Contact Us</a>
+        <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a href="#contact" data-toggle="modal" data-target="#contactAdmin" class="nav-link nav-text-color book-button hvr-grow-shadow"><i class="fas fa-id-card fa-lg"></i> Contact Us</a>
         </li>
-        <li class="nav-item mr-2">
-          <a href="#location" class="nav-link nav-text-color book-button hvr-grow-shadow">Map</a>
+        <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show">
+        <a href="#location" class="nav-link nav-text-color book-button hvr-grow-shadow"><i class="fas fa-map-marker-alt fa-lg"></i> Map</a>
         </li>
-        <li class="nav-item mr-2">
-          <a href="#footer" class="nav-link nav-text-color book-button hvr-grow-shadow">Social</a>
-        </li>
-      </ul>
-    </div>
+     </ul>
+     </div>
     <div class="d-none d-md-block">
-      <a href="#signup" class="book-button-nav nav-link badge-pill hvr-grow-shadow">Sign up!</a> <!--maybe game button?-->
+      <a href="#signup"  data-toggle="modal" data-target="#chooseLanguage" class="book-button-nav nav-link badge-pill hvr-grow-shadow">Sign up!</a> <!--maybe game button?-->
     </div>
   </nav>
 
-  <!--=================================================================================================Welcome Section here-->
+  <!--Welcome Section here-->
   <section class="welcome-section container-fluid">
     <div class="row mt-5 text-center">
       <div class="col-12">
@@ -68,8 +63,8 @@
     </div>
   </section>
 
-  <!--===============================================================================================Try Our Game Section here-->
-  <section id="menu" class="menu-section container-fluid text-center">
+  <!--Try Our Game Section -->
+  <section id="playgame" class="menu-section container-fluid text-center">
     <div class="row text-uppercase">
       <div class="col-12 my-5">
         <h2>Try Our Game</h2>
@@ -86,8 +81,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-              <!-- Mobile view of languages Selection-->
-               <!-- English Selection-->
+               <!-- English Selection Mobile View-->
               <div class="carousel-item active">
                 <h3 class=" title-menu text-capitalize my-2 ">English</h3>
                 <img src="assets/img/indeximgs/smallchild.jpg" class="d-block w-100" alt="table with apple">
@@ -108,7 +102,7 @@
 					</div>
 				</div>
               </div>
-              <!-- French Selection-->
+              <!-- French Selection Mobile View-->
               <div class="carousel-item">
                 <h3 class=" title-menu text-capitalize my-2 ">French</h3>
                 <img src="assets/img/indeximgs/apple.jpg" class="d-block w-100" alt="table with an apple">
@@ -125,7 +119,7 @@
 					</div>
 				</div>
               </div>
-              <!-- Spanish Selection-->
+              <!-- Spanish Selection Mobile View-->
               <div class="carousel-item">
                 <h3 class=" title-menu text-capitalize my-2 ">Spanish</h3>
                 <img src="assets/img/indeximgs/kidwater.jpg" class="d-block w-100" alt="kidwater">
@@ -163,7 +157,7 @@
 		<div class="d-none d-lg-block col-lg-4">
 			<div class="menu">
 				<h3 class="title-menu text-capitalize my-2">English</h3>
-				<img src="assets/img/indeximgs/smallchild.jpg" class="d-block w-100" alt="smallchild">
+				<img src="assets/img/indeximgs/smallchild.jpg" class="img-fluid " alt="smallchild">
 				<br>
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseEnglish" aria-expanded="false" aria-controls="collapseEnglish">
 	                     Instructions
@@ -186,7 +180,7 @@
       <div class="d-none d-lg-block col-lg-4">
         <div class="idiomas">
           <h3 class="title-menu text-capitalize my-2">French</h3>
-          <img src="assets/img/indeximgs/apple.jpg" class="d-block w-100" alt="table with an apple">
+          <img src="assets/img/indeximgs/apple.jpg" class="img-fluid " alt="table with an apple">
           <br>
          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseFrench" aria-expanded="false" aria-controls="collapseFrench">
 	                     Instructions
@@ -207,7 +201,7 @@
       <div class="d-none d-lg-block col-lg-4">
         <div class="idiomas">
           <h3 class=" title-menu text-capitalize my-2 ">Spanish</h3>
-          <img src="assets/img/indeximgs/kidwater.jpg" class="d-block w-100" alt="kid&water">
+          <img src="assets/img/indeximgs/kidwater.jpg" class="img-fluid" alt="kid&water">
           <br>
           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseSpanish" aria-expanded="false" aria-controls="collapseSpanish">
 	                     Instructions
@@ -249,29 +243,28 @@
     </div>
   </section>
   <hr>
-  <!--========================================================================================================= Sign up section-->
-  
-<section id="signup" class="signup-section container-fluid  text-center">
- <div class="row justify-content-center">
-  <div class="col-12">
-     <h2 class="text-uppercase signup my-3">Sign up</h2>
-     <!-- Button trigger modal -->
-     <button type="button" class="btn btn-primary d-md-none d-lg-none" data-toggle="modal" data-target="#staticBackdrop">Read Me</button>
-<!-- Modal for Sign up section in mobile view -->
-<div class="modal fade  d-lg-none" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Sign up</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
+  <!--Sign up section-->
+  <section id="signup" class="signup-section container-fluid  text-center">
+    <div class="row justify-content-center">
+	    <div class="col-12">
+		    <h2 class="text-uppercase signup my-3">Sign up</h2>
+		    <!-- Button trigger modal -->
+		    <button type="button" class="btn btn-primary d-md-none d-lg-none" data-toggle="modal" data-target="#staticBackdrop">Read Me</button>
+		    <!-- Modal for Sign up section in mobile view -->
+		    <div class="modal fade  d-lg-none" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="staticBackdropLabel">Sign up</h5>
+                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+					</div>
       <div class="modal-body">
          <p>
-          Firstly, we hope you enjoyed our free game and that you learned some new words. <br>
-          Signing up is easy, all you need to do is fill out the form below by clicking the button. <br>
-           <br> We will contact you.
+            Firstly, we hope you enjoyed our free game and that you learned some new words.<br>
+            Signing up is easy, all you need to do is fill out the form below by clicking the button.<br><br> 
+            We will contact you.
          </p>
       </div>
       <div class="modal-footer">
@@ -299,13 +292,14 @@
                 <!-- 1.1 Joining a classform: Header-->
                 <div class="modal-header">
                   <div class="modal-title col-12 text-center" id="chooseLanguageFormHeader">
+                  <h5 class="text-center">Sign Up</h5>
                     <button type="button" class="close p-1" data-dismiss="modal" aria-label="close">
-                      <span aria-hidden="true">×</span>
+                      <span class="red-x" aria-hidden="true">×</span>
                     </button>
                   </div>
                 </div>
                 <!-- 1.2 Joining a class: Main body -->
-                <form class="container pt-3" id="tableBookingForm" action="languageConfirm.html" >
+                <form class="container pt-3" id="tableBookingForm" action="signUpConfirm.html" >
                   <div class="row justify-content-center">
                     <div class="col-12 col-sm-6">
                       <!-- 1.1.1 name input-->
@@ -336,8 +330,6 @@
                             <option value="3">3</option>
                             <option value="4">4</option>
                           </select>
-
-
                         </div>
                       </div>
                       <!-- 1.1.4 Choose date-->
@@ -345,58 +337,14 @@
                         <div class="px-0">
                           <label for="date"></label>
                           <select name="date" class="form-control" id="date" required>
-                            <option value="">Select you preferred Day for tutor sessions</option>
-                            <option value="Monday">Monday</option>
-                            <option value="Tuesday">Tuesday</option>
-                            <option value="Wednesday">Wednesday</option>
-                            <option value="Thursday">Thursday</option>
-                            <option value="Friday">Friday</option>
-                            <option value="Saturday">Saturday</option>
-                            <option value="Sunday">Sunday</option>
+                            <option value="">Select Language</option>
+                            <option value="English">English</option>
+                            <option value="French">French</option>
+                            <option value="Spanish">Spanish</option>
                           </select>
                         </div>
                       </div>
-                      <!-- 1.1.5 Choose time-->
-                      <div class="form-group mb-0">
-                        <div class="px-0">
-                          <label for="tableBookingTime"></label>
-                          <select name="time" class="form-control" id="tableBookingTime" required>
-                            <option value="">Your preferred class time </option>
-                            <option value="9:00">9:00</option>
-                            <option value="9:15">9:15</option>
-                            <option value="9:30">9:30</option>
-                            <option value="9:45">9:45</option>
-                            <option value="10:00">10:00</option>
-                            <option value="10:15">10:15</option>
-                            <option value="10:30">10:30</option>
-                            <option value="10:45">10:45</option>
-                            <option value="11:00">11:00</option>
-                            <option value="11:15">11:15</option>
-                            <option value="11:30">11:30</option>
-                            <option value="11:45">11:45</option>
-                            <option value="12:00">12:00</option>
-                            <option value="12:15">12:15</option>
-                            <option value="12:30">12:30</option>
-                            <option value="12:45">12:45</option>
-                            <option value="13:00">13:00</option>
-                            <option value="13:15">13:15</option>
-                            <option value="13:30">13:30</option>
-                            <option value="13:45">13:45</option>
-                            <option value="14:00">14:00</option>
-                            <option value="14:15">14:15</option>
-                            <option value="14:30">14:30</option>
-                            <option value="14:45">14:45</option>
-                            <option value="15:00">15:00</option>
-                            <option value="15:15">15:15</option>
-                            <option value="15:30">15:30</option>
-                            <option value="15:45">15:45</option>
-                            <option value="16:00">16:00</option>
-                            <option value="16:15">16:15</option>
-                            <option value="16:30">16:30</option>
-                            <option value="16:45">16:45</option>
-                          </select>
-                        </div>
-                      </div>
+                     
                       <!-- 1.1.6 legal/consent information-->
                       <div class="from-group mt-3">
                         <div class="form-legal-info">
@@ -433,7 +381,7 @@
     </div>
   </section>
   
-  <!--==========================================================================================Contact Section here-->
+  <!--Contact Section here-->
   <section id="contact" class="contact-section container-fluid over-flow text-center">
     <div class="row">
       <div class="col-12">
@@ -457,14 +405,15 @@
                 <!-- 1.1 Order to Go form: Header-->
                 <div class="modal-header">
                   <div class="modal-title col-12 text-center" id="contactAdminFormHeader">
+                  <h5 class="text-center">Contact Us</h5>
                     <button type="button" class="close p-1" data-dismiss="modal" aria-label="close">
-                      <span aria-hidden="true">×</span>
+                      <span class="red-x" aria-hidden="true">×</span>
                     </button>
                   </div>
 
                 </div>
                 <!-- 1.2 Order to Go form: Main body -->
-                <form  class="container pt-3" id="contactAdminForm" action="confirmation.html">
+                <form  class="container pt-3" id="contactAdminForm" action="contactUs.html">
                   <div class="row justify-content-center">
                     <div class="col-12 col-sm-6">
                       <!-- 1.1.1 name input-->
@@ -596,25 +545,26 @@
 				<!--this is the id for the google maps api-->
 				<div id="map"></div>
 			</div>
+            <div class="col-12">
+            <hr id="remove-line">
+            </div>
 		</div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-5 col-lg-5 mt-3 email-phone ml-2">
-        <p><i class=" fas fa-phone-square-alt"></i> +351 135 71113 <br><i class="fas fa-envelope mt-3"></i>
-          LingLang@gmail.com</p>
-        <br />
-      </div>
-      <div class="col-12 col-md-5 col-lg-5 mt-3 email-phone ml-2 ">
-        <p><i class="fas fa-map-marker-alt"></i> LingLang, DonnyBrook, <br>Douglas, <br> Cork, Ireland </p>
-        <br />
-      </div>
-    </div>
+
     </section>
+
   
 
   <!--=======================================================================================Footer Section here-->
   <footer class="container-fluid over-flow text-center" id="footerbg">
-    <div class="row" id="footer">
-      <div class="col-sm-12">
+ <div class="row">
+  <div class="col-lg-4 d-none d-sm-block d-md-none d-lg-block">
+  <p>
+    <i class=" fas fa-phone-square-alt"></i> +351 135 71113 <br>
+    <i class="fas fa-envelope mt-3"></i> LingLang@gmail.com
+ </p>
+ 
+  </div>
+   <div class="col-lg-4 ">
         <ul class="list-inline social-links">
           <li class="list-inline-item">
             <a rel="noopener" href="https://www.facebook.com/" target="_blank">
@@ -636,10 +586,29 @@
           </li>
         </ul>
       </div>
-
+    <div class="col-lg-4 d-none d-lg-block d-none d-xl-block">
+         <p><i class="fas fa-map-marker-alt"></i> LingLang, DonnyBrook, <br>Douglas, <br> Cork, Ireland </p>
+        <br />
     </div>
-
-  </footer>
+  </div>
+    <div class="row">
+    <div class="col-12 d-sm-none d-md-block d-lg-none">
+    <p>
+    <i class=" fas fa-phone-square-alt"></i> +351 135 71113 <br>
+    <i class="fas fa-envelope mt-3"></i> LingLang@gmail.com
+    </p>
+    </div>
+    </div>
+   </footer>
+   <!--======================================================================== Cookie Section-->
+   <section>
+        <div class="row">
+            <div class="col-12 cookie-container">
+             <p class="mt-3">We use cookies to improve your experience on our website. <br><br> By browsing this website, you agree to our use of cookies.</p>
+            
+            <button class="cookie-btn">Accept</button>
+        </div></div>
+    </section>
 
 
 <!--Script tags-->
@@ -649,8 +618,7 @@
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <!--My Script-->
-
-
+<script src="assets/js/cookie.js"></script>
 <!--Code for API in this folder Google maps API script-->
 <script defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVppYxDXr0xHzHR4izAjGepcP_PJaDH_g&callback=initMap"></script>

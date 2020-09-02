@@ -89,7 +89,7 @@ h2{
 }
 
 .book-button-nav {
-  background-image: linear-gradient(to right, rgb(50, 69, 175) , rgb(17, 20, 204));
+  background-color:  rgb(14, 17, 139);
   color: #00ff0d;;
   transition: all 0.3s;
   border-radius: 5%;
@@ -138,10 +138,14 @@ h2{
        border-color: rgb(6 ,21, 104);
     color: #fafafa;
     transition: all 0.3s;
+    margin-top: 10px;
 }
 .btn-primary:hover {
   color: #fafafa;
   transform: scale(1.2);
+}
+.img-fluid{
+max-width: 80%;
 }
 
 /*----------------------------------The Form----------*/
@@ -209,12 +213,11 @@ h2{
   
 }
  
-.book-button3 {
+.book-button3 { /* this is the sign up btn */
   background-color:rgb(6 ,21, 104);
   color: #fafafa;
   transition: all 0.3s;
-  font-size: 40px;
-  margin: 10px 20px 0 10px;
+  font-size: 40px; 
 }
 
 .book-button3:hover {
@@ -233,6 +236,10 @@ h2{
 
 .confirm-form{
     text-align: center;
+}
+
+.red-x{
+    color: red;
 }
 
 
@@ -287,14 +294,14 @@ h2{
 
 #map {
   min-height: 410px;
-  margin: 5% 10% 5% 20%;
-  width: 820px;
+  
+ 
   border-radius: 2%;
 }
 .map-section {
  background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
   background-size: cover;
-  height: 100vh;
+  
 }
 
 .email-phone{
@@ -303,6 +310,37 @@ h2{
     background-color: rgb(6 ,21, 104);
     color: #fafafa;
 }
+
+/**-----------cookie section--------------*/
+.cookie-container{
+    position: fixed;
+    bottom:  -100%;
+    left: 0;
+    right: 0;
+    background: rgb(6 ,21, 104);
+    color: #f5f6fa;
+    padding: 0 32px;
+    transition: 400ms;
+    box-shadow: 0 -2px 16px rgb(229 231 239);
+    font-family: 'Libre Baskerville', serif; 
+}
+
+.cookie-container.active{
+    bottom: 0;
+}
+
+.cookie-btn{
+    font-family: 'Libre Baskerville', serif; 
+    background: #d20a0a;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /**-----------Footer section--------------*/
 
 footer{
@@ -310,6 +348,7 @@ footer{
   overflow: hidden;
   color: #00ff0d;
   padding: 15px;
+  margin-top: 5%;
 }
 #footerbg{
     margin-top: 5px;
@@ -335,6 +374,9 @@ footer{
     margin: 10px auto;
     
 }
+#remove-line{ /*To create a gap between the map and the footer*/
+    border-top: 1px solid rgba(0,0,0,0);
+}
 
 
 
@@ -342,163 +384,9 @@ footer{
 
 @media (max-width:1024px){
    
- #map {
-  min-height: 600px;
-  
-  margin: 5% 10% 5% 20% ;
-  width: 600px;
-  border-radius: 5%;
-}
+ 
 .linglanglogo-hero{
     width: 40%;
     height: 40%;
-}
-
-
-.justify-content-center {
-    margin: 180px 0 0 0;
-    }
-    p{
-        padding: 15px;
-     }
-}
-@media (max-width:768px){
-   
- #map {
-  min-height: 450px;
-  
-  margin: 5% 10% 5% 20% ;
-  width: 450px;
-  border-radius: 5%;
-}
-
-
-
-}
-
-@media (max-width:500px){
-   
- #map {
-  min-height: 300px;
-  
-  margin: 10% 10% 10% 7% ;
-  width: 300px;
-  border-radius: 5%;
-}
-}
-@media (max-width:450px){
-   
- #map {
-  min-height: 280px;
-  
-  margin: 5% 10% 5% 17% ;
-  width: 280px;
-  border-radius: 5%;
-}
-.justify-content-center {
-    margin: 8px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-
-}
-@media (max-width:414px){
-   
- #map {
-  min-height: 280px;
-  
-  margin: 5% 10% 5% 14% ;
-  width: 280px;
-  border-radius: 5%;
-}
-.justify-content-center {
-    margin: 57px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-
-}
-
-@media (max-width:411px){
-   
- #map {
-  min-height: 280px;
-  
-  margin: 5% 10% 5% 14% ;
-  width: 280px;
-  border-radius: 5%;
-}
-.justify-content-center {
-    margin: 57px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-
-}
-
-@media (max-width:375px){
-   
- #map {
-  min-height: 240px;
-  
-  margin: 5% 10% 5% 15% ;
-  width: 240px;
-  border-radius: 5%;
-}
-.book-button3{
-    margin: 15%;
-    
-}
-.btn-primary{
-   background-color: rgb(6 ,21, 104);
-    color: #fafafa;
-    transition: all 0.3s;
-    
-}
-h2{
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-.justify-content-center {
-    margin: 58px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-}
-@media (max-width:320px){
-   
- #map {
-  min-height: 240px;
-  
-  margin: 5% 10% 5% 9% ;
-  width: 240px;
-  border-radius: 5%;
-}
-.justify-content-center {
-    margin: 34px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-}
-
-@media (max-width:280px){
-   
- #map {
-  min-height: 240px;
-  
-  margin: 5% 10% 5% 2% ;
-  width: 240px;
-  border-radius: 5%;
-}
-.justify-content-center {
-    margin: 52px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-}
+ }
+ }

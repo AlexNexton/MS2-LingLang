@@ -145,9 +145,7 @@ class MixorMatch{
     gameOver(){ //game over screen pops up
         clearInterval(this.countDown);
         this.audioController.gameOver();
-        document.getElementById('game-over-text').classList.add('vis');
-       
-        
+        document.getElementById('game-over-text').classList.add('vis'); 
 
     }
     victory(){ //victory text pops up
@@ -177,9 +175,9 @@ class MixorMatch{
 
 //---------------------------Start of Ready Function ------------------------------------------------------
 function ready(){
-    let intro = document.getElementById('intro');
-    let stg = document.getElementById('startgame');
-    let cards = Array.from(document.getElementsByClassName('card'));
+    let intro = document.getElementById('intro'); //shows the intro message
+    let stg = document.getElementById('startgame'); //starts the game
+    let cards = Array.from(document.getElementsByClassName('card')); // gets the array of cards from the html page
     let game = new MixorMatch(99, cards); // instance for card game #1
     
 
