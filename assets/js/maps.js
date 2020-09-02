@@ -9,7 +9,7 @@ function initMap() { // Google maps function and theme
         center: LingLang,
 
         styles: [
-            { elementType: 'geometry', stylers: [{ color: '#42ad03' }] },
+            { elementType: 'geometry', stylers: [{ color: '#ebe3cd' }] },
             { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
             { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
             {
