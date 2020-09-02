@@ -294,7 +294,7 @@ h2{
 .map-section {
  background: url(../img/indeximgs/childrenforest.jpg) no-repeat center fixed;
   background-size: cover;
-  height: 100vh;
+  
 }
 
 .email-phone{
@@ -310,6 +310,7 @@ footer{
   overflow: hidden;
   color: #00ff0d;
   padding: 15px;
+  margin-top: 5%;
 }
 #footerbg{
     margin-top: 5px;
@@ -335,6 +336,9 @@ footer{
     margin: 10px auto;
     
 }
+#remove-line{ /*To create a gap between the map and the footer*/
+    border-top: 1px solid rgba(0,0,0,0);
+}
 
 
 
@@ -346,105 +350,5 @@ footer{
 .linglanglogo-hero{
     width: 40%;
     height: 40%;
-}
-
-
-.justify-content-center {
-    margin: 180px 0 0 0;
-    }
-    p{
-        padding: 15px;
-     }
-}
-@media (max-width:768px){
-   
- 
-
-
-
-}
-
-
-   
- 
-
-@media (max-width:450px){
-   
- 
-.justify-content-center {
-    margin: 8px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-
-}
-@media (max-width:414px){
-   
- 
-.justify-content-center {
-    margin: 57px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-
-}
-
-@media (max-width:411px){
-   
- 
-.justify-content-center {
-    margin: 57px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-
-}
-
-@media (max-width:375px){
-   
-
-.book-button3{
-    margin: 15%;
-    
-}
-.btn-primary{
-   background-color: rgb(6 ,21, 104);
-    color: #fafafa;
-    transition: all 0.3s;
-    
-}
-h2{
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-.justify-content-center {
-    margin: 58px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-}
-@media (max-width:320px){
-   
-
-.justify-content-center {
-    margin: 34px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-}
-
-@media (max-width:280px){
-   
- 
-.justify-content-center {
-    margin: 52px 0 0 0;
-    }
-    p{
-        padding: 15px;
-    }
-}
+ }
+ }
