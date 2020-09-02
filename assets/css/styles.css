@@ -209,12 +209,11 @@ h2{
   
 }
  
-.book-button3 {
+.book-button3 { /* this is the sign up btn */
   background-color:rgb(6 ,21, 104);
   color: #fafafa;
   transition: all 0.3s;
-  font-size: 40px;
-  margin: 10px 20px 0 10px;
+  font-size: 40px; 
 }
 
 .book-button3:hover {
