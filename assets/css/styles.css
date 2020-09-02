@@ -310,6 +310,35 @@ max-width: 80%;
     background-color: rgb(6 ,21, 104);
     color: #fafafa;
 }
+
+/**-----------cookie section--------------*/
+.cookie-container{
+    position: fixed;
+    bottom:  -100%;
+    left: 0;
+    right: 0;
+    background: rgb(6 ,21, 104);
+    color: #f5f6fa;
+    padding: 0 32px;
+    transition: 400ms;
+    box-shadow: 0 -2px 16px rgb(229 231 239);
+}
+
+.cookie-container.active{
+    bottom: 0;
+}
+
+.cookie-btn{
+    background: #d20a0a;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 48px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /**-----------Footer section--------------*/
 
 footer{
