@@ -392,9 +392,9 @@ footer{
  }
  }
 
- @media (min-width: 768px){
+ @media (max-width: 768px){
      
 .nav-item{
-    font-size: 15px;
+    font-size: 10px;
 }
  }
