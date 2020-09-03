@@ -384,6 +384,10 @@ footer{
   background: url(../img/indeximgs/bubblegirl.jpg) no-repeat center fixed;
   background-size: cover;
   height: 100vh;
+} 
+.review-img{
+ background: url(../img/indeximgs/reviewimg.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 
 
