@@ -37,7 +37,7 @@
         <a href="#"  class="nav-link nav-text-color book-button hvr-grow-shadow"><i class="fas fa-home fa-lg"></i> Home</a>
         </li>
         <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show" >
-        <a href="#playgame"  class="nav-link nav-text-color book-button hvr-grow-shadow"  ><i class="fas fa-play fa-lg"></i> Play Game</a>
+        <a href="#playgame" data-toggle="modal" data-target="#staticBackdrop1" class="nav-link nav-text-color book-button hvr-grow-shadow"  ><i class="fas fa-play fa-lg"></i> Play Game</a>
         </li>
         <li class="nav-item mr-2"  data-toggle="collapse" data-target=".navbar-collapse.show">
         <a href="#contact" data-toggle="modal" data-target="#contactAdmin" class="nav-link nav-text-color book-button hvr-grow-shadow"><i class="fas fa-id-card fa-lg"></i> Contact Us</a>
@@ -50,7 +50,43 @@
         </li>
       </ul>
       </div>
-  </nav>
+    </nav>
+    <!-- Modal For Game selection -->
+    <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel1">Select a Game</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+               <div class=" dropdown-item hvr-glow" type="button" data-toggle="collapse" data-target="#collapseEnglishMj" aria-expanded="false" aria-controls="collapseEnglishMj">
+	                     Instructions
+	            </div>
+				<div class="collapse" id="collapseEnglishMj">
+					<div class="card card-body">
+						<p> 
+                        You must match the animals with their spelling. <br> For example:<br>
+                        <br>
+                        &#128024; = Elephant  <br>
+                         &#128005;  = Tiger
+                        <br>
+                        <br>Try out our game in English, French or Spanish. <br> Click below!</p>
+						
+					</div>
+				</div>
+            <a class="dropdown-item hvr-glow" href="cardGameEnglish.html">In English</a>
+            <a class="dropdown-item hvr-glow" href="cardGameFrench.html">In French </a>
+            <a class="dropdown-item hvr-glow" href="cardGameSpanish.html">In Spanish </a>
+         </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+    </div>
 
   <!--Welcome Section here-->
   <section class="welcome-section container-fluid">
