@@ -379,6 +379,12 @@ footer{
     border-top: 1px solid rgba(0,0,0,0);
 }
 
+/*-------------About Us ------------*/
+.aboutus-img{
+  background: url(../img/indeximgs/bubblegirl.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
 
 
 /**-----------Media Query section--------------*/
