@@ -381,7 +381,7 @@ footer{
 
 /*-------------About Us ------------*/
 .aboutus-img{
-  background: url(../img/indeximgs/bubblegirl.jpg) no-repeat center fixed;
+  background: url(../img/aboutUsImgs/bubblegirl.jpg) no-repeat center fixed;
   background-size: cover;
   height: 100vh;
 } 
