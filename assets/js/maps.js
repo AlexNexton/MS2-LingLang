@@ -97,13 +97,13 @@ function initMap() { // Google maps function and theme
     <div id="content"> 
     <div id="siteNotice"> 
     </div> 
-    <h1 id="firstHeading" style="color: #af9483; font-family: Caveat, cursive; font-size: 2rem;"  ><img src="assets/img/logos/LingLang.png" class="linglanglogo"  alt="LingLang Logo"/>LingLang</h1> 
+    <h1 id="firstHeading" style="color: #af9483; font-family: 'Libre Baskerville', serif; font-size: 2rem;"  ><img src="assets/img/logos/LingLang.png" class="linglanglogo"  alt="LingLang Logo"/>LingLang</h1> 
     
     <div id="bodyContent"> 
-    <p style="color: #615550; font-family: Caveat, cursive; font-size: 1rem;">
-       ⋆⋆⋆⋆⋆ <br> "I sent my children here to Spanish and now they order our food on holidays. " <br>  - An Taoiseach ;)
+    <p style="color: #000080; font-family: 'Libre Baskerville', serif; font-size: 1rem;">
+       ⋆⋆⋆⋆⋆ <br> "I sent my children here to learn Spanish and now they order our food on holidays. " <br>  - An Taoiseach ;)
     </p> 
-    <p style="color: #615550; font-family: Caveat, cursive; font-size: 1rem;">Address: LingLang, DonnyBrook Hill, Douglas, <br> Cork, Ireland <br>
+    <p style="color: #000080; font-family: 'Libre Baskerville', serif; font-size: 1rem;">Address: LingLang, DonnyBrook Hill, Douglas, <br> Cork, Ireland <br>
     Phone:  +351 135 71113 <br>
     Email: LingLang@gmail.com</p>
 
