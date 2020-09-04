@@ -390,6 +390,11 @@ footer{
   background-size: cover;
 }
 
+.girl-img > img{
+    width: 100%;
+    height: 100%;
+}
+
 
 /**-----------Media Query section--------------*/
 
