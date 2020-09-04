@@ -490,6 +490,9 @@ footer{
     margin: 0.5rem;
     
 }
+.nav-item{
+    font-size: 10px;
+}
 }
 
  @media (max-width: 600px){
