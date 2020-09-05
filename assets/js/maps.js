@@ -91,7 +91,7 @@ function initMap() { // Google maps function and theme
 
     });
 
-    /* Code for info window on map on index.html page */
+    /* Code for info window on map once marker is clicked on index.html page */
     let contentString =
         `
     <div id="content"> 
