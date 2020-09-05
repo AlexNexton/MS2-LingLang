@@ -144,6 +144,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [Image editor](https://www.birme.net/)
 - [Favicons](https://favicon.io/)
 - [Google maps API](https://cloud.google.com/maps-platform/)
+- [Cookie Policy Generator](https://www.cookiepolicygenerator.com/)
 
 ---
 
