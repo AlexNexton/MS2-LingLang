@@ -378,11 +378,7 @@ footer{
   background-size: cover;
   height: 100vh;
 } 
-.review-img{
- background: url(../img/indeximgs/reviewimg.jpg) no-repeat center fixed;
-  background-size: cover;
-}
-
+ 
 .girl-img > img{
     width: 100%;
     height: 100%;
