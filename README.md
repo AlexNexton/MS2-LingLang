@@ -110,7 +110,7 @@ The **goal** of this project is to build a website which allows LingLang to show
   - **Map**
   - **Sign Up**
 
-- In the **Main body** we should see:
+- In the **Main body** one should see:
   - **Welcome** section with a welcome message.
   - **Try Our Game** displaying a carousel with the language choices.
   - **Sign Up form** to sign up to a class.
@@ -122,7 +122,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 
 ### Fonts ###
 
-I've have chosen(might change these) [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  We have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
+I've chosen(might change these) [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  I have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
 
 ### Colours ###
 
@@ -137,7 +137,7 @@ These coulours will compliment each other well when used accross the site creati
 
 ### Wireframes ###
 
-We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/). We were focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+I designed the site moc-ups using [balsamiq wireframes](https://balsamiq.com/). I was focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
 
 ---  
 
@@ -342,18 +342,18 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 
 ### Images ###
 
-You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
+You can find the images used for the site [here](assets/img). I sourced them through various websites, which are free to use:
 
 - [Pikrepo](https://www.pikrepo.com/)
 - [Unsplash](https://unsplash.com/)
 
 ### Colour ###
 
-We have identified the colour palette on [W3](https://www.w3schools.com/).
+I have identified the colour palette on [W3](https://www.w3schools.com/).
 
 ### Image editing ###
 
-- We have used snippet tool for capturing screengrabs which we have saved as images.
+- I have used snippet tool for capturing screengrabs which I saved as images.
 - A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
 
 ### Acknowledgements ###
