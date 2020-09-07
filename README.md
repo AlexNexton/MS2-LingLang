@@ -1,6 +1,15 @@
-# ![Logo](/wireframes/LingLangresponsive.png) #
+# ![Logo](assets/readmeImg/linglangtitle.png) #
 
-***Ling Lang*** *description needed about project*
+***LingLang** is an online learning platform where children can learn or continue learning a second language through games. 
+As a professional teacher of languages, I designed the website in response to Covid-19 (in 2020) so that Parents could 
+continue giving their child lessons while at home. Using games and online classes, the idea is to create an online community where
+Parents and their children can create new social enviornments and become part of a fun new unique way of teaching.*
+
+
+# ![Logo](assets/readmeImg/generalFrame.png) #
+
+***Ling Lang's*** *Logo and the website's colours are mostly drawn from the primary colours (red, blue, green, yellow) so that it appeals to children - especially with regards to the game pages.
+The home page is a contrast of those colours so that the site also looks  both professional for adults while maintaining a colourful nature for kids.*
 
 ## Contents ##
 
