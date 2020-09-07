@@ -231,6 +231,7 @@ The file was then saved in the GitHub repository root directory.
   6.  Save the [verification file](google52717a19da9cd4e1.html) in the root directory of the GitHub repository.
   7.  On Google Search Console, click Verify.
   8.  Once the verification passes, the site is available in the Google Search Console dashboard.
+  9.  ![Verification Image](assets/readmeImg/Google-img-verification.png)
 
 Even though this website has a small number of pages and has navigation links on each page making the Sitemap largely unnecessary,
 a friend of mine inspired me to add **Google Search Console** and along with the invaluable experience it's good practice to add these features in too.
