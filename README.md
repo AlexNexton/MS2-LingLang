@@ -202,7 +202,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 ## SEO ##
 
-Search Engine Optimisation for the site was provided in three complementary ways:
+Search Engine Optimisation for the site was provided in two complementary ways:
  - XML sitemap file saved in the root directory.
  - Google Search Console.
 
@@ -254,7 +254,7 @@ The following workflow steps are used to create and update branches within Gitpo
 
 #### Branches ####
 3. For changes to be made to any **readme files**, the git command `git checkout readme` is used to checkout and switch to the **readme branch**.
-4. For changes to be made to **other files** under normal site development, the git command `git checkout coc` is used to checkout and switch to the **coc branch**.
+4. For changes to be made to **other files** under normal site development, the git command `git checkout coc` (where coc are my initals) is used to checkout and switch to the **coc branch**.
 5. To create a **new branch**  use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
 
 #### Working within a branch ####
