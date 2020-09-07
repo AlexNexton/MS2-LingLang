@@ -6,89 +6,7 @@ function initMap() { // Google maps function and theme
 
         zoom: 13,
 
-        center: LingLang,
-
-        styles: [
-            { elementType: 'geometry', stylers: [{ color: '#ebe3cd' }] },
-            { elementType: 'labels.text.stroke', stylers: [{ color: '#242f3e' }] },
-            { elementType: 'labels.text.fill', stylers: [{ color: '#746855' }] },
-            {
-                featureType: 'administrative.locality',
-                elementType: 'labels.text.fill',
-                stylers: [{ color: '#d59563' }]
-            },
-            {
-                featureType: 'poi',
-                elementType: 'labels.text.fill',
-                stylers: [{ color: '#d59563' }]
-            },
-            {
-                featureType: 'poi.park',
-                elementType: 'geometry',
-                stylers: [{ color: '#263c3f' }]
-            },
-            {
-                featureType: 'poi.park',
-                elementType: 'labels.text.fill',
-                stylers: [{ color: '#6b9a76' }]
-            },
-            {
-                featureType: 'road',
-                elementType: 'geometry',
-                stylers: [{ color: '#38414e' }]
-            },
-            {
-                featureType: 'road',
-                elementType: 'geometry.stroke',
-                stylers: [{ color: '#212a37' }]
-            },
-            {
-                featureType: 'road',
-                elementType: 'labels.text.fill',
-                stylers: [{ color: '#9ca5b3' }]
-            },
-            {
-                featureType: 'road.highway',
-                elementType: 'geometry',
-                stylers: [{ color: '#746855' }]
-            },
-            {
-                featureType: 'road.highway',
-                elementType: 'geometry.stroke',
-                stylers: [{ color: '#1f2835' }]
-            },
-            {
-                featureType: 'road.highway',
-                elementType: 'labels.text.fill',
-                stylers: [{ color: '#f3d19c' }]
-            },
-            {
-                featureType: 'transit',
-                elementType: 'geometry',
-                stylers: [{ color: '#2f3948' }]
-            },
-            {
-                featureType: 'transit.station',
-                elementType: 'labels.text.fill',
-                stylers: [{ color: '#d59563' }]
-            },
-            {
-                featureType: 'water',
-                elementType: 'geometry',
-                stylers: [{ color: '#17263c' }]
-            },
-            {
-                featureType: 'water',
-                elementType: 'labels.text.fill',
-                stylers: [{ color: '#515c6d' }]
-            },
-            {
-                featureType: 'water',
-                elementType: 'labels.text.stroke',
-                stylers: [{ color: '#17263c' }]
-            }
-        ]
-
+        center: LingLang 
     });
 
     /* Code for info window on map once marker is clicked on index.html page */
@@ -97,7 +15,7 @@ function initMap() { // Google maps function and theme
     <div id="content"> 
     <div id="siteNotice"> 
     </div> 
-    <h1 id="firstHeading" style="color: #af9483; font-family: 'Libre Baskerville', serif; font-size: 2rem;"  ><img src="assets/img/logos/LingLang.png" class="linglanglogo"  alt="LingLang Logo"/>LingLang</h1> 
+    <h1 id="firstHeading" style="color: #000080; font-family: 'Libre Baskerville', serif; font-size: 2rem;"  ><img src="assets/img/logos/LingLang.png" class="linglanglogo"  alt="LingLang Logo"/>LingLang</h1> 
     
     <div id="bodyContent"> 
     <p style="color: #000080; font-family: 'Libre Baskerville', serif; font-size: 1rem;">
