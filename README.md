@@ -63,7 +63,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 - **Play** : an interactive game one the site.
 - **Contact** : the sites **online** tutors or team.
 - **Sign up** : select a language, assign a teacher and a class to their child so that they'll be able to access more games.
-- **About us** : learn about LingLang and why they started
+- **About us** : learn about LingLang and why they started.
 - **Link** : to the social media sites.
 
 ## User Stories ##
@@ -78,7 +78,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 ****Please note, all of the sections in both the sign up and contact forms are mandatory*
 
 - As a **user**, I can play a free game online.
-- As a **user**, I can choose the game in three different languages
+- As a **user**, I can choose the game in three different languages.
 - As a **user**, I can see a brief set of instructions on how to play the game.
 - As a **user**, I can choose a language for my children to learn.
 - As a **user**, I can choose more than one child to participate in a class.
@@ -110,7 +110,7 @@ The **goal** of this project is to build a website which allows LingLang to show
   - **Map**
   - **Sign Up**
 
-- In the **Main body** we should see:
+- In the **Main body** one should see:
   - **Welcome** section with a welcome message.
   - **Try Our Game** displaying a carousel with the language choices.
   - **Sign Up form** to sign up to a class.
@@ -122,7 +122,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 
 ### Fonts ###
 
-I've have chosen(might change these) [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  We have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
+I've chosen(might change these) [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  I have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
 
 ### Colours ###
 
@@ -137,7 +137,7 @@ These coulours will compliment each other well when used accross the site creati
 
 ### Wireframes ###
 
-We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/). We were focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+I designed the site moc-ups using [balsamiq wireframes](https://balsamiq.com/). I was focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
 
 ---  
 
@@ -192,7 +192,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - User friendly display.
 - Navbar with easy navigation that collapses on mobile displays.
 - Functional Sign Up and Contact Us forms.
-- Google maps API for location services
+- Google maps API for location services.
 - An interactive game with bright primary colours.
 - Bootstrap accordions to reduce clicks and choose all three games and the instructions.
 - Social media links.
@@ -201,11 +201,12 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 - User accounts to store personal details securely;
   - Personal Profile.
-  - Once logged in, the user has access to  a huge variety of games.
+  - Once logged in, the user would have access to a huge variety of games for learning a second language.
   - Progress assessment chart to show the user how well they're doing.
 - Google Translator;
   - Option to choose one's first language upon loading the site.
 - Weekly News letter and challenges for current and future user/clients. 
+- Personal Avatar.
 
 ---
 
@@ -341,18 +342,18 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 
 ### Images ###
 
-You can find the images used for the site [here](assets/img). We have sourced them through various websites, which are free to use:
+You can find the images used for the site [here](assets/img). I sourced them through various websites, which are free to use:
 
 - [Pikrepo](https://www.pikrepo.com/)
 - [Unsplash](https://unsplash.com/)
 
 ### Colour ###
 
-We have identified the colour palette on [W3](https://www.w3schools.com/).
+I have identified the colour palette on [W3](https://www.w3schools.com/).
 
 ### Image editing ###
 
-- We have used snippet tool for capturing screengrabs which we have saved as images.
+- I have used snippet tool for capturing screengrabs which I saved as images.
 - A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
 
 ### Acknowledgements ###
@@ -360,10 +361,9 @@ We have identified the colour palette on [W3](https://www.w3schools.com/).
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
 - [Bootstrap Carousel with Controls](https://getbootstrap.com/docs/4.5/components/carousel/) code.
 - [Bootstrap Borderless Table](https://getbootstrap.com/docs/4.5/content/tables/) code.
-- [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for help with removing the carousel auto-slide in Bootstrap.
+- [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
-- [Blog usersnap.com ](https://usersnap.com/blog/user-acceptance-testing-example/) which was the inspiration for the modified UAT Testing document and wording.
-- [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial help in with writing the game and understanting JavaScript a whole lot more.
+- [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial help in with writing the game and understanting JavaScript a whole lot more. 
 - [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the flipping of the cards
 
 ---
