@@ -55,16 +55,16 @@ The home page is a contrast of those colours so that the site also looks  both p
 
 ## Project Goals ##
 
-The **goal** of this project is to build a website which allows LingLang to showcase one of it's games in order to help children
- continue learning a second language online, and have them sign up to access more levels and other games.
+The **goal** of this project is to build a website which allows LingLang to showcase one of its games in order to help children
+ continue learning a second language online and have them sign up to access more levels and other games.
  
 ## User Goals ##
 
-- **Play** : an interactive game one the site.
-- **Contact** : the sites **online** tutors or team.
-- **Sign up** : select a language, assign a teacher and a class to their child so that they'll be able to access more games.
-- **About us** : learn about LingLang and why they started.
-- **Link** : to the social media sites.
+- **Play**: an interactive game one the site.
+- **Contact**: the sites **online** tutors or team.
+- **Sign up**: select a language, assign a teacher and a class to their child so that they'll be able to access more games.
+- **About us**: learn about LingLang and why they started.
+- **Link**: to the social media sites.
 
 ## User Stories ##
 
@@ -75,7 +75,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 - As a **user**, I want to be able to contact **administration** about payment methods, complaints, general enquires and the language one might choose.
 - As a **user**, I want to be able to access the site's if any **Social Media** platforms.
   
-****Please note, all of the sections in both the sign up and contact forms are mandatory*
+****Please note, all the sections in both the sign up and contact forms are mandatory*
 
 - As a **user**, I can play a free game online.
 - As a **user**, I can choose the game in three different languages.
@@ -84,7 +84,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 - As a **user**, I can choose more than one child to participate in a class.
 - As a **user**, I can get a **notification** once I've submitted my request and a confirmation message reciting the request is displayed on a new webpage.
 - As a **user**, I can **contact** the company for any problems I may encounter using their **social media** channels, **call** or **email** them.
-- As a **user**, I can fill out a form with more specific details I wish to discuss if necessary with the website's team.
+- As a **user**, I can fill out a form with more specific details I wish to discuss if necessary, with the website's team.
 - As a **user**, I can learn **about** the site's origin and why they began.
 
 ## Site Owner Goals ##
@@ -114,7 +114,7 @@ The **goal** of this project is to build a website which allows LingLang to show
   - **Welcome** section with a welcome message.
   - **Try Our Game** displaying a carousel with the language choices.
   - **Sign Up form** to sign up to a class.
-  - **Contact Us** section displaying google maps with the comapanies location and a form the make various enquires.
+  - **Contact Us** section displaying google maps with the company’s location and a form the make various enquires.
 - In the **Footer** You should see self-explanatory icons allowing the user to connect them with the companies' social media channels.
 
   
@@ -126,18 +126,18 @@ I've chosen(might change these) [Josefin](https://fonts.google.com/specimen/Jose
 
 ### Colours ###
 
-We have chosen the colour that say *"coffee now please!"*, applealing to the eye and also compliments the design of the project.
+We have chosen the colour that say *"coffee now please!"*, appealing to the eye and also compliments the design of the project.
 ![Color palette](wireframes/png)
 
 - *insert name* (#00000) - colour
 - *insert name* (#00000) - colour
 - *insert name* (#00000) - colour
 
-These coulours will compliment each other well when used accross the site creating pleasant ambience.
+These colours will compliment each other well when used across the site creating pleasant ambience.
 
 ### Wireframes ###
 
-I designed the site moc-ups using [balsamiq wireframes](https://balsamiq.com/). I was focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). I was focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
 
 ---  
 
@@ -163,8 +163,8 @@ I designed the site moc-ups using [balsamiq wireframes](https://balsamiq.com/). 
     - Git was used for version control by utilising the Gitpod terminal to commit to Git and push to GitHub.
 - [GitHub](https://github.com/)
     - Used to store, host and deploy the project files and source code after being pushed from Git.
-- [Font-Awesome](https://fontawesome.com/icons?d=gallery)
-    - An online IDE linked to the GitHub repository used for the majority of the code development.
+- [Gitpod](https://www.gitpod.io/)
+    - An online IDE linked to the GitHub repository used for the code development.
 - [Google fonts](https://fonts.google.com/)
     - Used for the website fonts.
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery)
@@ -202,7 +202,7 @@ I designed the site moc-ups using [balsamiq wireframes](https://balsamiq.com/). 
 - User accounts to store personal details securely;
   - Personal Profile.
   - Once logged in, the user would have access to a huge variety of games for learning a second language.
-  - Progress assessment chart to show the user how well they're doing.
+  - Progress assessment chart to show the user how well they are doing.
 - Google Translator;
   - Option to choose one's first language upon loading the site.
 - Weekly News letter and challenges for current and future user/clients. 
@@ -244,7 +244,7 @@ The file was then saved in the GitHub repository root directory.
      ![Verification Image](assets/readmeImg/Google-img-verification.png)
 
 Even though this website has a small number of pages and has navigation links on each page making the Sitemap largely unnecessary,
-a friend of mine inspired me to add **Google Search Console** and **XML Site Map**. Along with the invaluable experience I learned he infomed me that it's good practice to add these features in too.
+a friend of mine inspired me to add **Google Search Console** and **XML Site Map**. Along with the invaluable experience I learned he informed me that it's good practice to add these features in too.
 
 
 ---
@@ -264,8 +264,8 @@ The following workflow steps are used to create and update branches within Gitpo
 
 #### Branches ####
 3. For changes to be made to any **readme files**, the git command `git checkout readme` is used to checkout and switch to the **readme branch**.
-4. For changes to be made to **other files** under normal site development, the git command `git checkout coc` (where coc are my initals) is used to checkout and switch to the **coc branch**.
-5. To create a **new branch**  use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
+4. For changes to be made to **other files** under normal site development, the git command `git checkout coc` (where coc are my initials) is used to checkout and switch to the **coc branch**.
+5. To create a **new branch**,  use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
 
 #### Working within a branch ####
 6. **New** or **modified** files are **staged** using the `git add .` command
@@ -328,7 +328,7 @@ Cloning MS2-LingLang from GitHub:
 
 - Navigate to **AlexNexton/MS2-LingLang**.
 - Click the green **Clone or Download** button.
-- **Copy** the url in the dropdown box.
+- **Copy** the URL in the dropdown box.
 - Using your favourite **IDE** open up your preferred terminal.
 - **Navigate** to your desired file location.
 
@@ -363,7 +363,7 @@ I have identified the colour palette on [W3](https://www.w3schools.com/).
 - [Bootstrap Borderless Table](https://getbootstrap.com/docs/4.5/content/tables/) code.
 - [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
-- [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial help in with writing the game and understanting JavaScript a whole lot more. 
+- [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial help in with writing the game and understanding JavaScript a whole lot more. 
 - [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the flipping of the cards
 
 ---
