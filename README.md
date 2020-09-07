@@ -1,6 +1,15 @@
-# ![Logo](/wireframes/LingLangresponsive.png) #
+# ![Logo](assets/readmeImg/linglangtitle.png) #
 
-***Ling Lang*** *description needed about project*
+***LingLang** is an online learning platform where children can learn or continue learning a second language through games. 
+As a professional teacher of languages, I designed the website in response to Covid-19 (in 2020) so that Parents could 
+continue giving their child lessons while at home. Using games and online classes, the idea is to create an online community where
+Parents and their children can create new social enviornments and become part of a fun new unique way of teaching.*
+
+
+# ![Logo](assets/readmeImg/generalFrame.png) #
+
+***Ling Lang's*** *Logo and the website's colours are mostly drawn from the primary colours (red, blue, green, yellow) so that it appeals to children - especially with regards to the game pages.
+The home page is a contrast of those colours so that the site also looks  both professional for adults while maintaining a colourful nature for kids.*
 
 ## Contents ##
 
@@ -61,7 +70,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 
 - As a **user**, I want to see a brief **background** story about the site and what it's about.
 - As a **user**, I want to know **where** the company is **located on a map**.
-- As a **user**, I want to be able to **join a class online** with a preferred **chosen time** for my child/ children.
+- As a **user**, I want to be able to **Sign Up** and **choose a language** for my child/ children.
 - As a **user**, I want to be able to **contact** the website's team.
 - As a **user**, I want to be able to contact **administration** about payment methods, complaints, general enquires and the language one might choose.
 - As a **user**, I want to be able to access the site's if any **Social Media** platforms.
@@ -202,7 +211,7 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 ## SEO ##
 
-Search Engine Optimisation for the site was provided in three complementary ways:
+Search Engine Optimisation for the site was provided in two complementary ways:
  - XML sitemap file saved in the root directory.
  - Google Search Console.
 
@@ -254,7 +263,7 @@ The following workflow steps are used to create and update branches within Gitpo
 
 #### Branches ####
 3. For changes to be made to any **readme files**, the git command `git checkout readme` is used to checkout and switch to the **readme branch**.
-4. For changes to be made to **other files** under normal site development, the git command `git checkout coc` is used to checkout and switch to the **coc branch**.
+4. For changes to be made to **other files** under normal site development, the git command `git checkout coc` (where coc are my initals) is used to checkout and switch to the **coc branch**.
 5. To create a **new branch**  use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
 
 #### Working within a branch ####
@@ -296,8 +305,7 @@ Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `-
 
 ## Bugs ##
 
-For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/MS2-LingLang/issues) report.
-Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/MS2-LingLang/issues?q=is%3Aissue+is%3Aclosed).
+- can be found in a separate [testing.md](testing.md) file.
 
 ## Deployment ##
 
