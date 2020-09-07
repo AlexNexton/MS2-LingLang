@@ -200,6 +200,43 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 ---
 
+## SEO ##
+
+Search Engine Optimisation for the site was provided in three complementary ways:
+ - XML sitemap file saved in the root directory.
+ - Google Search Console.
+
+#### XML Sitemap file ####
+- A sitemap.xml file was created to help search engines find, crawl and index the website more easily. 
+It was created using[XML-Sitemaps.com](https://www.xml-sitemaps.com/) and entering the URL for the deployed website and letting it automatically generate the required xml data for the entire site.
+The file was then saved in the GitHub repository root directory.
+
+- The following steps were used to generate the sitemap.xml file:
+  1. Visit [XML-Sitemaps.com](https://www.xml-sitemaps.com/) and enter the URL of the website https://alexnexton.github.io/MS2-LingLang/
+  2. Click Start.
+  3. The site pages will automatically be scanned.
+  4. Click View Sitemap Details.
+  5. Download the XML sitemap file.
+  6. Save the sitemap.xml file in the root directory of the GitHub repository.
+
+#### Google Search Console ####
+- Google Search Console was used to assist with testing and indexing issues with the website and to see how the site performs in Google search results.
+
+- The following steps were used to perform the indexing tests:
+  1.  Visit [Google Search Console](https://www.google.com/webmasters/tools/home)
+  2.  Click Add Property in the menu bar.
+  3.  Enter the website URL https://alexnexton.github.io/MS2-LingLang/
+  4.  Click Continue.
+  5.  Download the unique verification file created by Google.
+  6.  Save the [verification file](google52717a19da9cd4e1.html) in the root directory of the GitHub repository.
+  7.  On Google Search Console, click Verify.
+  8.  Once the verification passes, the site is available in the Google Search Console dashboard.
+     ![Verification Image](assets/readmeImg/Google-img-verification.png)
+
+Even though this website has a small number of pages and has navigation links on each page making the Sitemap largely unnecessary,
+a friend of mine inspired me to add **Google Search Console** and **XML Site Map**. Along with the invaluable experience I learned he infomed me that it's good practice to add these features in too.
+
+
 ---
 
 ## Version Control ##
