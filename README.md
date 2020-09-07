@@ -203,7 +203,6 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 ## SEO ##
 
 Search Engine Optimisation for the site was provided in three complementary ways:
- - HTML Sitemap links.
  - XML sitemap file saved in the root directory.
  - Google Search Console.
 
