@@ -46,62 +46,68 @@
 
 ## Project Goals ##
 
-The **goal** of this project is to build 
-
-- 
-- 
-
-We achieve this by:
-
-- 
-- 
-
+The **goal** of this project is to build a website which allows LingLang to showcase one of it's games in order to help children
+ continue learning a second language online, and have them sign up to access more levels and other games.
+ 
 ## User Goals ##
 
-- **play** an interactive game one the site.
-- **contact** the sites **online** tutors or team.
-- **sign up** to assign a teacher and a class to their child so that they'll be able to access more games.
-- **Link** to the social media sites.
+- **Play** : an interactive game one the site.
+- **Contact** : the sites **online** tutors or team.
+- **Sign up** : select a language, assign a teacher and a class to their child so that they'll be able to access more games.
+- **About us** : learn about LingLang and why they started
+- **Link** : to the social media sites.
 
 ## User Stories ##
 
 - As a **user**, I want to see a brief **background** story about the site and what it's about.
 - As a **user**, I want to know **where** the company is **located on a map**.
 - As a **user**, I want to be able to **join a class online** with a preferred **chosen time** for my child/ children.
-- As a **user**, I want to be able to **contact a tutor/teacher**.
-- As a **user**, I want to be able to contact **administration** about payment methods, complaints, general enquires, best language and the team.
+- As a **user**, I want to be able to **contact** the website's team.
+- As a **user**, I want to be able to contact **administration** about payment methods, complaints, general enquires and the language one might choose.
+- As a **user**, I want to be able to access the site's if any **Social Media** platforms.
   
-****Please note, all of the sections in both booking forms are mandatory*
+****Please note, all of the sections in both the sign up and contact forms are mandatory*
 
+- As a **user**, I can play a free game online.
+- As a **user**, I can choose the game in three different languages
+- As a **user**, I can see a brief set of instructions on how to play the game.
 - As a **user**, I can choose a language for my children to learn.
-- As a **user**, I can choose a tutor/teacher for my children and a time for them to participate in a class.
+- As a **user**, I can choose more than one child to participate in a class.
 - As a **user**, I can get a **notification** once I've submitted my request and a confirmation message reciting the request is displayed on a new webpage.
 - As a **user**, I can **contact** the company for any problems I may encounter using their **social media** channels, **call** or **email** them.
+- As a **user**, I can fill out a form with more specific details I wish to discuss if necessary with the website's team.
+- As a **user**, I can learn **about** the site's origin and why they began.
 
 ## Site Owner Goals ##
 
-- As a **site owner**, I want to create an interactive website allowing the user to look at various languages to learn, join a class play one of the games and make enquiers.
+- As a **site owner**, I want to create an interactive website allowing the user to play a game, sign up and make enquires.
+- As a **site owner**, I want to create a site that's mobile ready.
 - As a **site owner**, I want the user to be able to see a location of the company on google maps.
 - As a **site owner**, I want my users to be able to connect with the owner/team via social media channels.
+- As a **site owner**, I want my users to be able to sign up to the website.
+- As a **site owner**, I want my users to be able to make various inquires - complaint - payment options - General inquiry.
 - As a **site owner**, I want my users to be able to play at least three games in three different languages.
-- As a **site owner**, I want my users to be able to change the website into their first language.
+- As a **site owner**, I want my users to be able to learn about LingLang.
+- As a **site owner**, I want my users to be able to I want a cookie policy displayed and a policy drawn up for users to read.
 
 ## User Requirements and Expectations ##
 
-- **Header**, **Main body** devided into section and **Footer**.
+- **Header**, **Main body** divided into section and **Footer**.
 - In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
-  - **Home section** (top of the site)
-  - **Languages section**
-  - **sign up section**
-  - **Contact administration** section
-- On the right side of the **Header** you should see additional **Play game!** button that should take you straight to the games section.
+  - **Home** (top of the site)
+  - **Play Game**
+  - **Contact Us**
+  - **About Us** 
+  - **Map**
+  - **Sign Up**
 
 - In the **Main body** we should see:
   - **Welcome** section with a welcome message.
-  - **Languages we offer** displaying a carousel with the language choices.
-  - **Choose language form** to sign up to a class.
-  - **Contact us** section displaying google maps with the comapanies location.
+  - **Try Our Game** displaying a carousel with the language choices.
+  - **Sign Up form** to sign up to a class.
+  - **Contact Us** section displaying google maps with the comapanies location and a form the make various enquires.
 - In the **Footer** You should see self-explanatory icons allowing the user to connect them with the companies' social media channels.
+
   
 ## Design Choices ##
 
@@ -139,19 +145,33 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [jQuery](https://jquery.com/)
 - [Popper](https://popper.js.org/)
 - [Bootstrap](https://getbootstrap.com/)
+    - Used to design a mobile-first responsive website layout.
 - [Hover CSS](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css)
   
 ### Tools ###
 
 - [Git](https://git-scm.com/)
+    - Git was used for version control by utilising the Gitpod terminal to commit to Git and push to GitHub.
 - [GitHub](https://github.com/)
+    - Used to store, host and deploy the project files and source code after being pushed from Git.
 - [Font-Awesome](https://fontawesome.com/icons?d=gallery)
+    - An online IDE linked to the GitHub repository used for the majority of the code development.
 - [Google fonts](https://fonts.google.com/)
-- [Color editor](https://coolors.co/)
-- [Image editor](https://www.birme.net/)
+    - Used for the website fonts.
+- [Font-Awesome](https://fontawesome.com/icons?d=gallery)
+     - Used for icons to enhance headings and add emphasis to text.
+- [Coolors](https://coolors.co/)
+    - An online tool used to choose the website colour scheme.
+- [Birme](https://www.birme.net/)
+    - An online bulk image resizing tool.
 - [Favicons](https://favicon.io/)
+    - Used to generate a favicon for the website title.
 - [Google maps API](https://cloud.google.com/maps-platform/)
+    - Used to show the site's location
+- [Am I Responsive?](http://ami.responsivedesign.is/)
+  - A tool for taking a screenshot of the site and displaying it on various devices to see if it's responsive.
 - [Cookie Policy Generator](https://www.cookiepolicygenerator.com/)
+    - Used to generate a cookie policy
 
 ---
 
@@ -159,22 +179,24 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 ### Features Implemented ###
 
-- Responsive design
-- User friendly display
-- Navbar with easy navigation
-- Functional booking form
+- Responsive mobile first design using a [Bootstrap](https://getbootstrap.com/) framework.
+- User friendly display.
+- Navbar with easy navigation that collapses on mobile displays.
+- Functional Sign Up and Contact Us forms.
 - Google maps API for location services
-- interactive game
-- Social media links
+- An interactive game with bright primary colours.
+- Bootstrap accordions to reduce clicks and choose all three games and the instructions.
+- Social media links.
   
 ### Future Features ###
 
 - User accounts to store personal details securely;
-  - GDPR: Privacy and cookie policy statements.
-  - Sign up for marketing emails and special offers.
-- Include a shopping cart facility;
-  - Use discount voucher codes in the shopping cart.
-- Bookmark the site quickly and easily to encourage repeat visitors;
+  - Personal Profile.
+  - Once logged in, the user has access to  a huge variety of games.
+  - Progress assessment chart to show the user how well they're doing.
+- Google Translator;
+  - Option to choose one's first language upon loading the site.
+- Weekly News letter and challenges for current and future user/clients. 
 
 ---
 
