@@ -305,8 +305,7 @@ Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `-
 
 ## Bugs ##
 
-For every bug we found while in development process, we have loged an [incident](https://github.com/AlexNexton/MS2-LingLang/issues) report.
-Bug we have managed to fix are now marked as [closed](https://github.com/AlexNexton/MS2-LingLang/issues?q=is%3Aissue+is%3Aclosed).
+- can be found in a separate [testing.md](testing.md) file.
 
 ## Deployment ##
 
