@@ -1,11 +1,11 @@
-![Logo](/wireframes/logo-image.jpg)
+# ![Logo](assets/readmeImg/linglangtitle.png) #
 
-# MS2-ABearProject Testing Details #
+# MS2-LingLang Testing Details #
 
 
-[Main README.md file](https://github.com/AlexNexton/MS2-ABear/blob/master/README.md)
+[Main README.md file](https://github.com/AlexNexton/MS2-LingLang/blob/master/README.md)
 
-[View the live project here.](https://alexnexton.github.io/MS2-ABear/)
+[View the live project here.](https://alexnexton.github.io/MS2-LingLang/)
 
 ---
 
@@ -78,17 +78,57 @@ The following **validation services** and **linter** were used to check the vali
         - Edge
 
 ---
-## Bugs discovered ##
+## User Stories Testing ##
 ---
+-  As a **user**, I want to see a brief **background** story about the site and what it's about.
+    
+    1. Go to the Home page (or from any page).
+    2. Looking at the Nav-bar, click the 'About Us' page.
+    3. Scroll down until you see **'What We're About'** and **'How We Began'**.
 
-The issue log is managed on the [GitHub Project Issues section](https://github.com/AlexNexton/MS2-ABear/issues) using the standard GitHub [bug\_report.md template](https://github.com/AlexNexton/MS2-ABear/blob/master/.github/ISSUE_TEMPLATE/bug_report.md)
+-  As a **user**, I want to know **where** the company is **located on a map**.
+
+    1. Go to the Home page (or from any page).
+    2. Looking at the Nav-bar, click 'map'.
+    3. The user will be brought to a google maps with LingLangs location.
+
+- As a **user**, I want to be able to **Sign Up** and **choose a language** for my child/ children.
+
+     1. Go to the Home page.
+     2. Looking at the Nav-bar, click 'Sign Up'.
+     3. A modal will appear instantly.
+     4. Fill in your detatils and choose a language.
+     5. a confirmation page will appear and a memeber of LingLang will be in touch.
+
+- As a **user**, I want to be able to **contact** the website's team.
+
+     1. Go to the Home page.
+     2. Looking at the Nav-bar, click 'Contact Us'.
+     3. A modal will appear instantly.
+     4. Fill in your details.
+     5. Click ' inquire about' and select 'LingLangs team'.
+      6. Once the form is completed, click the arrow to submit.
+    
+- As a **user**, I want to be able to contact **administration** about payment methods, complaints, general enquires and the language one might choose.
+
+     1. Go to the Home page.
+     2. Looking at the Nav-bar, click 'Contact Us'.
+     3. A modal will appear instantly.
+     4. Fill in your details.
+     5. Click ' inquire about' and select 'LingLangs team'.
+     6. Once the form is completed, click the arrow to submit.
+     7. A confirmation page will come up where the user can fill out a more detailed form if necessary.
+
+- As a **user**, I want to be able to access the site's if any **Social Media** platforms.
+
+    1. Go to the Home page.(or any page).
+    2. Scroll down to the very bottom.
+    3. Click either Facebook, Twitter or Instagram.
 
 
 #### Unsolved Bugs ####
 
-[Issue #20](https://github.com/AlexNexton/MS2-ABear/issues/20)
-- 
+The bottom of the screen on the each game page goes beyond the footer.
 
-[Issue #38](https://github.com/AlexNexton/MS2-ABear/issues/38) 
-- 
+![ScreenBug](assets/testingImgs/bugScreen.png)
 

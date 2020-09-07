@@ -70,7 +70,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 
 - As a **user**, I want to see a brief **background** story about the site and what it's about.
 - As a **user**, I want to know **where** the company is **located on a map**.
-- As a **user**, I want to be able to **join a class online** with a preferred **chosen time** for my child/ children.
+- As a **user**, I want to be able to **Sign Up** and **choose a language** for my child/ children.
 - As a **user**, I want to be able to **contact** the website's team.
 - As a **user**, I want to be able to contact **administration** about payment methods, complaints, general enquires and the language one might choose.
 - As a **user**, I want to be able to access the site's if any **Social Media** platforms.
