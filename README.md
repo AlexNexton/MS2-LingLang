@@ -23,6 +23,13 @@
   - [Features](#features)
     - [Features Implemented](#features-implemented)
     - [Future Features](#future-features)
+    [Version Control](#version-control)
+    - [Gitpod Workspaces](#gitpod-workspaces)
+    - [Branches](#branches)
+    - [Working within a branch](#working-within-a-branch)
+    - [Merging branches in GitHub](#merging-branches-in-github)
+    - [Update Gitpod with the latest GitHub commits](#update-gitpod-with-the-latest-github-commits)
+- [Project Management](#project-management)
   - [Testing](#testing)
   - [Bugs](#bugs)
   - [Deployment](#deployment)
@@ -168,6 +175,59 @@ We designed our site moc-ups using [balsamiq wireframes](https://balsamiq.com/).
 - Include a shopping cart facility;
   - Use discount voucher codes in the shopping cart.
 - Bookmark the site quickly and easily to encourage repeat visitors;
+
+---
+
+---
+
+## Version Control ##
+**Version control** for this repository is managed within **GitHub** and **Gitpod** using separate [branches](https://github.com/AlexNexton/MS2-LingLang/branches)  used to work on specific aspects of the project.
+The following describes the repository branch structure:
+- **Master** - this is the default branch and the source for the repository deployment.
+    - **Readme** - this branch is used for updating the README.md and testing.md documentation only.
+    - **Coc** - this branch is used as the main working branch for the website development
+
+The following workflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
+
+#### Gitpod Workspaces ####
+1. Open **Gitpod** from **Github** using the Gitpod button. This needs to only be done **once** at the start of the project.
+2. Start the Gitpod Workspace which opens an **online IDE editor** window.
+
+#### Branches ####
+3. For changes to be made to any **readme files**, the git command `git checkout readme` is used to checkout and switch to the **readme branch**.
+4. For changes to be made to **other files** under normal site development, the git command `git checkout coc` is used to checkout and switch to the **coc branch**.
+5. To create a **new branch**  use the git command `git checkout -b <branch-name>` to **create and switch** to the new branch.
+
+#### Working within a branch ####
+6. **New** or **modified** files are **staged** using the `git add .` command
+7. The changes are **committed** using `git commit -m "<commit message>"` command.
+8. If the changes are in a newly created branch, the **committed** changes are **pushed** from Gitpod to GitHub using the `git push --set-upstream origin <branch-name>` command as there is currently no upstream branch in the remote repository.
+9. For branches that have already been synchronised, the **committed** changes are **pushed** from Gitpod to GitHub using the `git push` command.
+
+#### Merging branches in GitHub ####
+10. Opening the repository in Github, a new **pull request** is created for the updated branch and assigned to the **Development project**.
+11. The changes are **reviewed** to ensure there are **no conflicts** between the **updated branch** and the **Master branch**.
+12. The changes are then **merged** into the **Master branch** and the merge request is **closed**. The **Project entry** is **automatically** moved to the **Done** card.
+
+#### Update Gitpod with the latest GitHub commits ####
+13. To update Gitpod with the **latest commits** From GitHub, the `git checkout master` command is used to checkout and switch to the master branch.
+14. Use the `git pull` command to update the master branch and **reset the pointer**.
+15. Now **switch** to the **other branches** in Gitpod using the `git checkout <branch-name>` command and use the `git merge origin/master` command to **update each branch in turn**.
+16. Use the `git push` on **each branch** to update the relevant GiHub Branches to the **same commit** as the **Master branch**.
+17. **Repeat steps 3 - 17 regularly** to ensure updates are **saved** and **correctly version controlled** in GitHub.
+
+---
+
+## Project Management ##
+
+GitHub [Projects](https://github.com/AlexNexton/MS2-LingLang/projects) are used to organise the planning and development of the website using the Automated kanban template.
+The following project cards are used to manage the tasks:
+- **To Do** - this is the current work queue for the project.
+- **In Progress** - this is the list of tasks currently in work.
+    - New issues and pull requests are automatically added to this column using project card automation options.
+- **Done** - completed tasks
+
+Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `- [ ]` for an un-ticked checkbox and `- [x]` for a ticked checkbox on cards as a way of splitting a single complex task into a list of steps to be completed.
 
 ---
 
