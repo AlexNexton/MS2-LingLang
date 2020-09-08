@@ -388,9 +388,10 @@ footer{
 #ceo-img{
     height: 58%;
 }
-#click-me{
-     background-image: linear-gradient(to right, rgb(50, 69, 175) , rgb(17, 20, 204));
-     color: #fafafa;
+#click-me{ 
+     font-size: 16px;
+     font-weight: 700;
+     color: #000080;
 }
 
 
