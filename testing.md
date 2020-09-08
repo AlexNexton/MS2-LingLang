@@ -88,7 +88,7 @@ The following **validation services** and **linter** were used to check the vali
   As a **user**, I can choose the game in three different languages
 
     1. Go to the Home page (or from any page).
-    2. Looking at the Nav-bar, click the 'PlayGame'.
+    2. Looking at the Nav-bar, click the **'PlayGame'**.
     3. Choose **instruction** to see how to play the game or choose **In English, French or Spanish** to go directly and play the game.
 
 
@@ -98,13 +98,13 @@ The following **validation services** and **linter** were used to check the vali
    As a **user**, I can learn **about** the site's origin and why they began. 
 
     1. Go to the Home page (or from any page).
-    2. Looking at the Nav-bar, click the 'About Us' page.
+    2. Looking at the Nav-bar, click the **'About Us'** page.
     3. Scroll down until you see **'What We're About'** and **'How We Began'**.
 
 -  As a **user**, I want to know **where** the company is **located on a map**.
 
     1. Go to the Home page (or from any page).
-    2. Looking at the Nav-bar, click 'map'.
+    2. Looking at the Nav-bar, click **'map'**.
     3. The user will be brought to a google maps with LingLangs location.
 
 - As a **user**, I want to be able to **Sign Up** and **choose a language** for my child/ children.
@@ -113,18 +113,18 @@ The following **validation services** and **linter** were used to check the vali
 
 
      1. Go to the Home page.
-     2. Looking at the Nav-bar, click 'Sign Up'.
+     2. Looking at the Nav-bar, click **'Sign Up'**.
      3. A modal will appear instantly.
-     4. Fill in your detatils and choose a language.
+     4. Fill in your details and choose a language.
      5. Choose either **English, French or Spanish**.
      6. Submit.
 
  - As a **user**, I can choose more than one child to participate in a class.
 
      1. Go to the Home page.
-     2. Looking at the Nav-bar, click 'Sign Up'.
+     2. Looking at the Nav-bar, click **'Sign Up'**.
      3. A modal will appear instantly.
-     4. Fill in your detatils and 'No of Children - Max 4'.
+     4. Fill in your details and **'No of Children - Max 4'**.
      5. Choose either **1, 2, 3 or 4**.
      6. Submit.
 
@@ -132,49 +132,49 @@ The following **validation services** and **linter** were used to check the vali
 - As a **user**, I want to be able to **contact** the website's team.
 
      1. Go to the Home page.
-     2. Looking at the Nav-bar, click 'Contact Us'.
+     2. Looking at the Nav-bar, click **'Contact Us'**.
      3. A modal will appear instantly.
      4. Fill in your details.
-     5. Click ' inquire about' and select 'LingLangs team'.
+     5. Click **'inquire about'** and select **'LingLangs team'**.
      6. Once the form is completed, click the arrow to submit.
     
 - As a **user**, I want to be able to contact **administration** about payment methods, complaints, general enquires and the language one might choose.
  
-  As a **user**, I can get a **notification** once I've submitted my request and a confirmation message reciting the request is displayed on a new webpage.
+  As a **user**, I can get a **notification** once I have submitted my request and a confirmation message reciting the request is displayed on a new webpage.
 
      1. Go to the Home page.
-     2. Looking at the Nav-bar, click 'Contact Us'.
+     2. Looking at the Nav-bar, click **'Contact Us'**.
      3. A modal will appear instantly.
      4. Fill in your details.
-     5. Click ' inquire about' and select 'LingLangs team'.
-     6. Once the form is completed, click the arrow to submit.
+     5. Click **' inquire about'** and select 'LingLangs team'.
+     6. Once the form is completed, click the **arrow** to submit.
      7. A confirmation page will come up where the user can fill out a more detailed form if necessary.
 
 - As a **user**, I want to be able to access the site's if any **Social Media** platforms.
 
-    1. Go to the Home page.(or any page).
+    1. Go to the Home page. (or any page).
     2. Scroll down to the very bottom.
     3. Click either Facebook, Twitter or Instagram.
 
 - As a **user**, I can **contact** the company for any problems I may encounter using their **social media** channels, **call** or **email** them.
 
-    1. Go to the Home page.(or any page).
+    1. Go to the Home page. (or any page).
     2. Scroll down to the very bottom.
     3. In the footer you have Contact information - Email, Address and Phone Number.
 
         or
 
         1. Go to the Home page.
-        2. Looking at the Nav-bar, click 'Contact Us'.
+        2. Looking at the Nav-bar, click **'Contact Us'**.
         3. A modal will appear instantly.
         4. Fill in your details.
-        5. Click ' inquire about' and select 'General inquiry'.
-        6. Once the form is completed, click the arrow to submit.
+        5. Click **' inquire about'** and select **'General inquiry'**.
+        6. Once the form is completed, click the **arrow** to submit.
 
-- As a **user**, I can see some of **The Team** .
+- As a **user**, I can see some of **The Team**.
 
     1. Go to the Home page.
-    2. Looking at the Nav-bar, click 'About Us'.
+    2. Looking at the Nav-bar, click **'About Us'**.
     3. Scroll down until you see **Our Team**.
 
 
@@ -183,11 +183,11 @@ The following **validation services** and **linter** were used to check the vali
 - Start button on game when clicked more than once would increment the countdown timer on the clock.
   - I had to remove the start button and have the page refresh instead.
 
-- The overlays for each game, which appear before you start the game or upon completion would disappear without starting the game if you clicked anywhwere on the screen.
+- The overlays for each game, which appear before you start the game or upon completion would disappear without starting the game if you clicked anywhere on the screen.
     - I figured out how to make it so the only way to remove the overlay was by clicking the play/refresh button. Thereby leaving the game static.
 
 - With [EmailJS](https://www.emailjs.com/) I couldn't get the emails to send over a modal form.
-    - I moved the form to the contact confirmation page which I used as a quick solution however, I would have rathered it send the modal contents to the user's email address.
+    - I moved the form to the contact confirmation page which I used as a quick solution however, I would have preferred it send the modal contents to the user's email address.
 
 - In the beginning the cards for the game only matched the same link.
     - I figured out how to match them to different links thereby making it possible to have the pictures match their
@@ -195,7 +195,12 @@ The following **validation services** and **linter** were used to check the vali
 
 #### Unsolved Bugs ####
 
-The bottom of the screen on the each game page for the **ipad pro** on **Google dev tools** goes beyond the footer.
+- The bottom of the screen on each game page for the **ipad pro** on **Google dev tools** goes beyond the footer.
 
 ![ScreenBug](assets/testingImgs/bugScreen.png)
+
+- If you click the game button before the html has loaded, the game won't work.
+    It doen't happen that often but didn't know how to fix this problem.
+
+    - best solution is to click the reload button.
 
