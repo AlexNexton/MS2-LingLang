@@ -363,7 +363,13 @@ I have identified the colour palette on [W3](https://www.w3schools.com/).
 - [Bootstrap Borderless Table](https://getbootstrap.com/docs/4.5/content/tables/) code.
 - [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
-- [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial help in with writing the game and understanding JavaScript a whole lot more. 
+- [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
 - [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the flipping of the cards
+
+### References ###
+- [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
+- [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
+
+
 
 ---
