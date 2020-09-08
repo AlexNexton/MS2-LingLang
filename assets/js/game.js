@@ -179,30 +179,11 @@ function ready(){
     let startgame = document.getElementById('startgame'); //starts the game
     let cards = Array.from(document.getElementsByClassName('card')); // gets the array of cards from the html page
     let game = new MixorMatch(99, cards); // instance for card game #1
-    
-    //button loads 2seconds later as at time if the page hadn't finished loading and you clicked the button, the game wouldn't start.
-
-        let myButton= document.getElementById('startgame');
-             let hide_timeout = 0000; // 0 sec before hide button;
-             let show_timeout = 2000; // delay 2 secconds before show button;
-
-            setTimeout (function(){
-                myButton.style.display ='none';
-            },hide_timeout);
-
-            setTimeout (function(){
-                myButton.style.display ='inline';   
-            },show_timeout);
-
-
-        startgame.addEventListener('click',() =>{
-
-            intro.classList.remove('vis');
+     startgame.addEventListener('click',() =>{
+        intro.classList.remove('vis');
                 
         });
-    
-
-     //To Start the game once clicked on the Overlay screen.
+ //To Start the game once clicked on the Overlay screen.
      window.onload=function(){
 
         startgame.addEventListener("click", startGameBtn, false); 
