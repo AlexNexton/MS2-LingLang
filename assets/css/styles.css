@@ -108,6 +108,7 @@ h2{
     background-image: linear-gradient(to right, rgb(50, 69, 175) , rgb(17, 20, 204));
     color: #fafafa;
      text-shadow: 2px 2px 4px #000000;
+     cursor: pointer;
     
 }
 .dropdown-item:hover{
