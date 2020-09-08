@@ -19,7 +19,7 @@ function initMap() { // Google maps function and theme
     
     <div id="bodyContent"> 
     <p style="color: #000080; font-family: 'Libre Baskerville', serif; font-size: 1rem;">
-       ⋆⋆⋆⋆⋆ <br> "I sent my children here to learn Spanish and now they order our food on holidays. " <br>  - An Taoiseach ;)
+       ⋆⋆⋆⋆⋆ <br> "I sent my children here to learn Spanish and now they order our food on holidays. " <br><br>  - An Taoiseach ;)
     </p> 
     <p style="color: #000080; font-family: 'Libre Baskerville', serif; font-size: 1rem;">Address: LingLang, DonnyBrook Hill, Douglas, <br> Cork, Ireland <br>
     Phone:  +351 135 71113 <br>
