@@ -88,7 +88,7 @@ The following **validation services** and **linter** were used to check the vali
   As a **user**, I can choose the game in three different languages
 
     1. Go to the Home page (or from any page).
-    2. Looking at the Nav-bar, click the 'PlayGame'.
+    2. Looking at the Nav-bar, click the **'PlayGame'**.
     3. Choose **instruction** to see how to play the game or choose **In English, French or Spanish** to go directly and play the game.
 
 
@@ -98,13 +98,13 @@ The following **validation services** and **linter** were used to check the vali
    As a **user**, I can learn **about** the site's origin and why they began. 
 
     1. Go to the Home page (or from any page).
-    2. Looking at the Nav-bar, click the 'About Us' page.
+    2. Looking at the Nav-bar, click the **'About Us'** page.
     3. Scroll down until you see **'What We're About'** and **'How We Began'**.
 
 -  As a **user**, I want to know **where** the company is **located on a map**.
 
     1. Go to the Home page (or from any page).
-    2. Looking at the Nav-bar, click 'map'.
+    2. Looking at the Nav-bar, click **'map'**.
     3. The user will be brought to a google maps with LingLangs location.
 
 - As a **user**, I want to be able to **Sign Up** and **choose a language** for my child/ children.
@@ -113,7 +113,7 @@ The following **validation services** and **linter** were used to check the vali
 
 
      1. Go to the Home page.
-     2. Looking at the Nav-bar, click 'Sign Up'.
+     2. Looking at the Nav-bar, click **'Sign Up'**.
      3. A modal will appear instantly.
      4. Fill in your detatils and choose a language.
      5. Choose either **English, French or Spanish**.
@@ -122,9 +122,9 @@ The following **validation services** and **linter** were used to check the vali
  - As a **user**, I can choose more than one child to participate in a class.
 
      1. Go to the Home page.
-     2. Looking at the Nav-bar, click 'Sign Up'.
+     2. Looking at the Nav-bar, click **'Sign Up'**.
      3. A modal will appear instantly.
-     4. Fill in your detatils and 'No of Children - Max 4'.
+     4. Fill in your detatils and **'No of Children - Max 4'**.
      5. Choose either **1, 2, 3 or 4**.
      6. Submit.
 
@@ -132,10 +132,10 @@ The following **validation services** and **linter** were used to check the vali
 - As a **user**, I want to be able to **contact** the website's team.
 
      1. Go to the Home page.
-     2. Looking at the Nav-bar, click 'Contact Us'.
+     2. Looking at the Nav-bar, click **'Contact Us'**.
      3. A modal will appear instantly.
      4. Fill in your details.
-     5. Click ' inquire about' and select 'LingLangs team'.
+     5. Click **'inquire about'** and select **'LingLangs team'**.
      6. Once the form is completed, click the arrow to submit.
     
 - As a **user**, I want to be able to contact **administration** about payment methods, complaints, general enquires and the language one might choose.
@@ -143,11 +143,11 @@ The following **validation services** and **linter** were used to check the vali
   As a **user**, I can get a **notification** once I've submitted my request and a confirmation message reciting the request is displayed on a new webpage.
 
      1. Go to the Home page.
-     2. Looking at the Nav-bar, click 'Contact Us'.
+     2. Looking at the Nav-bar, click **'Contact Us'**.
      3. A modal will appear instantly.
      4. Fill in your details.
-     5. Click ' inquire about' and select 'LingLangs team'.
-     6. Once the form is completed, click the arrow to submit.
+     5. Click **' inquire about'** and select 'LingLangs team'.
+     6. Once the form is completed, click the **arrow** to submit.
      7. A confirmation page will come up where the user can fill out a more detailed form if necessary.
 
 - As a **user**, I want to be able to access the site's if any **Social Media** platforms.
@@ -165,11 +165,11 @@ The following **validation services** and **linter** were used to check the vali
         or
 
         1. Go to the Home page.
-        2. Looking at the Nav-bar, click 'Contact Us'.
+        2. Looking at the Nav-bar, click **'Contact Us'**.
         3. A modal will appear instantly.
         4. Fill in your details.
-        5. Click ' inquire about' and select 'General inquiry'.
-        6. Once the form is completed, click the arrow to submit.
+        5. Click **' inquire about'** and select **'General inquiry'**.
+        6. Once the form is completed, click the **arrow** to submit.
 
 - As a **user**, I can see some of **The Team** .
 
