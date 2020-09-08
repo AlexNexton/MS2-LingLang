@@ -179,15 +179,11 @@ function ready(){
     let startgame = document.getElementById('startgame'); //starts the game
     let cards = Array.from(document.getElementsByClassName('card')); // gets the array of cards from the html page
     let game = new MixorMatch(99, cards); // instance for card game #1
-      
-        startgame.addEventListener('click',() =>{
-
-            intro.classList.remove('vis');
+     startgame.addEventListener('click',() =>{
+        intro.classList.remove('vis');
                 
         });
-    
-
-     //To Start the game once clicked on the Overlay screen.
+ //To Start the game once clicked on the Overlay screen.
      window.onload=function(){
 
         startgame.addEventListener("click", startGameBtn, false); 
