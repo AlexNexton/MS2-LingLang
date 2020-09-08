@@ -195,7 +195,12 @@ The following **validation services** and **linter** were used to check the vali
 
 #### Unsolved Bugs ####
 
-The bottom of the screen on each game page for the **ipad pro** on **Google dev tools** goes beyond the footer.
+- The bottom of the screen on each game page for the **ipad pro** on **Google dev tools** goes beyond the footer.
 
 ![ScreenBug](assets/testingImgs/bugScreen.png)
+
+- If you click the game button before the html has loaded, the game won't work.
+    It doen't happen that often but didn't know how to fix this problem.
+
+    - best solution is to click the reload button.
 
