@@ -7,6 +7,7 @@ body{
    color: navy;
    min-height: 100vh;
 }
+
 h2{
     font-weight: 500;
 }
@@ -134,6 +135,7 @@ h2{
     margin-top: 4rem;
     font-size: 1.2rem;
 }
+
 /*----------------------------------Try Our Game section----------*/
 .btn-primary{
    background-color: rgb(6 ,21, 104);
@@ -168,6 +170,16 @@ max-width: 80%;
 #bookTableBox .modal-header,
 #bookTableBox .modal-footer {
   border: none;
+}
+
+body.modal-open-noscroll /*known issue Correction taken from Bootstrap Github repo issue #1522 */
+{
+    margin-right: 0!important;
+    overflow: hidden;
+}
+.modal-open-noscroll .sticky-top
+{
+    margin-right: 0!important;
 }
 
 .booking-font {

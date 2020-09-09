@@ -24,7 +24,7 @@
  
 <!--NavBar Section here-->
  
- <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid sticky-top">
+ <nav class="navbar bg-color-navbar navbar-expand-sm container-fluid fixed-top">
     <a href="index.html" class="navbar-brand nav-text-color" id="logo-nav"><img src="assets/img/logos/LingLang.png"
         class="linglanglogo" alt="linglanglogo" /></a>
 
@@ -93,7 +93,26 @@
      </div>
 
   <!--=======================================================================Welcome Section here-->
-
+  
+  <!--Once I solved - known issue Correction taken from Bootstrap Github repo issue #1522-- I couldn't manipulate the margin-top
+  as before so I came up with this solution-->
+   <section class="container-fluid ">
+  <div class="row mt-2">
+    <div class="col-12">
+     <p>                                        </p>
+    </div>
+  </div>
+  
+  </section>
+  <section class="container-fluid ">
+  <div class="row mt-5">
+    <div class="col-12">
+     <p>                                        </p>
+    </div>
+  </div>
+  
+  </section>
+<!--Welcome Text Section-->
   <section class="welcome-section container-fluid" title="kid with blue hands">
     <div class="row mt-5 text-center">
       <div class="col-12">
@@ -307,7 +326,7 @@
       </div>
       <div class="col-12 col-sm-3 text-center mt-3">
         <div class="join-class">
-          <div class="btn book-button3" data-toggle="modal" data-target="#chooseLanguage">
+          <div class="btn book-button3 " data-toggle="modal" data-target="#chooseLanguage">
             <a><i class="fas fa-child button" aria-hidden="true" title="join a class"></i><span class="sr-only">little child</span></a>
         </div>
           <!-- 1. Joining a class form: Modal box-->
