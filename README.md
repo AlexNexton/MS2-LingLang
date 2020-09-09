@@ -128,12 +128,10 @@ I've chosen(might change these) [Josefin](https://fonts.google.com/specimen/Jose
 
 ### Colours ###
 
-We have chosen the colour that say *"coffee now please!"*, appealing to the eye and also compliments the design of the project.
-![Color palette](wireframes/png)
+I chose colours that would be appealing to the eye for both adults and children.
 
-- *insert name* (#00000) - colour
-- *insert name* (#00000) - colour
-- *insert name* (#00000) - colour
+![Color palette for main website](wireframes/style.css.pdf)
+![Color palette for Game Pages](wireframes/GamePagesColours.pdf)
 
 These colours will compliment each other well when used across the site creating pleasant ambience.
 
