@@ -48,6 +48,8 @@ The home page is a contrast of those colours so that the site also looks  both p
     - [Colour](#colour)
     - [Image editing](#image-editing)
     - [Acknowledgements](#acknowledgements)
+    - [References](#references)
+
 
 [Table of contents generated with markdown-toc](http://ecotrust-canada.github.io/markdown-toc/)
 
@@ -367,6 +369,7 @@ I have identified the colour palette on [W3](https://www.w3schools.com/).
 - [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the flipping of the cards
 
 ### References ###
+
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
 
