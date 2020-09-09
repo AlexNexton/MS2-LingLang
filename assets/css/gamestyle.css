@@ -325,16 +325,19 @@ body{
      background: rgb(228, 223, 223);
     border: 2px solid #fffb00;
     transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
    
 }
 .card-value {
   position: relative;
   transition: transform 100ms ease-in-out;
   transform: scale(.9);
+  -webkit-transform: scale(.9);
 }
 .card-front:hover .card-value{
     transition: transform 100ms ease-in-out;
     transform: scale(.9,1);
+    -webkit-transform: scale(.9,1);
 }
 
 
