@@ -92,7 +92,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 ## Site Owner Goals ##
 
 - As a **site owner**, I want to create an interactive website allowing the user to play a game, sign up and make enquires.
-- As a **site owner**, I want to create a site that's mobile ready.
+- As a **site owner**, I want to create a site that is mobile ready.
 - As a **site owner**, I want the user to be able to see a location of the company on google maps.
 - As a **site owner**, I want my users to be able to connect with the owner/team via social media channels.
 - As a **site owner**, I want my users to be able to sign up to the website.
@@ -139,7 +139,7 @@ These colours will compliment each other well when used across the site creating
 
 ### Wireframes ###
 
-I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). Each image/pdf shows a page and how the displays would change on different screen sizes such as **mobile**,**tablet** and **desktop**.
+I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). Each image/pdf shows a page and how the displays would change on different screen sizes such as **mobile**, **tablet** and **desktop**.
 
 
 
@@ -150,13 +150,9 @@ I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/).
 - [GamePages](/wireframes/GamePages.pdf)
 - [ContactUs](/wireframes/ContactUs.pdf)
 - [SignUp](/wireframes/SignUp.pdf)
-
-
-
+ 
 ---  
-
-
-
+ 
 ## Technologies ##
 
 ### Languages ###
