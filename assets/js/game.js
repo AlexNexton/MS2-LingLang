@@ -4,10 +4,11 @@
 
 class AudioController{ // adding the audio for the game and the card sounds
     constructor(){
-            this.backgroundMusic = new Audio('assets/audio/Marty Gots a Plan (Kevin McLeod) - Vanoss Gaming Background Music (HD).mp3');
-            this.flipSound =  new Audio('assets/audio/zapsplat_multimedia_button_click_007_53868.mp3'); //ref https://www.zapsplat.com/sound-effect-category/button-clicks/
+            //ref https://www.zapsplat.com/sound-effect-category/button-clicks/
+            this.backgroundMusic = new Audio('assets/audio/backgroundMusic.mp3');
+            this.flipSound =  new Audio('assets/audio/flipSound.mp3'); 
             this.matchSound =  new Audio('assets/audio/match.wav');
-            this.victorySound =  new Audio('assets/audio/zapsplat_multimedia_game_star_win_gain_x10_12396.mp3');
+            this.victorySound =  new Audio('assets/audio/victorySound.mp3');
             this.gameOverSound = new Audio('assets/audio/gameover.mp3');
             this.backgroundMusic.volume = 0.3;
             this.backgroundMusic.loop = true;
@@ -26,7 +27,7 @@ class AudioController{ // adding the audio for the game and the card sounds
     match(){
         
          setTimeout(() =>{
-            this.matchSound.play()
+            this.matchSound.play();
         }, 600); // so the sound plays after the second card is flipped
         
     }
@@ -197,7 +198,7 @@ function ready(){
             game.flipCard(card); //flips a card #1
         });
     });
-}
+};
             
     
 }
