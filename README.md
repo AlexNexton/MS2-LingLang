@@ -139,7 +139,9 @@ These colours will compliment each other well when used across the site creating
 
 ### Wireframes ###
 
-I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). I was focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). Each image/pdf shows a page and how the displays would change on different screen sizes such as **mobile**,**tablet** and **desktop**.
+
+
 
 ## My Wireframes ##
 
