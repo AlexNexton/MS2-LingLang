@@ -289,10 +289,12 @@ body{
 .card.vis .card-back{
  -webkit-transform: rotateY(-180deg);
  transform: rotateY(-180deg);
+ -ms-transform: rotateY(-180deg);
  
 }
 .card.vis .card-front{
-   -webkit-transform: rotateY(0);
+ -ms-transform: rotateY(0);
+-webkit-transform: rotateY(0);
  transform: rotateY(0);
  border: 1px solid yellow;
  box-shadow: 5px 5px rgb(17, 20, 204); /*adds a shadow when card is flipped */
@@ -326,6 +328,7 @@ body{
     border: 2px solid #fffb00;
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
    
 }
 .card-value {
@@ -333,11 +336,13 @@ body{
   transition: transform 100ms ease-in-out;
   transform: scale(.9);
   -webkit-transform: scale(.9);
+  -ms-transform: scale(.9);
 }
 .card-front:hover .card-value{
     transition: transform 100ms ease-in-out;
     transform: scale(.9,1);
     -webkit-transform: scale(.9,1);
+    -ms-transform: scale(.9,1);
 }
 
 
