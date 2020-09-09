@@ -172,14 +172,24 @@ body{
   color: #fafafa;
 }
 
-.book-button-nav {
-  background-image: linear-gradient(to right, rgb(50, 69, 175) , rgb(17, 20, 204));
-  color: #00ff0d;;
+.signup-button-nav {
+  background-color:  rgb(14, 17, 139);
+  color: #00ff0d;
   transition: all 0.3s;
+  border: 1px solid #fafafa;
+  box-shadow: 2px 2px 20px white;
   border-radius: 5%;
   margin-right: 20px;
- padding: .5rem .5rem;
+  padding: .5rem .5rem;
 }
+
+.signup-button-nav:hover {
+  border-radius: 50%;
+    background: rgba(17, 29, 204);
+  color: #fafafa;
+  transform: scale(1.2);
+}
+
 
 .dropdown-menu{
     overflow: visible;
@@ -196,13 +206,7 @@ body{
 }
 .dropdown-item:hover{
     color:#00ff0d;
-}
-.book-button-nav:hover {
-  border-radius: 50%;
-    background: rgba(17, 29, 204);
-  color: #fafafa;
-  transform: scale(1.2);
-}
+} 
 
 .overflow{
     overflow: hidden;
