@@ -26,7 +26,7 @@ class AudioController{ // adding the audio for the game and the card sounds
     match(){
         
          setTimeout(() =>{
-            this.matchSound.play()
+            this.matchSound.play();
         }, 600); // so the sound plays after the second card is flipped
         
     }
@@ -197,7 +197,7 @@ function ready(){
             game.flipCard(card); //flips a card #1
         });
     });
-}
+};
             
     
 }
