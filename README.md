@@ -130,8 +130,9 @@ I've chosen(might change these) [Josefin](https://fonts.google.com/specimen/Jose
 
 I chose colours that would be appealing to the eye for both adults and children.
 
-![Color palette for main website](wireframes/style.css.pdf)
-![Color palette for Game Pages](wireframes/GamePagesColours.pdf)
+- [Color palette for main website](wireframes/style.css.pdf)
+
+- [Color palette for Game Pages](wireframes/GamePagesColours.pdf)
 
 These colours will compliment each other well when used across the site creating pleasant ambience.
 
