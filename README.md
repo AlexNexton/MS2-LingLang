@@ -147,6 +147,11 @@ I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 - [Homepage](/wireframes/HomePage.pdf)
 - [About Us page](/wireframes/AboutUsPage.pdf)
+- [GamePages](/wireframes/GamePages.pdf)
+- [ContactUs](/wireframes/ContactUs.pdf)
+- [SignUp](/wireframes/SignUp.pdf)
+
+
 
 ---  
 
