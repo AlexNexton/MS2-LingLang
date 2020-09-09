@@ -13,10 +13,10 @@
 
 - [Automated Testing](#automated-testing)
   - [Validation Services](#validation-services)
-- [Manual Testing](#manual-testing)
-  - [User Acceptance Testing (UAT)](#user-acceptance-testing-(uat))
+- [Manual Testing](#manual-testing) 
   - [Testing undertaken on desktop](#testing-undertaken-on-desktop)
   - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
+  - [User Stories Testing](#user-stories-testing)
 - [Bugs discovered](#bugs-discovered)
   - [Unsolved Bugs](#unsolved-bugs)
 
@@ -35,15 +35,8 @@ The following **validation services** and **linter** were used to check the vali
 
 ---
 ## Manual Testing ##
----
-
-### User Acceptance Testing (UAT) ###
-[UAT document](testing/MS2-ABear-uat-test-plan.pdf) containing:
-- UAT approach (scope, assumptions and constraints, team roles and responsibilities etc.), 
-- Identified risks, 
-- The test cases,
-- The pass / fail record for each test case.
-
+--- 
+ 
 ### Testing undertaken on desktop ###
 
 - Hardware:
@@ -193,6 +186,25 @@ The following **validation services** and **linter** were used to check the vali
     - I figured out how to match them to different links thereby making it possible to have the pictures match their
      corresponding words thanks to [StackOverFlow](https://stackoverflow.com/).
 
+- Regarding the modal, once opened they would move the back of the screen to the right and the bg-image looked like it was jumping.
+  Apparently this was a known issure **- known issue Correction taken from Bootstrap Github repo issue #15229** and the fix as supposed to be this:
+
+   - .modal-open {
+  overflow: auto;
+  padding-right: 0 !important;
+}
+
+ However, as I was using a sticky-top this didn't work and so I had to put this instead:
+
+ body.modal-open-noscroll
+{
+    margin-right: 0!important;
+    overflow: hidden;
+}
+.modal-open-noscroll .sticky-top, .modal-open .navbar-fixed-bottom
+{
+    margin-right: 0!important;
+}
 #### Unsolved Bugs ####
 
 - The bottom of the screen on each game page for the **ipad pro** on **Google dev tools** goes beyond the footer.

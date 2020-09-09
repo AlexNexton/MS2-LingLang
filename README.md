@@ -92,7 +92,7 @@ The **goal** of this project is to build a website which allows LingLang to show
 ## Site Owner Goals ##
 
 - As a **site owner**, I want to create an interactive website allowing the user to play a game, sign up and make enquires.
-- As a **site owner**, I want to create a site that's mobile ready.
+- As a **site owner**, I want to create a site that is mobile ready.
 - As a **site owner**, I want the user to be able to see a location of the company on google maps.
 - As a **site owner**, I want my users to be able to connect with the owner/team via social media channels.
 - As a **site owner**, I want my users to be able to sign up to the website.
@@ -128,21 +128,30 @@ I've chosen(might change these) [Josefin](https://fonts.google.com/specimen/Jose
 
 ### Colours ###
 
-We have chosen the colour that say *"coffee now please!"*, appealing to the eye and also compliments the design of the project.
-![Color palette](wireframes/png)
+I chose colours that would be appealing to the eye for both adults and children.
 
-- *insert name* (#00000) - colour
-- *insert name* (#00000) - colour
-- *insert name* (#00000) - colour
+- [Color palette for main website](wireframes/style.css.pdf)
+
+- [Color palette for Game Pages](wireframes/GamePagesColours.pdf)
 
 These colours will compliment each other well when used across the site creating pleasant ambience.
 
 ### Wireframes ###
 
-I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). I was focusing on defining basic layout structure of the site and identifying how displays would change on different screen sizes such as [mobile](/wireframes/mobile.jpg), [tablet](/wireframes/tablet.jpg) and [desktop](/wireframes/desktop.jpg).
+I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). Each image/pdf shows a page and how the displays would change on different screen sizes such as **mobile**, **tablet** and **desktop**.
 
+
+
+## My Wireframes ##
+
+- [Homepage](/wireframes/HomePage.pdf)
+- [About Us page](/wireframes/AboutUsPage.pdf)
+- [GamePages](/wireframes/GamePages.pdf)
+- [ContactUs](/wireframes/ContactUs.pdf)
+- [SignUp](/wireframes/SignUp.pdf)
+ 
 ---  
-
+ 
 ## Technologies ##
 
 ### Languages ###
