@@ -2,9 +2,9 @@
 
 let url_string = window.location.href;
 let url = new URL(url_string);
-let nameParam = url.searchParams.get("name")
-let emailParam = url.searchParams.get("email")
-let childParam = url.searchParams.get("child")
+let nameParam = url.searchParams.get("name");
+let emailParam = url.searchParams.get("email");
+let childParam = url.searchParams.get("child");
 let dateParam = url.searchParams.get("date");
 let timeParam = url.searchParams.get("time");
 
