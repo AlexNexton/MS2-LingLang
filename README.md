@@ -364,30 +364,34 @@ You can find the images used for the site [here](assets/img). I sourced them thr
 - [British Council](https://learnenglishkids.britishcouncil.org/flashcards/wild-animals-flashcards) for the game flashcard.
 - [Pikrepo](https://www.pikrepo.com/) for the background images and team.
 - [Unsplash](https://unsplash.com/) for the background images and team.
-
+- [OurTeam Amy Santiago](https://fordmurraylaw.com/wp-content/uploads/2018/12/Professional-Woman.jpg)
+- [OurTeam Terry Jeffords](https://img.freepik.com/photos-gratuite/content-homme-noir-posant-ordinateur-portable_23-2147664280.jpg?size=626&ext=jpg)
+- The image for the CEO is mine.
 ### Colour ###
 
 I have identified the colour palette on [W3](https://www.w3schools.com/).
 
 ### Image editing ###
 
-- I have used snippet tool for capturing screengrabs which I saved as images.
-- A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
+- I used a snippet tool for capturing screengrabs which I saved as images.
+-  [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) is a site  that allowed me to resise the images all at once.
 
 ### Acknowledgements ###
 
+- I would like to take this oppertunity 
+
+- [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had and fixing bugs.
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
 - [Bootstrap Carousel with Controls](https://getbootstrap.com/docs/4.5/components/carousel/) code.
-- [Bootstrap Borderless Table](https://getbootstrap.com/docs/4.5/content/tables/) code.
-- [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
-- [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the flipping of the cards
+- [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the Card game.
 
 ### References ###
 
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
+- [Cookie Policy](https://www.cookiepolicygenerator.com/)
 
 
 
