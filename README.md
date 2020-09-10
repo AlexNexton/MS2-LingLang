@@ -128,13 +128,12 @@ The **goal** of this project is to build a website which allows LingLang to show
 
 ### Fonts ###
 
-I chose a couple of font's to work with 
+I chose a couple of font's to work with:
 
-- [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=libre) for the main site.
+- [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=libre)  mostly for the main site and some of game pages.
 - [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) throughout the game pages.
-
-  [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  I have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
-
+- [Kalam](https://fonts.google.com/?query=kalam) for game title.
+ 
 ### Colours ###
 
 I chose colours that would be appealing to the eye for both adults and children.
@@ -143,14 +142,12 @@ I chose colours that would be appealing to the eye for both adults and children.
 
 - [Color palette for Game Pages](wireframes/GamePagesColours.pdf)
 
-These colours will compliment each other well when used across the site creating pleasant ambience.
+These colours will compliment each other well when used across the site creating a pleasant ambience.
 
 ### Wireframes ###
 
 I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). Each image/pdf shows a page and how the displays would change on different screen sizes such as **mobile**, **tablet** and **desktop**.
-
-
-
+ 
 ## My Wireframes ##
 
 - [Homepage](/wireframes/HomePage.pdf)
@@ -210,7 +207,7 @@ I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 - Responsive mobile first design using a [Bootstrap](https://getbootstrap.com/) framework.
 - User friendly display.
-- Navbar with easy navigation that collapses on mobile displays.
+- Navbar with easy navigation that collapses on mobile displays and sticks on desktop.
 - Functional Sign Up and Contact Us forms.
 - Google maps API for location services.
 - An interactive game with bright primary colours.
@@ -219,11 +216,11 @@ I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/).
   
 ### Future Features ###
 
-- User accounts to store personal details securely;
+- User accounts to store personal details securely.
   - Personal Profile.
-  - Once logged in, the user would have access to a huge variety of games for learning a second language.
+  - Once logged in, the user would have access to a huge variety of games for learning a second or third language.
   - Progress assessment chart to show the user how well they are doing.
-- Google Translator;
+- Google Translator.
   - Option to choose one's first language upon loading the site.
 - Weekly News letter and challenges for current and future user/clients. 
 - Personal Avatar.
@@ -273,8 +270,8 @@ a friend of mine inspired me to add **Google Search Console** and **XML Site Map
 **Version control** for this repository is managed within **GitHub** and **Gitpod** using separate [branches](https://github.com/AlexNexton/MS2-LingLang/branches)  used to work on specific aspects of the project.
 The following describes the repository branch structure:
 - **Master** - this is the default branch and the source for the repository deployment.
-    - **Readme** - this branch is used for updating the README.md and testing.md documentation only.
-    - **Coc** - this branch is used as the main working branch for the website development
+    - **readme** - this branch is used for updating the README.md and testing.md documentation only.
+    - **coc** - (were coc are my initials) this branch is used as the main working branch for the website development
 
 The following workflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
 
@@ -364,8 +361,9 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 
 You can find the images used for the site [here](assets/img). I sourced them through various websites, which are free to use:
 
-- [Pikrepo](https://www.pikrepo.com/)
-- [Unsplash](https://unsplash.com/)
+- [British Council](https://learnenglishkids.britishcouncil.org/flashcards/wild-animals-flashcards) for the game flashcard.
+- [Pikrepo](https://www.pikrepo.com/) for the background images and team.
+- [Unsplash](https://unsplash.com/) for the background images and team.
 
 ### Colour ###
 
