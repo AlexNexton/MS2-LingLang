@@ -1,15 +1,15 @@
 # ![Logo](assets/readmeImg/linglangtitle.png) #
 
-***LingLang** is an online learning platform where children can learn or continue learning a second language through games. 
-As a professional teacher of languages, I designed the website in response to Covid-19 (in 2020) so that Parents could 
-continue giving their child lessons while at home. Using games and online classes, the idea is to create an online community where
-Parents and their children can create new social enviornments and become part of a fun new unique way of teaching.*
+***LingLang** is an online learning platform where children can learn or continue learning a second or third language through games. 
+In my professional capacity as a teacher of languages, I designed the website in response to Covid-19 (in 2020) to enable parents to 
+continue to provide language lessons while home schooling. Using games and online classes, the idea is to create an online community where
+parents and their children can create new social enviornments and become part of a fun new unique way of teaching.*
 
 
 # ![Logo](assets/readmeImg/generalFrame.png) #
 
 ***Ling Lang's*** *Logo and the website's colours are mostly drawn from the primary colours (red, blue, green, yellow) so that it appeals to children - especially with regards to the game pages.
-The home page is a contrast of those colours so that the site also looks  both professional for adults while maintaining a colourful nature for kids.*
+The home page is a contrast of those colours so that the site also looks both professional for adults while maintaining a colourful nature for kids.*
 
 ## Contents ##
 
@@ -58,14 +58,15 @@ The home page is a contrast of those colours so that the site also looks  both p
 ## Project Goals ##
 
 The **goal** of this project is to build a website which allows LingLang to showcase one of its games in order to help children
- continue learning a second language online and have them sign up to access more levels and other games.
+ continue learning a second or third language online and after playing it, have their parents sign them up to access more levels and other games. 
  
 ## User Goals ##
 
 - **Play**: an interactive game one the site.
-- **Contact**: the sites **online** tutors or team.
-- **Sign up**: select a language, assign a teacher and a class to their child so that they'll be able to access more games.
-- **About us**: learn about LingLang and why they started.
+- **Contact**: the sites **online** team.
+- **Sign up**: select a language to learn so their child will be able to access more games and later be assigned a class.
+- **About us**: learn about LingLang, their team and why they started.
+- **map** : find the companys location on a map.
 - **Link**: to the social media sites.
 
 ## User Stories ##
@@ -101,10 +102,13 @@ The **goal** of this project is to build a website which allows LingLang to show
 - As a **site owner**, I want my users to be able to learn about LingLang.
 - As a **site owner**, I want my users to be able to I want a cookie policy displayed and a policy drawn up for users to read.
 
+- Testing information for  **User Stories** can be found in a separate [testing.md](testing.md) file.
+
+
 ## User Requirements and Expectations ##
 
-- **Header**, **Main body** divided into section and **Footer**.
-- In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
+- **Header**, **Main body** divided into sections and **Footer**.
+- In the **Header** we should see a **Logo** and a **navigation bar** across the top or on the left side on moblie with options to go to:
   - **Home** (top of the site)
   - **Play Game**
   - **Contact Us**
@@ -124,8 +128,12 @@ The **goal** of this project is to build a website which allows LingLang to show
 
 ### Fonts ###
 
-I've chosen(might change these) [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  I have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
+I chose a couple of font's to work with:
 
+- [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=libre)  mostly for the main site and some of game pages.
+- [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) throughout the game pages.
+- [Kalam](https://fonts.google.com/?query=kalam) for game title.
+ 
 ### Colours ###
 
 I chose colours that would be appealing to the eye for both adults and children.
@@ -134,14 +142,12 @@ I chose colours that would be appealing to the eye for both adults and children.
 
 - [Color palette for Game Pages](wireframes/GamePagesColours.pdf)
 
-These colours will compliment each other well when used across the site creating pleasant ambience.
+These colours will compliment each other well when used across the site creating a pleasant ambience.
 
 ### Wireframes ###
 
 I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). Each image/pdf shows a page and how the displays would change on different screen sizes such as **mobile**, **tablet** and **desktop**.
-
-
-
+ 
 ## My Wireframes ##
 
 - [Homepage](/wireframes/HomePage.pdf)
@@ -201,7 +207,7 @@ I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/).
 
 - Responsive mobile first design using a [Bootstrap](https://getbootstrap.com/) framework.
 - User friendly display.
-- Navbar with easy navigation that collapses on mobile displays.
+- Navbar with easy navigation that collapses on mobile displays and sticks on desktop.
 - Functional Sign Up and Contact Us forms.
 - Google maps API for location services.
 - An interactive game with bright primary colours.
@@ -210,11 +216,11 @@ I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/).
   
 ### Future Features ###
 
-- User accounts to store personal details securely;
+- User accounts to store personal details securely.
   - Personal Profile.
-  - Once logged in, the user would have access to a huge variety of games for learning a second language.
+  - Once logged in, the user would have access to a huge variety of games for learning a second or third language.
   - Progress assessment chart to show the user how well they are doing.
-- Google Translator;
+- Google Translator.
   - Option to choose one's first language upon loading the site.
 - Weekly News letter and challenges for current and future user/clients. 
 - Personal Avatar.
@@ -264,8 +270,8 @@ a friend of mine inspired me to add **Google Search Console** and **XML Site Map
 **Version control** for this repository is managed within **GitHub** and **Gitpod** using separate [branches](https://github.com/AlexNexton/MS2-LingLang/branches)  used to work on specific aspects of the project.
 The following describes the repository branch structure:
 - **Master** - this is the default branch and the source for the repository deployment.
-    - **Readme** - this branch is used for updating the README.md and testing.md documentation only.
-    - **Coc** - this branch is used as the main working branch for the website development
+    - **readme** - this branch is used for updating the README.md and testing.md documentation only.
+    - **coc** - (were coc are my initials) this branch is used as the main working branch for the website development
 
 The following workflow steps are used to create and update branches within Gitpod and to push changes back to GitHub.
 
@@ -355,32 +361,45 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 
 You can find the images used for the site [here](assets/img). I sourced them through various websites, which are free to use:
 
-- [Pikrepo](https://www.pikrepo.com/)
-- [Unsplash](https://unsplash.com/)
-
+- [British Council](https://learnenglishkids.britishcouncil.org/flashcards/wild-animals-flashcards) for the game flashcard.
+- [Pikrepo](https://www.pikrepo.com/) for the background images and team.
+- [Unsplash](https://unsplash.com/) for the background images and team.
+- [OurTeam Amy Santiago](https://fordmurraylaw.com/wp-content/uploads/2018/12/Professional-Woman.jpg)
+- [OurTeam Terry Jeffords](https://img.freepik.com/photos-gratuite/content-homme-noir-posant-ordinateur-portable_23-2147664280.jpg?size=626&ext=jpg)
+- The image for the CEO is mine.
 ### Colour ###
 
 I have identified the colour palette on [W3](https://www.w3schools.com/).
 
 ### Image editing ###
 
-- I have used snippet tool for capturing screengrabs which I saved as images.
-- A handy [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) site allowed us to resise the images all at once.
+- I used a snippet tool for capturing screengrabs which I saved as images.
+-  [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) is a site  that allowed me to resise the images all at once.
 
 ### Acknowledgements ###
 
+I would like to take this opportunity to thank a few people who helped me along the way.
+
+ - Firstly, I must give a huge thank you to my friend Simon Vardy, who helped me with testing my code and writing the readme - Simon you are an absolute gentleman, thank you.
+   
+   To my friend Neringa Bickmore for taking the time to check my code in great detail and giving me some great feedback - thank you.
+ 
+ - Secondly, I want to thank my mother Caroline and uncle Ray for helping me with the UX, wording of content, reading over my project and your constant support. It means the world to me.
+ 
+ - Finally, I want to thank my partner Marta for listening, supporting and believing in me - you are my rock.
+---
+- [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had and fixing bugs.
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
 - [Bootstrap Carousel with Controls](https://getbootstrap.com/docs/4.5/components/carousel/) code.
-- [Bootstrap Borderless Table](https://getbootstrap.com/docs/4.5/content/tables/) code.
-- [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had.
 - [San Francisco State Univerity](https://its.sfsu.edu/projects/resources) PMO Resources webpage where the original UAT Training Plan document was sourced
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
-- [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the flipping of the cards
+- [zapsplat ](https://www.zapsplat.com/sound-effect-category/button-clicks/) Used their sounds for the Card game.
 
 ### References ###
 
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
+- [Cookie Policy](https://www.cookiepolicygenerator.com/)
 
 
 
