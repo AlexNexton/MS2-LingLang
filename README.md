@@ -1,15 +1,15 @@
 # ![Logo](assets/readmeImg/linglangtitle.png) #
 
-***LingLang** is an online learning platform where children can learn or continue learning a second language through games. 
-As a professional teacher of languages, I designed the website in response to Covid-19 (in 2020) so that Parents could 
-continue giving their child lessons while at home. Using games and online classes, the idea is to create an online community where
-Parents and their children can create new social enviornments and become part of a fun new unique way of teaching.*
+***LingLang** is an online learning platform where children can learn or continue learning a second or third language through games. 
+In my professional capacity as a teacher of languages, I designed the website in response to Covid-19 (in 2020) to enable parents to 
+continue to provide language lessons while home schooling. Using games and online classes, the idea is to create an online community where
+parents and their children can create new social enviornments and become part of a fun new unique way of teaching.*
 
 
 # ![Logo](assets/readmeImg/generalFrame.png) #
 
 ***Ling Lang's*** *Logo and the website's colours are mostly drawn from the primary colours (red, blue, green, yellow) so that it appeals to children - especially with regards to the game pages.
-The home page is a contrast of those colours so that the site also looks  both professional for adults while maintaining a colourful nature for kids.*
+The home page is a contrast of those colours so that the site also looks both professional for adults while maintaining a colourful nature for kids.*
 
 ## Contents ##
 
@@ -58,14 +58,15 @@ The home page is a contrast of those colours so that the site also looks  both p
 ## Project Goals ##
 
 The **goal** of this project is to build a website which allows LingLang to showcase one of its games in order to help children
- continue learning a second language online and have them sign up to access more levels and other games.
+ continue learning a second or third language online and after playing it, have their parents sign them up to access more levels and other games. 
  
 ## User Goals ##
 
 - **Play**: an interactive game one the site.
-- **Contact**: the sites **online** tutors or team.
-- **Sign up**: select a language, assign a teacher and a class to their child so that they'll be able to access more games.
-- **About us**: learn about LingLang and why they started.
+- **Contact**: the sites **online** team.
+- **Sign up**: select a language to learn so their child will be able to access more games and later be assigned a class.
+- **About us**: learn about LingLang, their team and why they started.
+- **map** : find the companys location on a map.
 - **Link**: to the social media sites.
 
 ## User Stories ##
@@ -101,10 +102,13 @@ The **goal** of this project is to build a website which allows LingLang to show
 - As a **site owner**, I want my users to be able to learn about LingLang.
 - As a **site owner**, I want my users to be able to I want a cookie policy displayed and a policy drawn up for users to read.
 
+- Testing information for  **User Stories** can be found in a separate [testing.md](testing.md) file.
+
+
 ## User Requirements and Expectations ##
 
-- **Header**, **Main body** divided into section and **Footer**.
-- In the **Header** we should see a **Logo** and a **navigation bar** on the left side with option to go to:
+- **Header**, **Main body** divided into sections and **Footer**.
+- In the **Header** we should see a **Logo** and a **navigation bar** across the top or on the left side on moblie with options to go to:
   - **Home** (top of the site)
   - **Play Game**
   - **Contact Us**
@@ -124,7 +128,12 @@ The **goal** of this project is to build a website which allows LingLang to show
 
 ### Fonts ###
 
-I've chosen(might change these) [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) for all of the headers and [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  I have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
+I chose a couple of font's to work with 
+
+- [Libre Baskerville](https://fonts.google.com/specimen/Libre+Baskerville?query=libre) for the main site.
+- [Josefin](https://fonts.google.com/specimen/Josefin+Sans?query=jose#standard-styles) throughout the game pages.
+
+  [Raleway](https://fonts.google.com/specimen/Raleway?query=ralew#standard-styles) the rest of the text.  I have used a [Caveat](https://fonts.google.com/specimen/Caveat?query=caveat) font for the logo and headlines throughout the site.
 
 ### Colours ###
 
