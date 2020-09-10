@@ -158,18 +158,11 @@ max-width: 80%;
   margin-bottom: 1rem;
   margin-left: 0.5rem;
 }
-
-#bookTableBox,
-#orderToGoBox {
-  color: #000;
-  background-color: #f0ede5;
-  font-family: "Raleway", sans-serif;
-}
-
-#orderToGoBox .modal-header,
-#orderToGoBox .modal-footer,
-#bookTableBox .modal-header,
-#bookTableBox .modal-footer {
+ 
+.modal-header,
+.modal-footer,
+.modal-header,
+.modal-footer {
   border: none;
 }
 
