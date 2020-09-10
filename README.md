@@ -378,8 +378,16 @@ I have identified the colour palette on [W3](https://www.w3schools.com/).
 
 ### Acknowledgements ###
 
-- I would like to take this oppertunity 
+I would like to take this opportunity to thank a few people who helped me along the way.
 
+ - Firstly, I must give a huge thank you to my friend Simon Vardy, who helped me with testing my code and writing the readme - Simon you are an absolute gentleman, thank you.
+   
+   To my friend Neringa Bickmore for taking the time to check my code in great detail and giving me some great feedback - thank you.
+ 
+ - Secondly, I want to thank my mother Caroline and uncle Ray for helping me with the UX, wording of content, reading over my project and your constant support. It means the world to me.
+ 
+ - Finally, I want to thank my partner Marta for listening, supporting and believing in me - you are my rock.
+---
 - [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had and fixing bugs.
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
 - [Bootstrap Carousel with Controls](https://getbootstrap.com/docs/4.5/components/carousel/) code.
