@@ -315,6 +315,7 @@ The following project cards are used to manage the tasks:
 
 Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `- [ ]` for an un-ticked checkbox and `- [x]` for a ticked checkbox on cards as a way of splitting a single complex task into a list of steps to be completed.
 
+![Example of LingLang's Project Management](assets/readmeImg/project-m.png)    
 ---
 
 ## Testing ##
@@ -399,7 +400,7 @@ I would like to take this opportunity to thank a few people who helped me along 
 
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
-- [Cookie Policy](https://www.cookiepolicygenerator.com/)
+- [Cookie Policy](https://www.cookiepolicygenerator.com/) generated the cookie policy for the site.
 
 
 
