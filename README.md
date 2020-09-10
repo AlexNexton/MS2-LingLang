@@ -123,6 +123,7 @@ The **goal** of this project is to build a website which allows LingLang to show
   - **Contact Us** section displaying google maps with the company’s location and a form the make various enquires.
 - In the **Footer** you should see self-explanatory icons allowing the user to connect them with the companies' social media channels.
 
+ [Back to content](#contents)
   
 ## Design Choices ##
 
@@ -198,6 +199,9 @@ I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/).
   - A tool for taking a screenshot of the site and displaying it on various devices to see if it's responsive.
 - [Cookie Policy Generator](https://www.cookiepolicygenerator.com/)
     - Used to generate a cookie policy
+
+
+[Back to content](#contents)
 
 ---
 
@@ -302,6 +306,8 @@ The following workflow steps are used to create and update branches within Gitpo
 16. Use the `git push` on **each branch** to update the relevant GiHub Branches to the **same commit** as the **Master branch**.
 17. **Repeat steps 3 - 17 regularly** to ensure updates are **saved** and **correctly version controlled** in GitHub.
 
+[Back to content](#contents)
+
 ---
 
 ## Project Management ##
@@ -353,6 +359,8 @@ Cloning MS2-LingLang from GitHub:
 Copy the following code and input it into your terminal to clone BI-Team-5:
 
 ```git clone https://github.com/AlexNexton.MS2-LingLang``
+
+[Back to content](#contents)
 
 ---
 
@@ -408,6 +416,6 @@ I would like to take this opportunity to thank a few people who helped me along 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
 - [Cookie Policy](https://www.cookiepolicygenerator.com/) generated the cookie policy for the site.
 
-
-
+[Back to content](#contents)
+ 
 ---
