@@ -121,8 +121,9 @@ The **goal** of this project is to build a website which allows LingLang to show
   - **Try Our Game** displaying a carousel with the language choices.
   - **Sign Up form** to sign up to a class.
   - **Contact Us** section displaying google maps with the company’s location and a form the make various enquires.
-- In the **Footer** You should see self-explanatory icons allowing the user to connect them with the companies' social media channels.
+- In the **Footer** you should see self-explanatory icons allowing the user to connect them with the companies' social media channels.
 
+ [Back to contents](#contents)
   
 ## Design Choices ##
 
@@ -148,7 +149,7 @@ These colours will compliment each other well when used across the site creating
 
 I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). Each image/pdf shows a page and how the displays would change on different screen sizes such as **mobile**, **tablet** and **desktop**.
  
-## My Wireframes ##
+### My Wireframes ###
 
 - [Homepage](/wireframes/HomePage.pdf)
 - [About Us page](/wireframes/AboutUsPage.pdf)
@@ -198,6 +199,9 @@ I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/).
   - A tool for taking a screenshot of the site and displaying it on various devices to see if it's responsive.
 - [Cookie Policy Generator](https://www.cookiepolicygenerator.com/)
     - Used to generate a cookie policy
+
+
+[Back to contents](#contents)
 
 ---
 
@@ -302,6 +306,8 @@ The following workflow steps are used to create and update branches within Gitpo
 16. Use the `git push` on **each branch** to update the relevant GiHub Branches to the **same commit** as the **Master branch**.
 17. **Repeat steps 3 - 17 regularly** to ensure updates are **saved** and **correctly version controlled** in GitHub.
 
+[Back to contents](#contents)
+
 ---
 
 ## Project Management ##
@@ -315,6 +321,7 @@ The following project cards are used to manage the tasks:
 
 Markdown syntax is used to create **"To-Do" list** style checkboxes by adding `- [ ]` for an un-ticked checkbox and `- [x]` for a ticked checkbox on cards as a way of splitting a single complex task into a list of steps to be completed.
 
+![Example of LingLang's Project Management](assets/readmeImg/project-m.png)    
 ---
 
 ## Testing ##
@@ -353,6 +360,8 @@ Copy the following code and input it into your terminal to clone BI-Team-5:
 
 ```git clone https://github.com/AlexNexton.MS2-LingLang``
 
+[Back to contents](#contents)
+
 ---
 
 ## Credits ##
@@ -375,8 +384,11 @@ I have identified the colour palette on [W3](https://www.w3schools.com/).
 
 - I used a snippet tool for capturing screengrabs which I saved as images.
 -  [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) is a site  that allowed me to resise the images all at once.
+---
 
-### Acknowledgements ###
+## Acknowledgements ##
+
+### Personal ###
 
 I would like to take this opportunity to thank a few people who helped me along the way.
 
@@ -387,7 +399,10 @@ I would like to take this opportunity to thank a few people who helped me along 
  - Secondly, I want to thank my mother Caroline and uncle Ray for helping me with the UX, wording of content, reading over my project and your constant support. It means the world to me.
  
  - Finally, I want to thank my partner Marta for listening, supporting and believing in me - you are my rock.
----
+
+
+### General  ###
+
 - [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had and fixing bugs.
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
 - [Bootstrap Carousel with Controls](https://getbootstrap.com/docs/4.5/components/carousel/) code.
@@ -399,8 +414,8 @@ I would like to take this opportunity to thank a few people who helped me along 
 
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
-- [Cookie Policy](https://www.cookiepolicygenerator.com/)
+- [Cookie Policy](https://www.cookiepolicygenerator.com/) generated the cookie policy for the site.
 
-
-
+[Back to contents](#contents)
+ 
 ---

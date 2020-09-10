@@ -17,14 +17,14 @@
   - [Testing undertaken on desktop](#testing-undertaken-on-desktop)
   - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
   - [User Stories Testing](#user-stories-testing)
-- [Bugs discovered](#bugs-discovered)
+- [Bugs discovered](#bugs)
+  - [Resolved bugs](#resolved-bugs)
   - [Unsolved Bugs](#unsolved-bugs)
 
 
 ---
 ## Automated Testing ##
----
-
+ 
 ### Validation Services ###
 
 The following **validation services** and **linter** were used to check the validity of the website code.
@@ -32,6 +32,7 @@ The following **validation services** and **linter** were used to check the vali
 - [W3C Markup Validation](https://validator.w3.org/) was used to validate HTML.
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
 - [JSHint](https://jshint.com/) was used to validate JavaScript.
+- [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse) is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.
 
 ---
 ## Manual Testing ##
@@ -173,6 +174,8 @@ The following **validation services** and **linter** were used to check the vali
 
 #### Bugs ####
 
+### Resolved bugs ###
+
 - Start button on game when clicked more than once would increment the countdown timer on the clock.
   - I had to remove the start button and have the page refresh instead.
 
@@ -187,16 +190,17 @@ The following **validation services** and **linter** were used to check the vali
      corresponding words thanks to [StackOverFlow](https://stackoverflow.com/).
 
 - Regarding the modal, once opened they would move the back of the screen to the right and the bg-image looked like it was jumping.
-  Apparently this was a known issure **- known issue Correction taken from Bootstrap Github repo issue #15229** and the fix as supposed to be this:
+  
+  Apparently this was a known issue ( **- known issue Correction taken from Bootstrap Github repo issue #15229**) and the fix as supposed to be this:
 
-   - .modal-open {
+- ` .modal-open {
   overflow: auto;
   padding-right: 0 !important;
-}
+}`
 
- However, as I was using a sticky-top this didn't work and so I had to put this instead:
+ However, as I was using a **sticky-top** this didn't work and so I had to put this instead:
 
- body.modal-open-noscroll
+ - `body.modal-open-noscroll
 {
     margin-right: 0!important;
     overflow: hidden;
@@ -204,15 +208,26 @@ The following **validation services** and **linter** were used to check the vali
 .modal-open-noscroll .sticky-top, .modal-open .navbar-fixed-bottom
 {
     margin-right: 0!important;
-}
+}`
+
+This solved the problem but the hero img text moved up closer to the Navbar and I could not fix it with a 'margin-top' without losing some text to the background image on some moblie devices. As seen below.
+
+![losing-bottom](assets/testingImgs/losing-bottom.png)
+
+As a quick fix, I created to sections above the welcome section and added the margin-tops there.
+
+- On some ios (apple) devices, the cards in each game where all showing and the cardback would appear.
+
+    - To solve this, I had to add **-webkit-** to each of the transformations and transitions in the css documents for each game.
+
 #### Unsolved Bugs ####
 
 - The bottom of the screen on each game page for the **ipad pro** on **Google dev tools** goes beyond the footer.
 
 ![ScreenBug](assets/testingImgs/bugScreen.png)
 
-- If you click the game button before the html has loaded, the game won't work.
-    It doen't happen that often but didn't know how to fix this problem.
+- If you click the game button before the html has loaded, the game would not work.
+    It doen't happen that often but did not know how to fix this problem.
 
     - best solution is to click the reload button.
 
