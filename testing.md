@@ -17,14 +17,14 @@
   - [Testing undertaken on desktop](#testing-undertaken-on-desktop)
   - [Testing undertaken on tablet and phone devices](#testing-undertaken-on-tablet-and-phone-devices)
   - [User Stories Testing](#user-stories-testing)
-- [Bugs discovered](#bugs-discovered)
+- [Bugs discovered](#bugs)
+  - [Resolved bugs](#resolved-bugs)
   - [Unsolved Bugs](#unsolved-bugs)
 
 
 ---
 ## Automated Testing ##
----
-
+ 
 ### Validation Services ###
 
 The following **validation services** and **linter** were used to check the validity of the website code.
@@ -32,6 +32,7 @@ The following **validation services** and **linter** were used to check the vali
 - [W3C Markup Validation](https://validator.w3.org/) was used to validate HTML.
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/) was used to validate CSS.
 - [JSHint](https://jshint.com/) was used to validate JavaScript.
+- [Chrome DevTools Lighthouse](https://developers.google.com/web/tools/lighthouse) is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, SEO and more.
 
 ---
 ## Manual Testing ##
@@ -172,6 +173,8 @@ The following **validation services** and **linter** were used to check the vali
 
 
 #### Bugs ####
+
+### Resolved bugs ###
 
 - Start button on game when clicked more than once would increment the countdown timer on the clock.
   - I had to remove the start button and have the page refresh instead.

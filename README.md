@@ -121,7 +121,7 @@ The **goal** of this project is to build a website which allows LingLang to show
   - **Try Our Game** displaying a carousel with the language choices.
   - **Sign Up form** to sign up to a class.
   - **Contact Us** section displaying google maps with the company’s location and a form the make various enquires.
-- In the **Footer** You should see self-explanatory icons allowing the user to connect them with the companies' social media channels.
+- In the **Footer** you should see self-explanatory icons allowing the user to connect them with the companies' social media channels.
 
   
 ## Design Choices ##
@@ -148,7 +148,7 @@ These colours will compliment each other well when used across the site creating
 
 I designed the site mock-ups using [balsamiq wireframes](https://balsamiq.com/). Each image/pdf shows a page and how the displays would change on different screen sizes such as **mobile**, **tablet** and **desktop**.
  
-## My Wireframes ##
+### My Wireframes ###
 
 - [Homepage](/wireframes/HomePage.pdf)
 - [About Us page](/wireframes/AboutUsPage.pdf)
