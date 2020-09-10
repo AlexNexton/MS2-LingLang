@@ -376,8 +376,11 @@ I have identified the colour palette on [W3](https://www.w3schools.com/).
 
 - I used a snippet tool for capturing screengrabs which I saved as images.
 -  [Birme](https://www.birme.net/?target_width=300&target_height=300&quality=100&border_width=1&border_color=%23bd3d3a) is a site  that allowed me to resise the images all at once.
+---
 
-### Acknowledgements ###
+## Acknowledgements ##
+
+### Personl ###
 
 I would like to take this opportunity to thank a few people who helped me along the way.
 
@@ -388,7 +391,10 @@ I would like to take this opportunity to thank a few people who helped me along 
  - Secondly, I want to thank my mother Caroline and uncle Ray for helping me with the UX, wording of content, reading over my project and your constant support. It means the world to me.
  
  - Finally, I want to thank my partner Marta for listening, supporting and believing in me - you are my rock.
----
+
+
+### General  ###
+
 - [Stack overflow](https://stackoverflow.com/questions/14977392/bootstrap-carousel-remove-auto-slide) for helping me with almost every JavaScript question I had and fixing bugs.
 - [W3Schools](https://www.w3schools.com/) for just being a constant source of help and inspiration!
 - [Bootstrap Carousel with Controls](https://getbootstrap.com/docs/4.5/components/carousel/) code.
