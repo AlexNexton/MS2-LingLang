@@ -380,7 +380,7 @@ I have identified the colour palette on [W3](https://www.w3schools.com/).
 
 ## Acknowledgements ##
 
-### Personl ###
+### Personal ###
 
 I would like to take this opportunity to thank a few people who helped me along the way.
 
