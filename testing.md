@@ -187,16 +187,17 @@ The following **validation services** and **linter** were used to check the vali
      corresponding words thanks to [StackOverFlow](https://stackoverflow.com/).
 
 - Regarding the modal, once opened they would move the back of the screen to the right and the bg-image looked like it was jumping.
-  Apparently this was a known issure **- known issue Correction taken from Bootstrap Github repo issue #15229** and the fix as supposed to be this:
+  
+  Apparently this was a known issue ( **- known issue Correction taken from Bootstrap Github repo issue #15229**) and the fix as supposed to be this:
 
-   - .modal-open {
+- ` .modal-open {
   overflow: auto;
   padding-right: 0 !important;
-}
+}`
 
- However, as I was using a sticky-top this didn't work and so I had to put this instead:
+ However, as I was using a **sticky-top** this didn't work and so I had to put this instead:
 
- body.modal-open-noscroll
+ - `body.modal-open-noscroll
 {
     margin-right: 0!important;
     overflow: hidden;
@@ -204,15 +205,26 @@ The following **validation services** and **linter** were used to check the vali
 .modal-open-noscroll .sticky-top, .modal-open .navbar-fixed-bottom
 {
     margin-right: 0!important;
-}
+}`
+
+This solved the problem but the hero img text moved up closer to the Navbar and I could not fix it with a 'margin-top' without losing some text to the background image on some moblie devices. As seen below.
+
+![losing-bottom](assets/testingImgs/losing-bottom.png)
+
+As a quick fix, I created to sections above the welcome section and added the margin-tops there.
+
+- On some ios (apple) devices, the cards in each game where all showing and the cardback would appear.
+
+    - To solve this, I had to add **-webkit-** to each of the transformations and transitions in the css documents for each game.
+
 #### Unsolved Bugs ####
 
 - The bottom of the screen on each game page for the **ipad pro** on **Google dev tools** goes beyond the footer.
 
 ![ScreenBug](assets/testingImgs/bugScreen.png)
 
-- If you click the game button before the html has loaded, the game won't work.
-    It doen't happen that often but didn't know how to fix this problem.
+- If you click the game button before the html has loaded, the game would not work.
+    It doen't happen that often but did not know how to fix this problem.
 
     - best solution is to click the reload button.
 
