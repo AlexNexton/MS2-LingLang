@@ -378,7 +378,7 @@ You can find the images used for the site [here](assets/img). I sourced them thr
 - The image for the CEO is mine.
 ### Colour ###
 
-I have identified the colour palette on [W3](https://www.w3schools.com/).
+I identified the colour palette on [Coolors](https://coolors.co/).
 
 ### Image editing ###
 
