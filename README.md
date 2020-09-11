@@ -1,6 +1,6 @@
 # ![Logo](assets/readmeImg/linglangtitle.png) #
 
-***LingLang** is an online learning platform where children can learn or continue learning a second or third language through games. 
+***LingLang** is an online learning platform where children can learn or continue learning a second or third language through fun games. 
 In my professional capacity as a teacher of languages, I designed the website in response to Covid-19 (in 2020) to enable parents to 
 continue to provide language lessons while home schooling. Using games and online classes, the idea is to create an online community where
 parents and their children can create new social enviornments and become part of a fun new unique way of learning.*
@@ -58,7 +58,7 @@ The home page is a contrast of those colours so that the site also looks both pr
 ## Project Goals ##
 
 The **goal** of this project is to build a website which allows LingLang to showcase one of its games in order to help children
- continue learning a second or third language online and after playing it, have their parents sign them up to access more levels and other games. 
+ continue learning a second or third language online and after playing it have their parents sign them up to access more levels and other fun games. 
  
 ## User Goals ##
 
