@@ -1,5 +1,5 @@
 /*Code for Cookies that the user accepts first time using the page.
-The idea is to make the site more life like as all websites by law now do this */
+The idea is to make the site more authentic as all websites by law now do this */
 
 //set constants for query selectors
 const cookieContainer = document.querySelector(".cookie-container");

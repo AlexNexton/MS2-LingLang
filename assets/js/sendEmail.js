@@ -1,3 +1,5 @@
+// code for sending an email from a form as taught by code institute 
+
 function sendMail(contactform){
     emailjs.send("gmail", "naic_s", {"from_name": contactform.name.value,
     "from_email": contactform.emailaddress.value,
