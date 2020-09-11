@@ -416,6 +416,7 @@ I would like to take this opportunity to thank a few people who helped me along 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
 - [Cookie Policy](https://www.cookiepolicygenerator.com/) generated the cookie policy for the site.
 - [Logo design](https://www.freelogodesign.org/) I used this site to make LingLang's logo
+
 [Back to contents](#contents)
  
 ---
