@@ -3,12 +3,12 @@
 ***LingLang** is an online learning platform where children can learn or continue learning a second or third language through games. 
 In my professional capacity as a teacher of languages, I designed the website in response to Covid-19 (in 2020) to enable parents to 
 continue to provide language lessons while home schooling. Using games and online classes, the idea is to create an online community where
-parents and their children can create new social enviornments and become part of a fun new unique way of teaching.*
+parents and their children can create new social enviornments and become part of a fun new unique way of learning.*
 
 
 # ![Logo](assets/readmeImg/generalFrame.png) #
 
-***Ling Lang's*** *Logo and the website's colours are mostly drawn from the primary colours (red, blue, green, yellow) so that it appeals to children - especially with regards to the game pages.
+***Ling Lang's*** *Logo and the website's colours are drawn from the primary and secondary colours (red, blue, green, yellow) so that it appeals to children - especially with regards to the game pages.
 The home page is a contrast of those colours so that the site also looks both professional for adults while maintaining a colourful nature for kids.*
 
 ## Contents ##
@@ -415,7 +415,7 @@ I would like to take this opportunity to thank a few people who helped me along 
 - [PortEXE ](https://www.youtube.com/watch?v=3uuQ3g92oPQ) This tutorial helped with writing the game and understanding JavaScript a whole lot more. 
 - [Web Dev Simplified](https://www.youtube.com/watch?v=28VfzEiJgy4) This tutorial helped with writing the CSS for the card game and opening my eyes to the power of CSS. 
 - [Cookie Policy](https://www.cookiepolicygenerator.com/) generated the cookie policy for the site.
-
+- [Logo design](https://www.freelogodesign.org/) I used this site to make LingLang's logo
 [Back to contents](#contents)
  
 ---
