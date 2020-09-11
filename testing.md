@@ -42,6 +42,7 @@ The following **validation services** and **linter** were used to check the vali
 
 - Hardware:
     - Macbook Pro Laptop
+    -  HP laptop
     - Dell 5590 Laptop
 - Tested Operating Systems:
     - Windows 10
@@ -62,9 +63,11 @@ The following **validation services** and **linter** were used to check the vali
     - iPad Pro 12.9"
     - iPad Pro 10.5"
     - iPhone XS Max
+    - samsung a50
 - Tested Operating Systems:
     - iOS 13.5.1
     - iPadOS 13.5.1
+    - Android 10 with One UI 2.0
 - Tested Browsers:
     - iOS / iPadOS
         - Chrome
@@ -229,5 +232,5 @@ As a quick fix, I created to sections above the welcome section and added the ma
 - If you click the game button before the html has loaded, the game would not work.
     It doen't happen that often but did not know how to fix this problem.
 
-    - best solution is to click the reload button.
+    - best solution is to click the reload button and refresh the page.
 
